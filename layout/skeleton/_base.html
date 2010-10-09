@@ -27,6 +27,8 @@
 		<link rel="shortcut icon" href="{{site.url}}/media/images/favicon.ico">
 		<link rel="apple-touch-icon" href="{{site.url}}/media/images/apple-touch-icon.png">
 
+        <!-- Google fonts -->
+        <link  href="//fonts.googleapis.com/css?family=Crimson+Text:regular&subset=latin" rel="stylesheet" type="text/css" >
 
 		<!-- For the less-enabled mobile browsers like Opera Mini -->
 		<link rel="stylesheet" media="handheld" href="{{site.url}}/media/css/handheld.css?v=1">
@@ -73,8 +75,12 @@
 		<div id="site">	
 
 			{% include "skeleton/_header.html" %}
+            
+            <div id="content">
 
-			{% block content %}{% endblock %}
+                {% block content %}{% endblock %}
+
+            </div>
 
 			{% include "skeleton/_footer.html" %}
 

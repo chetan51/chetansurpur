@@ -8,34 +8,6 @@
 /* Divs
 -------------------------------------------------------------- */
 
-div .top-padding 			{ padding-top: 10px; }
-div .top-padding-small		{ padding-top: 5px; }
-div .bottom-padding 		{ padding-bottom: 10px; }
-div .bottom-padding-small	{ padding-bottom: 5px; }
-
-div .right-padding 			{ padding-right: 5px; }
-div .right-padding-small	{ padding-right: 2px; }
-div .left-padding 			{ padding-left: 5px; }
-div .left-padding-small		{ padding-left: 2px; }
-
-div .top-margin 			{ margin-top: 10px; }
-div .top-margin-small		{ margin-top: 5px; }
-div .bottom-margin 			{ margin-bottom: 10px; }
-div .bottom-margin-small	{ margin-bottom: 5px; }
-
-div .text-align-left	{ text-align: left; }
-div .text-align-right	{ text-align: right; }
-div .text-align-center	{ text-align: center; }
-
-div .clickable { cursor: pointer; }
-
-div .absolute		{ position: absolute; }
-div .overlay-top	{ z-index: 10; }
-
-div .clear { clear: both; }
-
-ul { margin: 0; }
-
 #site {
     margin: 0 auto;
     width: 700px;
@@ -66,18 +38,9 @@ ul.breadcrumbs {
 .context-nav { right:0; }
 
 .breadcrumbs li { display: inline; }
-.breadcrumbs a {
-    text-decoration: none;
-}
-
-.context-nav a {
-}
-
-.breadcrumbs a:hover { text-decoration: underline; }
-.breadcrumbs .separator {
-}
 
 #sitename {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 	text-align: left;
 	position: absolute;
 	left: 0;
@@ -95,11 +58,13 @@ ul.breadcrumbs {
 	bottom: 0;
 }
 
-#sitenav ul { list-style-type: none; }
+#sitenav ul { margin: 0; list-style-type: none; }
 
 #sitenav li {
     display: inline;
     margin-left: .2em;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
 }
 
 #sitenav a {
@@ -112,18 +77,19 @@ ul.breadcrumbs {
 }
 
 #content-header{
-    padding-bottom:.5em;
+    padding-bottom:.8em;
+    position: relative;
 }
 
 #content-header h1{
-    margin-bottom:.5em;
+    margin-bottom:10px;
 }
 
 .post-date{
-    float:right;
+    float:left;
     font-style:italic;
-    font-size:.8em;
-    
+    font-size:1em;
+    color: #555;   
 }
 
 #splash{
@@ -131,5 +97,37 @@ ul.breadcrumbs {
 }
 
 #splash h1{
-	color: #444;
+	color: #333;
+    font-family: 'Crimson Text', serif;
+    font-size: 3em;
+}
+
+#content {
+    margin: 0;
+}
+
+#footer p{
+    font-style:italic;
+    font-size: 1em;
+}
+
+.section-listing ul {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.section-listing ul li {
+    margin-bottom: 20px;
+}
+
+.listing-item-title {
+    font-size: 22px;
+}
+
+.listing-item-snippet {
+    font-size: 18px;
+    font-style: italic;
 }

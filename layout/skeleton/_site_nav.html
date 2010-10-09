@@ -4,17 +4,21 @@
 
 <div id="sitenav">
     <ul>
-		<li{% ifequal page.module site.module %} class="selected" {% endifequal %}>
+		<li {% ifequal page.title 'Chetan Surpur' %}class="selected"{% endifequal %}>
 			<a href="{{site.listing_url}}">Home</a>
-		</li>    
+		</li> 
 
-		{% for module in site.children %}
-			<li{% ifequal page.module module %} class="selected" {% endifequal %}>
-				<a href="{{module.listing_url}}">
-					{{module.name|unslugify}}
-				</a>
-			</li>
-		{% endfor %}
+        <li {% ifequal page.module.name 'blog' %}class="selected"{% endifequal %}>
+            <a href="{{site.url}}/blog/blog.html">Blog</a>
+        </li>
+
+        <li {% ifequal page.module.name 'projects' %}class="selected"{% endifequal %}>
+            <a href="{{site.url}}/projects/projects.html">Projects</a>
+        </li>
+
+        <li {% ifequal page.title 'About' %}class="selected"{% endifequal %}>
+            <a href="{{site.url}}/about.html">About</a>
+        </li>
     </ul>
 </div>
 
