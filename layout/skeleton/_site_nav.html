@@ -5,15 +5,15 @@
 <div id="sitenav">
     <ul>
 		<li {% ifequal page.title 'Home' %}class="selected"{% endifequal %}>
-			<a href="{{site.listing_url}}">Home</a>
+			<a href="{{site.url}}">Home</a>
 		</li> 
 
         <li {% ifequal page.module.name 'blog' %}class="selected"{% endifequal %}>
-            <a href="{{site.url}}/blog/blog.html">Blog</a>
+            <a href="{{site.url}}/blog">Blog</a>
         </li>
 
         <li {% ifequal page.module.name 'projects' %}class="selected"{% endifequal %}>
-            <a href="{{site.url}}/projects/projects.html">Projects</a>
+            <a href="{{site.url}}/projects">Projects</a>
         </li>
 
         <li {% ifequal page.title 'About' %}class="selected"{% endifequal %}>
