@@ -135,3 +135,32 @@ ul.breadcrumbs {
 #disqus_thread{
     margin-top: 25px;
 }
+
+p img {
+    display: block;
+}
+
+
+/* Taken from http://caolanmcmahon.com/media/style.css */
+
+pre, code {
+    font-family: monospace;
+    font-size: 14px;
+    /*color: #22252a;*/
+    /*color: #222;*/
+    color: #000;
+    line-height: 150%;
+}
+
+pre {
+    padding: 1.4em 0 1.4em 1.8em;
+    /*margin: 2.8em 0;*/
+    margin: 2.8em 0;
+    /*border-left: 2px solid #ccc;*/
+    border-left: 2px solid #444;
+    /*background-color: #e6e6e6;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #e6e6e6), color-stop(1, #ebebeb));
+    background-image: -moz-linear-gradient(left center, #e6e6e6 0%, #ebebeb 100%);*/
+    background-color: #F4F4F4;
+    overflow: auto;
+}

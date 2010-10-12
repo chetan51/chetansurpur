@@ -17,8 +17,29 @@ Three reasons: speed, easability, and reusability. And that's what will drive th
 In one compact list, here is everything that makes Node.js really damn exciting.
 
 * **It's a server-side JavaScript framework.** That means the same type of code that powers awesome Ajax applications like Gmail will now power its servers, too. Code reuse FTW!
-* **It's driven by asynchronous design.** That means that it doesn't have to wait for slow file I/O or database operations to continue processing, which makes it really damn fast. It also means that it can handle millions of concurrent connections at once.
+* **It's driven by asynchronous design.** That means that it doesn't have to wait for slow file I/O or database operations to continue processing, which makes it really damn fast (by that I mean faster than any other server language / platform out there). It also means that it can handle millions of concurrent connections at once.
 * **It makes real-time applications a walk in the park.** No longer do you have to bother with low-level sockets and protocols. You can make a Comet-driven real-time chat application in the same time you would have made a simple blog in PHP or a birthday cake with a ready-made mix.
+
+### Coyote meets Roadrunner ###
+
+Okay, let's talk speed. How fast is Node compared to the alternatives?
+
+From the [creator's presentation](http://drop.io/dpqbat2/asset/talk-final-pdf),
+
+> 100 concurrent clients  
+> 1 megabyte response
+>
+    node      822 req/sec  
+    nginx     708  
+    thin      85  
+    mongrel   4  
+>
+> (more is better)
+
+Seeing as nginx is the current heart-throb of the web developer's server platforms (if you haven't heard of it, just know that it blows Apache out of the water), Node claims high score by beating it.
+
+![Roadrunner]({{site.url}}/media/images/blog/2010/10/roadrunner.jpg)
+_Beep, beep, motherfucker._
 
 ### JavaScript on the server? What is this witchcraft? ###
 
@@ -34,10 +55,6 @@ But the real awesome thing about JavaScript on the server is that you can use th
 _She wants you to come back and play with her._
 
 ### Asynchronous is the new black ###
-
-Let me whet your appetite with some benchmarks. 
-
-### So what does asynchronous JavaScript look like? ###
 
 What's a really common thing to do in a web application? Database access, of course. Too bad database I/O is one of the slowest things a web app has to deal with. So if you have:
 
@@ -72,6 +89,16 @@ _It's like Legos for web apps. What could be better?_
 ### Forget about those goddamn sockets ###
 
 Node.js makes it easy to implement real-time applications and network services. It's as easy to deal with low-level protocols that you'd normally need to fuss over sockets for as it is to work with plain HTTP. Focus on your data, not on how you move it around.
+
+### Here's an example of a Node.js app that will blow your mind ###
+
+Just to give you a demonstration of the brilliance that is Node, take a look at [Hummingbird](http://projects.nuttnet.net/hummingbird/).
+
+From their website,
+
+> Hummingbird lets you see how visitors are interacting with your website in real time.
+>
+> And by “real time” we don’t mean it refreshes every 5 minutes—WebSockets enable Hummingbird to update 20 times per second.
 
 ### Get your hands dirty ###
 
