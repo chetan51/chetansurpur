@@ -76,20 +76,16 @@ ul.breadcrumbs {
 	font-weight: bold;
 }
 
-#content-header{
-    height: 75px;
-    margin-bottom: 25px;
-}
-
 #post-title h1{
     margin-bottom:10px;
 }
 
 #post-date{
-    float:left;
+    text-align: left;
     font-style:italic;
     font-size:1em;
-    color: #555;   
+    color: #555;
+    margin-bottom: 20px;
 }
 
 #splash{
