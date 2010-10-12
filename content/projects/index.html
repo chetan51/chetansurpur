@@ -1,5 +1,37 @@
-{% extends "skeleton/_listing.html" %}
+{% extends "skeleton/_base.html"%}
 
 {%hyde
     title: Projects
 %}
+
+{% block content %}
+
+    <div class="section-listing">
+        <ul>
+            <li>
+                <div class="listing-item-title">
+                    <a href="http://polluxapp.com">
+                        Pollux
+                    </a>
+                </div>
+                <div class="listing-item-snippet">
+                    <span class="snippet">
+                        An automatic music organization and tagging software
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="listing-item-title">
+                    <a href="http://github.com/chetan51/ni">
+                        Ni
+                    </a>
+                </div>
+                <div class="listing-item-snippet">
+                    <span class="snippet">
+                        A minimalistic Node module / framework that makes setting up an MVC project a breeze
+                    </span>
+                </div>
+        </ul>
+    </div>
+
+{% endblock %}
