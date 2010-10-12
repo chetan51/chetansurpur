@@ -64,7 +64,10 @@
 
 		<title>
 			{% block title %}
-				{{site.name}} | {{page.title}}
+            {{site.name}}
+            {% if page.title != 'Home' %}
+                | {{page.title}}
+            {% endif %}
 			{% endblock %}
 		</title>
 
@@ -80,11 +83,15 @@
 
                 {% block content %}{% endblock %}
 
+                {% block disqus %}{% endblock %}
+
             </div>
 
 			{% include "skeleton/_footer.html" %}
 
 		</div>
+
+        {% block disquscommentcount %}{% endblock %}
 
 	</body>
 

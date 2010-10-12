@@ -77,15 +77,15 @@ ul.breadcrumbs {
 }
 
 #content-header{
-    padding-bottom:.8em;
-    position: relative;
+    height: 75px;
+    margin-bottom: 25px;
 }
 
-#content-header h1{
+#post-title h1{
     margin-bottom:10px;
 }
 
-.post-date{
+#post-date{
     float:left;
     font-style:italic;
     font-size:1em;
@@ -130,4 +130,8 @@ ul.breadcrumbs {
 .listing-item-snippet {
     font-size: 18px;
     font-style: italic;
+}
+
+#disqus_thread{
+    margin-top: 25px;
 }
