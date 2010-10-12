@@ -10,7 +10,7 @@
 
 #site {
     margin: 0 auto;
-    width: 700px;
+    width: 750px;
 }
 
 #header {
@@ -126,6 +126,19 @@ ul.breadcrumbs {
 .listing-item-snippet {
     font-size: 18px;
     font-style: italic;
+}
+
+.image-and-caption {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.image-and-caption img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7px;
 }
 
 #disqus_thread{
