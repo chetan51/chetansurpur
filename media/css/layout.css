@@ -146,6 +146,28 @@ ul.breadcrumbs {
     margin-top: 25px;
 }
 
+#share-the-love{
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+#share-the-love div{
+    display: inline;
+}
+
+#share-the-love-text {
+    float: left;
+}
+
+#share-the-love-text p{
+    display: inline;
+}
+
+#share-buttons {
+    float: right;
+}
+
 #disqus_thread{
     margin-top: 25px;
 }

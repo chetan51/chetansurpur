@@ -44,6 +44,23 @@
     </p>
 </div>
 
+<div id="share-the-love">
+    <div id="share-the-love-text">
+        <p>
+            Do you like what you see? Share the love.
+        </p>
+    </div>
+    <div id="share-buttons">
+        <div id="twitter-button">
+            <a href="http://twitter.com/share" class="twitter-share-button" data-url="{{ page.full_url }}" data-count="horizontal" data-via="chetan51">Tweet</a>
+            <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+        </div>
+        <div id="facebook-button">
+            <iframe src="http://www.facebook.com/plugins/like.php?href={{ page.full_url }}&amp;layout=button_count&amp;show_faces=true&amp;width=90&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
+        </div>
+    </div>
+</div>
+
 {% endblock %}
 
 {% block disqus %}
