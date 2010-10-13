@@ -1,3 +1,5 @@
 deploy_tmp
+deploy-local.sh
+deploy-remote.sh
 settings.pyc
 site
