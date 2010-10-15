@@ -44,7 +44,9 @@
 
 		{% block feeds %}
 
-		<link href="{{site.url}}/blog/atom.xml" rel="alternate" title="{{site.name}}" type="application/atom+xml"/>
+        <!-- Not yet ready
+        <link href="{{site.url}}/blog/atom.xml" rel="alternate" title="{{site.name}}" type="application/atom+xml"/>
+        -->
 
 		{% endblock %}
 
@@ -64,10 +66,10 @@
 
 		<title>
 			{% block title %}
-            {{site.name}}
             {% if page.title != 'Home' %}
-                | {{page.title}}
+                {{page.title}} | 
             {% endif %}
+            {{site.name}}
 			{% endblock %}
 		</title>
 
