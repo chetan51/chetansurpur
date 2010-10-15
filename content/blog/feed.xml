@@ -1,0 +1,5 @@
+{% extends "skeleton/_atom.xml" %}
+
+{%hyde
+    title: The Blog of Chetan Surpur
+%}
