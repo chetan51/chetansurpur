@@ -185,6 +185,13 @@ p img {
     clear: both;
 }
 
+hr {
+    border: 0;
+    color: #aaa;
+    background-color: #aaa;
+    height: 1px;
+}
+
 /* Taken from http://caolanmcmahon.com/media/style.css */
 
 pre, code {
