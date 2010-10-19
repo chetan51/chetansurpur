@@ -141,7 +141,9 @@ ul.breadcrumbs {
     margin-bottom: 20px;
 }
 
-.image-and-caption img, div {
+.image-and-caption img, 
+.image-and-cation div
+{
     display: block;
     margin-left: auto;
     margin-right: auto;
