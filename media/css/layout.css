@@ -28,14 +28,19 @@
     width: 100%;
 }
 
-.context-nav,
+.context-nav, .context-nav
 ul.breadcrumbs {
     list-style-type: none;
     padding: 0;
-    position: absolute;
 }
 
-.context-nav { right:0; }
+.context-nav-prev {
+    float: left;
+}
+
+.context-nav-next {
+    float: right;
+}
 
 .breadcrumbs li { display: inline; }
 
@@ -176,6 +181,9 @@ p img {
     display: block;
 }
 
+.clear {
+    clear: both;
+}
 
 /* Taken from http://caolanmcmahon.com/media/style.css */
 

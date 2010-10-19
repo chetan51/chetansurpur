@@ -3,8 +3,17 @@
 {% block all %}
 
 <div class="context-nav">
-    <a {%if page.next%}href="{{page.next.url}}"{%endif%}>Previous</a>
-    <a {%if page.prev%}href="{{page.prev.url}}"{%endif%}>Next</a>
+    <div class="context-nav-prev">
+        {%if page.next%}
+            <a href="{{page.next.url}}">&laquo; {{page.next.title}}</a>
+        {%endif%}
+    </div>
+    <div class="context-nav-next">
+        {%if page.prev%}
+            <a href="{{page.prev.url}}">{{page.prev.title}} &raquo;</a>
+        {%endif%}
+    </div>
+    <div class="clear"></div>
 </div>
 
 {% endblock %}

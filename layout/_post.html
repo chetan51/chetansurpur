@@ -15,6 +15,8 @@
 	{% endfilter %}
 </div>
 
+<hr>
+
 {% endblock %}
 
 {% block content_header %}
@@ -30,13 +32,23 @@
 
 {% endblock %}
 
-{% block context_nav %}
+{% block context_nav_top %}
+
 {% include "skeleton/_context_nav.html" %}
+
+<hr>
+
+{% endblock %}
+
+{% block context_nav_bottom %}
+
+{% include "skeleton/_context_nav.html" %}
+
+<hr>
+
 {% endblock %}
 
 {% block promote_me %}
-
-<hr>
 
 <div id="follow-me">
     <p>
@@ -61,11 +73,11 @@
     </div>
 </div>
 
+<hr>
+
 {% endblock %}
 
 {% block disqus %}
-
-<hr>
 
 <!-- Disqus comment count code -->
 

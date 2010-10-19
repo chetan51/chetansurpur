@@ -97,9 +97,13 @@
             
             <div id="content">
 
+                {% block context_nav_top %}{% endblock %}
+
                 {% block content %}{% endblock %}
     
                 {% block promote_me %}{% endblock %}
+
+                {% block context_nav_bottom %}{% endblock %}
 
                 {% block disqus %}{% endblock %}
 
