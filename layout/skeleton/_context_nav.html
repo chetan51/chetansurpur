@@ -4,13 +4,13 @@
 
 <div class="context-nav">
     <div class="context-nav-prev">
-        {%if page.next%}
-            <a href="{{page.next.url}}">&laquo; {{page.next.title}}</a>
+        {%if page.next_in_module%}
+            <a href="{{page.next_in_module.url}}">&laquo; {{page.next_in_module.title}}</a>
         {%endif%}
     </div>
     <div class="context-nav-next">
-        {%if page.prev%}
-            <a href="{{page.prev.url}}">{{page.prev.title}} &raquo;</a>
+        {%if page.prev_in_module%}
+            <a href="{{page.prev_in_module.url}}">{{page.prev_in_module.title}} &raquo;</a>
         {%endif%}
     </div>
     <div class="clear"></div>
