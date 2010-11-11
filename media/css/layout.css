@@ -124,7 +124,7 @@ ul.breadcrumbs {
 }
 
 .section-listing ul li {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .listing-item-title {
@@ -187,6 +187,10 @@ p img {
 
 .clear {
     clear: both;
+}
+
+.text-align-center {
+    text-align: center;
 }
 
 hr {
