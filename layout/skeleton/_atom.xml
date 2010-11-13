@@ -17,23 +17,23 @@
     <updated>{{now|xmldatetime}}</updated>
     <id>{{site.full_url}}</id>
 
-    {% for node_page in page.node.walk_pages %}
+    {% for node in page.node.walk reversed %}
+        {% for node_page in node.pages %}
+            {% if node_page.display_in_list %}
 
-    {% if node_page.display_in_list %}
+            <entry>
+                <title>{{node_page.title}}</title>
+                <author><name>{{site.author}}</name></author>
+                <link href="{{node_page.full_url}}"/>
+                <updated>{{node_page.updated|default:node_page.created|xmldatetime}}</updated>
+                <published>{{node_page.created|xmldatetime}}</published>
+                <id>{{node_page.full_url}}</id>
+                {%block entry_extra%}{%endblock%}
+                <content type="html">{{node_page.snippet}}</content>
+            </entry>
 
-    <entry>
-        <title>{{node_page.title}}</title>
-        <author><name>{{site.author}}</name></author>
-        <link href="{{node_page.full_url}}"/>
-        <updated>{{node_page.updated|default:node_page.created|xmldatetime}}</updated>
-        <published>{{node_page.created|xmldatetime}}</published>
-        <id>{{node_page.full_url}}</id>
-        {%block entry_extra%}{%endblock%}
-        <content type="html">{{node_page.snippet}}</content>
-    </entry>
-
-    {%endif%}
-
+            {%endif%}
+        {% endfor %}
     {% endfor %}
 </feed>
 
