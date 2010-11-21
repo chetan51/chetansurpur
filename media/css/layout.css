@@ -87,6 +87,10 @@ ul.breadcrumbs {
     margin-bottom:10px;
 }
 
+#post-title h3{
+    margin-top:0px;
+}
+
 #post-date{
     text-align: left;
     font-style:italic;

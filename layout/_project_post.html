@@ -1,0 +1,24 @@
+{% extends "_post.html" %}
+
+{% block content_header %}
+
+<div id="content-header">
+    <div id="post-title">
+        <h1>{{ page.title }}</h1>
+        <h3>{{ page.snippet }}</h3>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block context_nav_top %}
+
+{% endblock %}
+
+{% block context_nav_bottom %}
+
+{% include "skeleton/_context_nav.html" %}
+
+<hr>
+
+{% endblock %}
