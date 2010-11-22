@@ -11,7 +11,7 @@
                 http://chetansurpur.com/projects/sidestep/0.2.1.html
             </sparkle:releaseNotesLink>
             <pubDate>Sun, 21 Nov 2010 00:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep%20v0.2.1.zip"
+            <enclosure url="http://github.com/downloads/chetan51/sidestep/Sidestep%20v0.2.1.zip"
                        sparkle:version="0.2.1"
                        sparkle:dsaSignature="MC0CFDasgV4eiXcKor+Y17y773xM2hLfAhUAz59aimyem9LfhNZShIouEU4wFZI="
                        length="639154"
@@ -23,7 +23,7 @@
                 http://chetansurpur.com/projects/sidestep/0.1.1.html
             </sparkle:releaseNotesLink>
             <pubDate>Sat, 20 Nov 2010 00:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep%20v0.1.1.zip"
+            <enclosure url="http://github.com/downloads/chetan51/sidestep/Sidestep%20v0.1.1.zip"
                        sparkle:version="0.1.1"
                        sparkle:dsaSignature="MC0CFQCqoOAM6Pm14pIO76sjkk5SwIFBOgIUKB92Tzuy/lFJ5SkM1NWNS5U77t8="
                        length="612319"
