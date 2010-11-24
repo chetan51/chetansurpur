@@ -87,6 +87,10 @@ ul.breadcrumbs {
     margin-bottom:10px;
 }
 
+#post-title h4{
+    margin-top:0px;
+}
+
 #post-date{
     text-align: left;
     font-style:italic;
@@ -136,6 +140,13 @@ ul.breadcrumbs {
     font-style: italic;
 }
 
+.full-pane {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .image-and-caption {
     text-align: center;
     width: 100%;
@@ -149,6 +160,17 @@ ul.breadcrumbs {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 7px;
+}
+
+.stack {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.stack div {
+    display: block;
+    margin-bottom: 5px;
 }
 
 #follow-me {
