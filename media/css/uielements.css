@@ -9,17 +9,30 @@
 -------------------------------------------------------------- */
 
 /*	For use with the <a> tag */
+.download-button {
+	display:inline-block;
+	width:193px;
+	height:43px;
+	background:url({{site.url}}/media/images/buttons/download-button.png) no-repeat;
+	font-size:15px;
+	text-align:center;
+	color:#000;
+	font-size:20px;
+	line-height:40px;
+	text-shadow:none;
+	padding:0 0 0 0;
+}
+
 .button {
-	padding: 6.5px 13px;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
-	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-	box-shadow: rgba(0,0,0,1) 0 1px 0;
-	text-shadow: rgba(0,0,0,.4) 0 1px 0;
-	font-size: 14px;
-	font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
-	text-decoration: none;
-	vertical-align: middle;
+	display:inline-block;
+	width:193px;
+	height:43px;
+	background:url({{site.url}}/media/images/buttons/button.png) no-repeat;
+	font-size:15px;
+	text-align:center;
+	color:#000;
+	font-size:20px;
+	line-height:40px;
+	text-shadow:none;
+	padding:0 0 0 0;
 }
