@@ -56,6 +56,10 @@ The first time you run Sidestep, you give it the details of the proxy server tha
 
 Now, every time you connect to the Internet, Sidestep checks to see if your connection is already secured by WPA wireless security - if it is, Sidestep does nothing. After all, there's no point in rerouting your connection and using up bandwidth on your proxy server if your connection is already secure. However, if your wireless connection is open and unprotected, Sidestep connects to your proxy server using SSH and reroutes all your traffic through it. This technology is called an [SSH Tunnel Proxy](http://paulstamatiou.com/how-to-surf-securely-with-ssh-tunnel).
 
+#### In Geekspeak ####
+
+When you connect to an insecure network, Sidestep opens an SSH tunnel with the proxy server, and then sets the Mac OS X system-wide SOCKS proxy to use this SSH connection. And since most Mac applications (including browsers) use this system-wide proxy to connect to the Internet through, they will all end up using the encrypted SSH tunnel.
+
 ### Fighting Firesheep with fire ###
 
 [Firesheep](http://codebutler.com/firesheep), the Firefox add-on mentioned above, made a huge wave in the computer security world when it was released. Using it, anyone with Firefox can sit in a coffeeshop and click one button to hijack the browsing sessions of other users around them.
