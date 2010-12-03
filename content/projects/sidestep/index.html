@@ -78,15 +78,19 @@ A proxy server is just another computer somewhere else, sitting in a more secure
 
     If you have a website hosted on a server somewhere, you can just use that server as a proxy server. Give Sidestep the details you use to connect to your server through SSH, and let it run. Note that browsing the Internet while connected to this server through Sidestep will use up bandwidth on the server, so watch out if you have bandwidth limits on your website server.
 
+*   Turn an always-connected computer you have at home into a proxy server
+
+    Follow [this excellent Lifehacker guide](http://lifehacker.com/205090/geek-to-live--set-up-a-personal-home-ssh-server). This method requires a little more trickery on your part, though, so be ready to get your hands a little dirty.
+
+*   Use an Amazon EC2 instance as a proxy server for around 50 cents a month
+
+    Justin Morehouse has written a great post on how to [use an Amazon EC2 instance as your proxy server with Sidestep](http://www.stratumsecurity.com/blog/2010/12/03/shearing-firesheep-with-the-cloud/). It's safer than the option below, but it will cost you just a tad bit more (though $0.50 per month is a fair price for your Internet security).
+
 *   Donate $1 or more and get access to one from [Silence Is Defeat](http://silenceisdefeat.com/)
 
     This is the easiest way, but might be less secure than the other options. Go to [Silence Is Defeat](http://silenceisdefeat.com/) and sign up for SSH access to one of their servers by donating $1 or more. This method is less secure, though, since you're trusting their servers to keep your data private. Shouldn't be too much of a problem, though, since many use their servers as Internet proxies.
 
     Also, if you go down this path, make sure you don't abuse their (almost) free service by torrenting or continuously transferring large amounts of data while connected to their servers.
-
-*   Turn an always-connected computer you have at home into a proxy server
-
-    Follow [this excellent Lifehacker guide](http://lifehacker.com/205090/geek-to-live--set-up-a-personal-home-ssh-server). This method requires a little more trickery on your part, though, so be ready to get your hands a little dirty.
 
 ### Passwordless logins ###
 
