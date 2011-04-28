@@ -40,7 +40,8 @@
 		<link rel="stylesheet" href="{{site.url}}/media/css/layout.css" />
 
 		<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-		<script src="js/modernizr-1.5.min.js"></script>
+		<script src="{{site.url}}/media/js/modernizr-1.5.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 
 		{% block feeds %}
 
@@ -56,6 +57,7 @@
 		{% endblock %}
 		
 		{% block js %}
+        <script type="text/javascript" src="{{site.url}}/media/js/notifications.js">
 
 		{% block extra_js %}
 		{% endblock %}
@@ -98,6 +100,15 @@
             <div id="content">
 
                 {% block context_nav_top %}{% endblock %}
+
+		    {% block notifications %}
+		        
+                <div id="notifications">
+                    <h4>New project!</h4>
+                    <a class="close" href="#">hide</a>
+                </div>
+
+		    {% endblock %}
 
                 {% block content %}{% endblock %}
     

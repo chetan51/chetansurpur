@@ -109,6 +109,33 @@ ul.breadcrumbs {
     font-size: 3em;
 }
 
+#notifications {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	padding: 0;
+	text-align: center;
+	background: orange;
+}
+
+#notifications h4 {
+	padding: 0;
+	margin: 0;
+	margin-top: 5px;
+	font-size: 1.2em;
+}
+
+#notifications .close {
+	position: absolute;
+	right: 10px;
+	top: 7px;
+	font-size: .9em;
+	color: #fff;
+}
+
 #content {
     margin: 0;
 }
