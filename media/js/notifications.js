@@ -1,5 +1,5 @@
 $(function(){
-	current_notification_version = 1; // set to 0 to disable
+	current_notification_version = 2; // set to 0 to disable
 	
 	if (current_notification_version &&
 		current_notification_version > localStorage.getItem('chetansurpur_notification')) {
