@@ -1,7 +1,8 @@
 $(function(){
-	current_notification_version = 1;
+	current_notification_version = 1; // set to 0 to disable
 	
-	if (current_notification_version > localStorage.getItem('chetansurpur_notification')) {
+	if (current_notification_version &&
+		current_notification_version > localStorage.getItem('chetansurpur_notification')) {
 		$("#site").css("margin-top", parseInt($("#site").css("margin-top").replace("px", "")) + $("#notifications").height());
 		$("#notifications").slideDown();
 	}
