@@ -34,6 +34,10 @@ ul.breadcrumbs {
     padding: 0;
 }
 
+.context-nav a {
+	line-height: 1.4em;
+}
+
 .context-nav-prev {
     float: left;
 }
