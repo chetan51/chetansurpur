@@ -11,13 +11,13 @@
 #site {
     margin: 0 auto;
     width: 750px;
+    margin-top: .5em;
 }
 
 #header {
     padding: 0;
     margin: 0;
     margin-bottom: .5em;
-    margin-top: .5em;
     padding-bottom: 0.2em;
 	position: relative;
 	height: 2em;
