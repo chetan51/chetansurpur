@@ -6,6 +6,18 @@
         <description>Most recent changes with links to updates.</description> 
         <language>en</language>      
         <item>
+            <title>Version 1.2.6 (1 bugfix)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/release-notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Sun, 17 Jul 2011 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v1.2.6.zip"
+                       sparkle:version="1.2.6"
+                       sparkle:dsaSignature="MCwCFCOSp2kFHGi+8izhw9Cb9xplzf0HAhRz93YIZ4fzbU7xHSDEdpvMC9vG9Q=="
+                       length="753991"
+                       type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.2.5 (1 new feature)</title>
             <sparkle:releaseNotesLink>
                 http://chetansurpur.com/projects/sidestep/release-notes.html
