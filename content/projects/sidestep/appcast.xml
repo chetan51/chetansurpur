@@ -1,10 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?> 
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/"> 
-    <channel> 
-        <title>Sidestep Changelog</title> 
-        <link>http://chetansurpur.com/projects/sidestep/appcast.xml</link> 
-        <description>Most recent changes with links to updates.</description> 
-        <language>en</language>      
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Sidestep Changelog</title>
+        <link>http://chetansurpur.com/projects/sidestep/appcast.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.2.8 (1 enhancement)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/release-notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Sun, 11 Sep 2011 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v1.2.8.zip"
+                       sparkle:version="1.2.8"
+                       sparkle:dsaSignature="MC0CFQDJKMMnDm1odQ9pe6AmlVkp340tKQIUIQQXZbBzgS5Wk8fNBb7ncp1hvLM="
+                       length="753713"
+                       type="application/octet-stream" />
+        </item>
         <item>
             <title>Version 1.2.7 (1 bugfix)</title>
             <sparkle:releaseNotesLink>
@@ -149,5 +161,5 @@
                        length="612319"
                        type="application/octet-stream" />
         </item>
-    </channel> 
+    </channel>
 </rss>
