@@ -10,7 +10,6 @@
 
 #site {
     margin: 0 auto;
-    width: 750px;
     margin-top: .5em;
 }
 
@@ -282,4 +281,44 @@ pre {
     background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #e6e6e6), color-stop(1, #ebebeb));
     background-image: -moz-linear-gradient(left center, #e6e6e6 0%, #ebebeb 100%);*/
     overflow: auto;
+}
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	#splash h1 {
+		font-size: 2em;
+	}
+	
+	#header {
+		height: auto;
+	}
+	
+	#sitename {
+		position: relative;
+		margin-bottom: 10px;
+	}
+	
+	#sitenav {
+		position: relative;
+		text-align: left;
+		margin-bottom: 0;
+	}
+	
+	#sitenav ul {
+		padding-left: 0;
+	}
+	
+	#sitenav li {
+		font-size: .9em;
+	}
+	
+	#content {
+		padding-top: 15px;
+	}
+	
 }

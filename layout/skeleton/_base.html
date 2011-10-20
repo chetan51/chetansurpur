@@ -35,6 +35,8 @@
 		<!-- For the less-enabled mobile browsers like Opera Mini -->
 		<link rel="stylesheet" media="handheld" href="{{site.url}}/media/css/handheld.css?v=1">
 
+		<link rel="stylesheet" href="{{site.url}}/media/css/columnal/columnal.css" />
+
 		<link rel="stylesheet" href="{{site.url}}/media/css/typography.css" />
 		<link rel="stylesheet" href="{{site.url}}/media/css/colors.css" />
 		<link rel="stylesheet" href="{{site.url}}/media/css/forms.css" />
@@ -95,35 +97,43 @@
 
 	<body>
 
-		<div id="site">	
+		<div id="site" class="container">	
 
-			{% include "skeleton/_header.html" %}
-            
-            <div id="content">
+			<div class="row">
 
-                {% block context_nav_top %}{% endblock %}
+				<div class="col_10 pre_1 last">
 
-		    {% block notifications %}
-		        
-                <div id="notifications">
-                    <h4>Just released a new (free) app — </h4>
-                    <a href="http://timeslot.me/" target="_blank"><h4 class="important">Timeslot makes planning your day a breeze.</h4></a>
-                    <a class="close" href="#">hide</a>
-                </div>
+					{% include "skeleton/_header.html" %}
+				
+					<div id="content" >
 
-		    {% endblock %}
+					    {% block context_nav_top %}{% endblock %}
 
-                {% block content %}{% endblock %}
-    
-                {% block promote_me %}{% endblock %}
+					    {% block notifications %}
+						  
+					    <div id="notifications">
+						  <h4>Just released a new (free) app — </h4>
+						  <a href="http://timeslot.me/" target="_blank"><h4 class="important">Timeslot makes planning your day a breeze.</h4></a>
+						  <a class="close" href="#">hide</a>
+					    </div>
 
-                {% block context_nav_bottom %}{% endblock %}
+					    {% endblock %}
 
-                {% block disqus %}{% endblock %}
+					    {% block content %}{% endblock %}
+			    
+					    {% block promote_me %}{% endblock %}
 
-            </div>
+					    {% block context_nav_bottom %}{% endblock %}
 
-			{% include "skeleton/_footer.html" %}
+					    {% block disqus %}{% endblock %}
+
+					</div>
+
+					{% include "skeleton/_footer.html" %}
+
+				</div>
+
+			</div>
 
 		</div>
 
