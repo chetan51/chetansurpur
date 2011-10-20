@@ -288,7 +288,7 @@ pre {
 /* ! Layout for mobile version   */
 /* ============================= */
 
-@media handheld, only screen and (max-width: 767px) {
+@media handheld, (max-width: 767px) {
 
 	#splash h1 {
 		font-size: 2em;
