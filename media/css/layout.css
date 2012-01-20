@@ -49,7 +49,7 @@
 	width: 75px;
 	height: 75px;
 	border-radius: 5px;
-	box-shadow: 0 0 10px #ccc;
+	box-shadow: 0 0 10px #aaa;
 }
 
 #social {
@@ -100,7 +100,8 @@
 	padding: 2px 5px;
 	opacity: 0.8;
 }
-#navigation a:hover {
+#navigation a:hover,
+#navigation a.selected {
 	opacity: 1;
 }
 
@@ -136,12 +137,20 @@
     font-family: 'Copperplate Gothic Light', sans-serif;
 }
 
+#splash {
+	border-top: 1px dashed #6FBF4D;
+	border-bottom: 1px dashed #6FBF4D;
+}
+
 #splash p {
 	color: #444;
     font-size: 32px;
     font-family: 'Lora', serif;
     font-style: italic;
     text-align: center;
+}
+#splash p.last {
+	margin-bottom: 0;
 }
 
 #notifications {
@@ -182,6 +191,10 @@
     margin: 0;
 }
 
+.section-listing h3 {
+	border-bottom: none;
+}
+
 .section-listing ul {
     margin: 0;
     padding-left: 0;
@@ -199,10 +212,12 @@
 .listing-item-title {
     font-size: 18px;
     line-height: 24px;
+    margin-bottom: 4px;
 }
 
 .listing-item-snippet {
     font-size: 14px;
+    line-height: 18px;
     font-style: italic;
 }
 

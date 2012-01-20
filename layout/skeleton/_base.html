@@ -123,9 +123,9 @@
 					</div>
 					<div id="navigation">
 						<div><span class="sticker"><a class="home{% ifequal page.title 'Home' %} selected{% endifequal %}" href="{{site.url}}">Home</a></span></div>
-						<div><span class="sticker"><a class="blog" href="{{site.url}}/blog">Blog</a></span></div>
-						<div><span class="sticker"><a class="projects" href="{{site.url}}/projects">Projects</a></span></div>
-						<div><span class="sticker"><a class="about" href="{{site.url}}/about.html">About</a></span></div>
+						<div><span class="sticker"><a class="blog{% ifequal page.module.name 'blog' %} selected{% endifequal %}" href="{{site.url}}/blog">Blog</a></span></div>
+						<div><span class="sticker"><a class="projects{% ifequal page.module.name 'projects' %} selected{% endifequal %}" href="{{site.url}}/projects">Projects</a></span></div>
+						<div><span class="sticker"><a class="about{% ifequal page.title 'About' %} selected{% endifequal %}" href="{{site.url}}/about.html">About</a></span></div>
 					</div>
 				</div>
 				<div class="col_6 suf_3 last">
