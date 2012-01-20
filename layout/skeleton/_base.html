@@ -29,8 +29,7 @@
 		<link rel="shortcut icon" href="{{site.url}}/media/images/favicon.ico">
 		<link rel="apple-touch-icon" href="{{site.url}}/media/images/apple-touch-icon.png">
 
-        <!-- Google fonts -->
-        <link  href="//fonts.googleapis.com/css?family=Crimson+Text:regular&subset=latin" rel="stylesheet" type="text/css" >
+		<!-- Google fonts -->
 
 		<!-- For the less-enabled mobile browsers like Opera Mini -->
 		<link rel="stylesheet" media="handheld" href="{{site.url}}/media/css/handheld.css?v=1">
@@ -78,9 +77,7 @@
 		</title>
 
         <!-- Google Analytics -->
-
         <script type="text/javascript">
-
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', 'UA-19071552-1']);
           _gaq.push(['_trackPageview']);
@@ -90,57 +87,89 @@
             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
-
         </script>
-
 	</head>
-
 	<body>
-
 		<div id="site" class="container">	
-
 			<div class="row">
-
-				<div class="col_10 pre_1 last">
-
-					{% include "skeleton/_header.html" %}
-				
+				<div id="info" class="col_3">
+					<div id="name">
+						<div class="first">
+							<span>c</span>
+							<span>h</span>
+							<span>e</span>
+							<span>t</span>
+							<span>a</span>
+							<span>n</span>
+						</div>
+						<div class="last">
+							<span>s</span>
+							<span>u</span>
+							<span>r</span>
+							<span>p</span>
+							<span>u</span>
+							<span>r</span>
+						</div>
+					</div>
+					<div>
+						<span id="picture"><img src="{{site.url}}/media/images/chetan.jpg"></span>
+						<span id="social">
+							<span id="twitter"><a href="http://twitter.com/"><img src="{{site.url}}/media/images/icons/twitter.png"></a></span>
+							<span id="linkedin"><a href="http://linkedin.com/"><img src="{{site.url}}/media/images/icons/linkedin.png"></a></span>
+							<span id="gmail"><a href="http://linkedin.com/"><img src="{{site.url}}/media/images/icons/gmail.png"></a></span>
+							<span id="rss"><a href="http://rss.com/"><img src="{{site.url}}/media/images/icons/rss.png"></a></span>
+						</span>
+					</div>
+					<div id="navigation">
+						<div><span class="sticker"><a class="home" href="{{site.url}}">Home</a></span></div>
+						<div><span class="sticker"><a class="blog" href="{{site.url}}/blog">Blog</a></span></div>
+						<div><span class="sticker"><a class="projects" href="{{site.url}}/projects">Projects</a></span></div>
+						<div><span class="sticker"><a class="about" href="{{site.url}}/about.html">About</a></span></div>
+					</div>
+				</div>
+				<div class="col_6 suf_3 last">
 					<div id="content" >
+						<!--
+						<div id="sitenav">
+							<ul>
+								<li {% ifequal page.title 'Home' %}class="selected"{% endifequal %}>
+									<a href="{{site.url}}/">Home</a>
+								</li> 
 
-					    {% block context_nav_top %}{% endblock %}
+								<li {% ifequal page.module.name 'blog' %}class="selected"{% endifequal %}>
+									<a href="{{site.url}}/blog">Blog</a>
+								</li>
+
+								<li {% ifequal page.module.name 'projects' %}class="selected"{% endifequal %}>
+									<a href="{{site.url}}/projects">Projects</a>
+								</li>
+
+								<li {% ifequal page.title 'About' %}class="selected"{% endifequal %}>
+									<a href="{{site.url}}/about.html">About</a>
+								</li>
+
+								<li {% ifequal page.title 'Feed' %}class="selected"{% endifequal %}>
+									<a href="http://feeds.feedburner.com/TheBlogOfChetanSurpur">Feed</a>
+								</li>
+							</ul>
+						</div>
+						-->
 
 					    {% block notifications %}
-						  
-					    <div id="notifications">
-						  <h4>Just released a new (free) app — </h4>
-						  <a href="http://timeslot.me/" target="_blank"><h4 class="important">Timeslot makes planning your day a breeze.</h4></a>
-						  <a class="close" href="#">hide</a>
-					    </div>
-
 					    {% endblock %}
 
 					    {% block content %}{% endblock %}
 			    
 					    {% block promote_me %}{% endblock %}
 
-					    {% block context_nav_bottom %}{% endblock %}
-
 					    {% block disqus %}{% endblock %}
-
 					</div>
-
-					{% include "skeleton/_footer.html" %}
-
 				</div>
-
 			</div>
-
 		</div>
 
         {% block disquscommentcount %}{% endblock %}
-
 	</body>
-
 </html>
 
 {% endblock %}
