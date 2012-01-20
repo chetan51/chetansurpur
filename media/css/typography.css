@@ -13,15 +13,24 @@ body {
     font-family: Palatino, 'Palatino Linotype', serif;
 }
 
+#disqus_thread {
+	font-family: Verdana, sans-serif;
+}
+.dsq-comment-text {
+	font-size: 14px;
+}
+
 
 /* Headings
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6 { font-weight: normal; }
 
-h1 { font-size: 3em; line-height: 1.2em; margin-bottom: 0.5em; }
+h1,h2,h3,h4 { font-family: Century Gothic, sans-serif; }
+
+h1 { font-size: 38px; line-height: 44px; margin-bottom: 0.5em; padding-bottom: 5px; border-bottom: 1px solid #ccc; }
 h2 { font-size: 2.7em; margin-bottom: 0.6em; }
-h3 { font-size: 2em; margin-bottom: 0.75em; }
+h3 { font-size: 2em; margin-bottom: 0.75em; padding-bottom: 5px; border-bottom: 1px dashed #999; }
 h4 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
 h5 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }
 h6 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }
@@ -37,7 +46,7 @@ h4 img, h5 img, h6 img {
 /* Text elements
 -------------------------------------------------------------- */
 
-p, ul, ol   { margin: 0 0 1.5em; line-height: 1.5; font-size: 18px; }
+p, ul, ol   { margin: 0 0 1.5em; line-height: 1.8; font-size: 16px; }
 p img.left  { float: left; margin: 1.5em 1.5em 1.5em 0; padding: 0; }
 p img.right { float: right; margin: 1.5em 0 1.5em 1.5em; }
 
@@ -61,8 +70,8 @@ pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height:
 
 li ul,
 li ol       { margin: 0; }
-ul, ol      { margin: 0 0 0 0; padding-left: 20px; margin-bottom: 15px; }
-li          { margin-bottom: 20px; font-size: 18px; }
+ul, ol      { margin: 0 0 1.5em; padding-left: 20px; }
+li          { margin-bottom: 0; font-size: 16px; }
 
 ul          { list-style-type: square; }
 ol          { list-style-type: decimal; }
