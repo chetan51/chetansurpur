@@ -77,26 +77,19 @@
 	margin-top: 40px;
 }
 
-#navigation div {
-	margin-bottom: 7px;
-}
-
-#navigation span {
+#navigation a {
 	display: inline-block;
 	margin-bottom: 5px;
-}
-
-#navigation span a {
+	padding: 3px 5px;
+	
+	font-size: 14px;
 	color: #fff;
 	font-family: Helvetica, sans-serif;
 	font-weight: bold;
-}
-
-#navigation a {
-	font-size: 14px;
-	padding: 3px 5px;
+	
 	opacity: 0.8;
 }
+
 #navigation a:hover,
 #navigation a.selected {
 	opacity: 1;
