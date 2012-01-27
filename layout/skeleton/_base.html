@@ -123,7 +123,7 @@
 								<span id="rss"><a href="http://feeds.feedburner.com/TheBlogOfChetanSurpur"><img src="{{site.url}}/media/images/icons/rss.png"></a></span>
 							</span>
 						</div>
-						<div id="navigation">
+						<div class="navigation">
 							<div><a class="home{% ifequal page.title 'Home' %} selected{% endifequal %}" href="{{site.url}}/">home</a></div>
 							<div><a class="blog{% ifequal page.module.name 'blog' %} selected{% endifequal %}" href="{{site.url}}/blog">blog</a></div>
 							<div><a class="projects{% ifequal page.module.name 'projects' %} selected{% endifequal %}" href="{{site.url}}/projects">projects</a></div>
@@ -131,7 +131,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col_6 suf_3 last">
+				<div class="col_6">
 					<div id="content" >
 					    {% block notifications %}
 					    {% endblock %}
@@ -143,6 +143,14 @@
 					    {% block disqus %}{% endblock %}
 					</div>
 				</div>
+				<div class="col_3 last">
+					<div id="navigation" class="navigation">
+						<div><a class="home{% ifequal page.title 'Home' %} selected{% endifequal %}" href="{{site.url}}/">home</a></div>
+						<div><a class="blog{% ifequal page.module.name 'blog' %} selected{% endifequal %}" href="{{site.url}}/blog">blog</a></div>
+						<div><a class="projects{% ifequal page.module.name 'projects' %} selected{% endifequal %}" href="{{site.url}}/projects">projects</a></div>
+						<div><a class="about{% ifequal page.title 'About' %} selected{% endifequal %}" href="{{site.url}}/about.html">about</a></div>
+					</div>
+				<div>				
 			</div>
 		</div>
 
