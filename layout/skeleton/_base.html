@@ -124,7 +124,7 @@
 							</span>
 						</div>
 						<div id="navigation">
-							<div><a class="home{% ifequal page.title 'Home' %} selected{% endifequal %}" href="{{site.url}}">home</a></div>
+							<div><a class="home{% ifequal page.title 'Home' %} selected{% endifequal %}" href="{{site.url}}/">home</a></div>
 							<div><a class="blog{% ifequal page.module.name 'blog' %} selected{% endifequal %}" href="{{site.url}}/blog">blog</a></div>
 							<div><a class="projects{% ifequal page.module.name 'projects' %} selected{% endifequal %}" href="{{site.url}}/projects">projects</a></div>
 							<div><a class="about{% ifequal page.title 'About' %} selected{% endifequal %}" href="{{site.url}}/about.html">about</a></div>
@@ -133,32 +133,6 @@
 				</div>
 				<div class="col_6 suf_3 last">
 					<div id="content" >
-						<!--
-						<div id="sitenav">
-							<ul>
-								<li {% ifequal page.title 'Home' %}class="selected"{% endifequal %}>
-									<a href="{{site.url}}/">Home</a>
-								</li> 
-
-								<li {% ifequal page.module.name 'blog' %}class="selected"{% endifequal %}>
-									<a href="{{site.url}}/blog">Blog</a>
-								</li>
-
-								<li {% ifequal page.module.name 'projects' %}class="selected"{% endifequal %}>
-									<a href="{{site.url}}/projects">Projects</a>
-								</li>
-
-								<li {% ifequal page.title 'About' %}class="selected"{% endifequal %}>
-									<a href="{{site.url}}/about.html">About</a>
-								</li>
-
-								<li {% ifequal page.title 'Feed' %}class="selected"{% endifequal %}>
-									<a href="http://feeds.feedburner.com/TheBlogOfChetanSurpur">Feed</a>
-								</li>
-							</ul>
-						</div>
-						-->
-
 					    {% block notifications %}
 					    {% endblock %}
 
