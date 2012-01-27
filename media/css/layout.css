@@ -83,21 +83,18 @@
 
 #navigation span {
 	display: inline-block;
-	box-shadow: 0 0 2px #999;
-	padding: 3px;
-	line-height: 22px;
-	border-radius: 2px;
+	margin-bottom: 5px;
 }
 
 #navigation span a {
 	color: #fff;
 	font-family: Helvetica, sans-serif;
 	font-weight: bold;
-}	
+}
 
 #navigation a {
-	border-radius: 3px;
-	padding: 2px 5px;
+	font-size: 14px;
+	padding: 3px 5px;
 	opacity: 0.8;
 }
 #navigation a:hover,
