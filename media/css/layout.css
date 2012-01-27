@@ -17,6 +17,8 @@
 
 #info {
 	text-align: right;
+	margin-left: auto;
+	width: 230px;
 }
 
 #name {
@@ -379,9 +381,18 @@ pre {
 
 @media handheld, (max-width: 767px) {
 
-	#splash h1 {
-		font-size: 2em;
+	#splash p {
+		font-size: 22px;
 	}
+	
+	h1 {
+		font-size: 30px;
+	}
+	
+	h3 {
+		font-size: 26px;
+	}
+	
 	
 	#header {
 		height: auto;
@@ -410,4 +421,17 @@ pre {
 		padding-top: 15px;
 	}
 	
+	#info {
+		text-align: center;
+		margin: auto;
+	}
+	
+	#navigation {
+		margin-top: 15px;
+	}
+
+	#navigation div {
+		display: inline-block;
+	}
+
 }

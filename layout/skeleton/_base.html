@@ -70,10 +70,11 @@
 
 		<title>
 			{% block title %}
-            {% if page.title != 'Home' %}
-                {{page.title}} | 
-            {% endif %}
-            {{site.name}}
+				{% if page.title != 'Home' %}
+					{{page.title}}
+				{% else %}
+					{{site.name}}
+				{% endif %}
 			{% endblock %}
 		</title>
 
