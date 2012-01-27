@@ -245,34 +245,89 @@
 }
 
 #follow-me {
-    margin-top: 25px;
+	background: #45AAB8;
+    padding: 10px;
 }
 
-#share-the-love{
-    width: 100%;
-    margin-bottom: 20px;
-    overflow: auto;
+#follow-me-button {
+	display: inline-block;
+	width: 120px;
+	overflow: none;
+	margin-top: 3px;
 }
 
-#share-the-love div{
-    display: inline;
+#share-the-love {
+	background: #6FBF4D;
+    padding: 10px;
 }
 
-#share-the-love-text {
-    float: left;
+#follow-me, #share-the-love {
+	-moz-box-shadow: inset 0 0 5px #555;
+	-webkit-box-shadow: inset 0 0 5px #555;
+	box-shadow: inner 0 0 5px #555;
+	margin-bottom: 5px;
+	text-align: center;
+	
+	font-size: 14px;
+	font-family: Helvetica, sans-serif;
+	color: white;
 }
 
-#share-the-love-text p{
-    display: inline;
+#share-the-love p, #follow-me p {
+	margin: 0;
+}
+
+#share-the-love a, #follow-me a {
+	color: white;
+	border-bottom: 1px dotted white;
+}
+
+#share-buttons{
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: white;
+	-moz-box-shadow: 0 0 5px #333;
+	-webkit-box-shadow: 0 0 5px #333;
+	box-shadow: 0 0 5px #333;
+	border-radius: 3px;
 }
 
 #share-buttons {
-    float: right;
+	width: 182px;
+	padding: 5px;
+	padding-top: 10px;
 }
 
-#disqus_thread{
-    margin-top: 25px;
+#share-buttons a {
+	border-bottom: none;
 }
+
+#share-buttons a.addthis_button_tweet {
+	margin-right: 7px;
+}
+#share-buttons a.addthis_button_google_plusone {
+	margin-top: 2px;
+}
+
+#disqus_thread {
+    margin-top: 30px;
+    padding: 20px;
+	-moz-box-shadow: inset 0 0 5px #999;
+	-webkit-box-shadow: inset 0 0 5px #999;
+	box-shadow: inner 0 0 5px #999;
+}
+
+#disqus_thread {
+	font-family: Helvetica, sans-serif;
+}
+#disqus_thread h3 {
+	font-size: 18px;
+}
+.dsq-comment-text {
+	font-size: 14px;
+}
+
 
 p img {
     display: block;

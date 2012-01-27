@@ -30,28 +30,18 @@
 
 {% endblock %}
 
-{% block context_nav_top %}
-
-{% include "skeleton/_context_nav.html" %}
-
-<hr>
-
-{% endblock %}
-
-{% block context_nav_bottom %}
-
-{% include "skeleton/_context_nav.html" %}
-
-<hr>
-
-{% endblock %}
-
 {% block promote_me %}
 
 <div id="follow-me">
-    <p>
-        You should follow me on Twitter <a href="http://twitter.com/chetan51">here</a>.
-    </p>
+	<div id="follow-me-text">
+		<p>
+			You know you want to.
+		</p>
+	</div>
+	<div id="follow-me-button">
+		<a href="https://twitter.com/chetan51" class="twitter-follow-button" data-show-count="false">Follow @chetan51</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
 </div>
 
 <div id="share-the-love">
@@ -61,17 +51,14 @@
         </p>
     </div>
     <div id="share-buttons">
-        <div id="twitter-button">
-            <a href="http://twitter.com/share" class="twitter-share-button" data-url="{{ page.full_url }}" data-count="horizontal" data-via="chetan51">Tweet</a>
-            <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-        </div>
-        <div id="facebook-button">
-            <iframe src="http://www.facebook.com/plugins/like.php?href={{ page.full_url }}&amp;layout=button_count&amp;show_faces=true&amp;width=90&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
-        </div>
+		<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+			<a class="addthis_button_facebook_like" fb:like:layout="box_count"></a>
+			<a class="addthis_button_tweet" tw:count="vertical"></a>
+			<a class="addthis_button_google_plusone" g:plusone:size="tall"></a>
+		</div>
+		<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4db60c1b02b6be95"></script>
     </div>
 </div>
-
-<hr>
 
 {% endblock %}
 
