@@ -24,12 +24,16 @@
 	margin-bottom: 12px;
 }
 
+#name .first {
+	margin-bottom: 2px;
+}
+
 #name .first span {
 	color: #444;
-	font-family: ‘Arial Narrow’, sans-serif;
 	text-transform: uppercase;
+	margin-left: 12px;
 	font-size: 38px;
-	margin-left: 10px;
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-weight: 100;
 }
 
@@ -427,10 +431,6 @@ pre {
 	#info {
 		text-align: center;
 		margin: auto;
-	}
-	
-	#name .first span {
-		margin-left: 9px;
 	}
 	
 	#social {
