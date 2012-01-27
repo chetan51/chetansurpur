@@ -429,8 +429,17 @@ pre {
 		margin: auto;
 	}
 	
+	#name .first span {
+		margin-left: 9px;
+	}
+	
+	#social {
+		margin-left: 0;
+	}		
+	
 	#navigation {
 		margin-top: 15px;
+		margin-left: 10px;
 	}
 
 	#navigation div {
