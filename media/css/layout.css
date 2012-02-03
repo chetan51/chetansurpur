@@ -443,7 +443,11 @@ pre {
 
 	#social {
 		margin-left: 0;
-	}		
+	}
+	
+	#splash {
+		padding-top: 25px;
+	}
 	
 	#navigation {
 		display: none;
