@@ -28,15 +28,14 @@
 
 #name .first {
 	margin-bottom: 2px;
-}
-
-#name .first span {
 	color: #444;
 	text-transform: uppercase;
 	margin-left: 12px;
 	font-size: 38px;
 	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-weight: 100;
+  letter-spacing: 16px;
+  margin-right: -16px;
 }
 
 #name .last span {
