@@ -4,4 +4,4 @@ deploy-remote.sh
 settings.pyc
 .DS_Store
 _site/
-*.sublime-project
+*.sublime-*
