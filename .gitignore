@@ -3,3 +3,4 @@ deploy-local.sh
 deploy-remote.sh
 settings.pyc
 .DS_Store
+_site/
