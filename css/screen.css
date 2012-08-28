@@ -113,6 +113,10 @@ a:visited {
         line-height: 170%;
       }
 
+        .posts ul li .title a {
+          border-bottom: none;
+        }
+
       .posts ul li .date { 
         font-size: 60%;
         color: #777;
