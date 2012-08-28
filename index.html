@@ -3,15 +3,43 @@ layout: default
 title: Chetan Surpur
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="home">
 
-  <h1>Projects</h1>
-  <ul class="posts">
-  </ul>
+  <div class="me">
+    <h1 href="/">Chetan Surpur</h1>
+    <ul>
+      <li class="bold">Twitter</li>
+      <li class="">LinkedIn</li>
+      <li class="bold">Email</li>
+      <li class="">Resume</li>
+      <li class="bold">Feed</li>
+    <ul>
+  </div>
+
+  <div class="main">
+
+    <div class="posts">
+      <h1>Posts</h1>
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <span class="title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+            <span class="date">&laquo; {{ post.date | date_to_string }}</span>
+            <span class="snippet">{{ post.snippet }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="projects">
+      <h1>Projects</h1>
+      <ul>
+        <span class="title">Sidestep</span>
+        <span class="thumbnail"><img src="http://placekitten.com/100/100" /></span>
+        <span class="description">Secure your wireless connection automatically</span>
+      </ul>
+    </div>
+
+  </div>
+
 </div>
