@@ -29,6 +29,10 @@ a {
   border-bottom: 1px dashed #333;
 }
 
+a:visited {
+  color: #555;
+}
+
 /*****************************************************************************/
 /*
 /* Home
@@ -46,7 +50,7 @@ a {
 }
 
 .me h1, .posts h1, .projects h1 {
-  margin: 0;
+  margin: 10px 0;
   padding: 0;
 }
 
@@ -83,12 +87,16 @@ a {
         font-weight: bold;
       }
 
-  .posts h1, .projects h1 {
-    font: 48px 'QuicksandLight', Arial, sans-serif;
-    line-height: 40px;
-    text-transform: uppercase;
-    letter-spacing: -1px;
+  .posts, .projects {
+    margin-bottom: 30px;
   }
+
+    .posts h1, .projects h1 {
+      font: 48px 'QuicksandLight', Arial, sans-serif;
+      line-height: 40px;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+    }
 
   .posts {
 
@@ -102,6 +110,7 @@ a {
         margin-right: 5px;
         color: #000;
         font-weight: bold;
+        line-height: 28px;
       }
 
       .posts ul li .date { 
@@ -117,8 +126,33 @@ a {
       }
 
   .projects {
-    display: none;
   }
+
+    .projects ul li {
+      width: 242px;
+      display: inline-block;
+      margin: 10px;
+    }
+
+      .projects ul li img {
+        width: 240px;
+        height: 160px;
+        border: 1px solid #ccc;
+      }
+
+      .projects ul li .title {
+        background-color: #111;
+        color: #eee;
+        padding: 4px;
+        text-align: center;
+      }
+
+      .projects ul li .description {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 2px;
+        font-style: italic;
+      }
 
 /*****************************************************************************/
 /*
@@ -128,7 +162,8 @@ a {
 
 .main {
   max-width: 800px;
-  margin: 20px auto;
+  margin: 10px auto;
+  padding: 10px;
 }
 
 /*****************************************************************************/
