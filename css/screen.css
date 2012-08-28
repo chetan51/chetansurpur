@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-  color: #111;
+  color: #2A2A2A;
   font-family: Georgia, Times, 'Times New Roman', Serif;
   font-size: 18px;
   line-height: 22px;
@@ -56,7 +56,7 @@ a:visited {
 
 .me {
   text-align: center;
-  background-color: #111;
+  background-color: #2A2A2A;
   color: #eee;
   margin: 0;
   padding: 12px;
@@ -137,8 +137,8 @@ a:visited {
       }
 
   .projects {
-    background-color: #111;
-    color: #eee;
+    background-color: #2A2A2A;
+    color: #E1E1E1;
   }
 
     .projects ul li {
