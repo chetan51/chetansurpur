@@ -88,8 +88,15 @@ a:visited {
       }
 
   .posts, .projects {
-    margin-bottom: 30px;
+
   }
+
+    .posts .content, .projects .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 15px;
+    }
+
 
     .posts h1, .projects h1 {
       font: 48px 'QuicksandLight', Arial, sans-serif;
@@ -130,6 +137,8 @@ a:visited {
       }
 
   .projects {
+    background-color: #111;
+    color: #eee;
   }
 
     .projects ul li {
@@ -138,17 +147,21 @@ a:visited {
       margin: 10px;
     }
 
-      .projects ul li img {
-        width: 240px;
-        height: 160px;
+      .projects ul li .thumbnail {
         border: 1px solid #ccc;
+        padding: 0;
+        margin: 0;
       }
 
+        .projects ul li .thumbnail img {
+          display: block;
+          width: 240px;
+          height: 160px;
+        }
+
       .projects ul li .title {
-        background-color: #111;
-        color: #eee;
         padding: 4px;
-        text-align: center;
+        font-weight: bold;
       }
 
       .projects ul li .description {
@@ -165,9 +178,6 @@ a:visited {
 /*****************************************************************************/
 
 .main {
-  max-width: 800px;
-  margin: 10px auto;
-  padding: 10px;
 }
 
 /*****************************************************************************/
