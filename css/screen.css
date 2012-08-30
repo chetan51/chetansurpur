@@ -68,6 +68,7 @@ a:visited {
     letter-spacing: 0;
     line-height: 72px;
     text-transform: uppercase;
+    margin-bottom: 5px;
   }
 
     .me ul {
@@ -76,7 +77,8 @@ a:visited {
 
       .me ul li {
         display: inline;
-        font: 28px 'QuicksandLight', Arial, sans-serif;
+        font-family: 'QuicksandLight', Arial, sans-serif;
+        font-size: 24px;
         text-transform: uppercase;
         letter-spacing: -1px;
         margin-left: 3px;
@@ -84,6 +86,7 @@ a:visited {
       }
 
       .me ul .bold {
+        font-family: 'QuicksandBook', Arial, sans-serif;
         font-weight: bold;
       }
 
