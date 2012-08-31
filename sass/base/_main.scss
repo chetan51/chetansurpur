@@ -25,6 +25,19 @@ a:visited {
   color: #555;
 }
 
+.light, .dark {
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+}
+
+.dark {
+  background-color: #2A2A2A;
+  color: #E1E1E1;
+}
+
 /*****************************************************************************/
 /*
 /* Small screens

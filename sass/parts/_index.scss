@@ -1,7 +1,7 @@
-.home {
+#home {
   font-family: 'Open Sans', sans-serif;
 
-  .me, .posts, .projects {
+  #me, #posts, #projects {
     ul {
       list-style-type: none;
       margin: 0;
@@ -14,9 +14,8 @@
     }
   }
 
-  .me {
+  #me {
     text-align: center;
-    background-color: #2A2A2A;
     color: #eee;
     margin: 0;
     padding: 12px;
@@ -50,13 +49,7 @@
     }
   }
 
-  .posts, .projects {
-    .content {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 15px;
-    }
-
+  #posts, #projects {
     h1 {
       font: 48px 'QuicksandLight', Arial, sans-serif;
       line-height: 40px;
@@ -65,7 +58,7 @@
     }
   }
 
-  .posts {
+  #posts {
     ul li {
       margin-bottom: 8px;
 
@@ -94,10 +87,7 @@
     }
   }
 
-  .projects {
-    background-color: #2A2A2A;
-    color: #E1E1E1;
-
+  #projects {
     ul li {
       width: 240px;
       display: inline-block;
@@ -139,7 +129,7 @@
 
 @media all and (max-width: 800px) {
 
-  .me {
+  #me {
     h1 {
       font-size: 42px;
       line-height: 42px;
@@ -151,7 +141,7 @@
     }
   }
 
-  .posts, .projects {
+  #posts, #projects {
     h1 {
       font-size: 32px;
     }
