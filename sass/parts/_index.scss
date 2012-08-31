@@ -64,7 +64,8 @@
         margin-right: 5px;
         color: #000;
         font-weight: bold;
-        line-height: 170%;
+        font-size: 110%;
+        line-height: 160%;
 
         a {
           border-bottom: none;
@@ -72,14 +73,14 @@
       }
 
       .date { 
-        font-size: 60%;
+        font-size: 70%;
         color: #777;
       }
 
       .snippet { 
         display: block;
         font-style: italic;
-        font-size: 80%;
+        font-size: 90%;
         color: #444;
       }
     }
@@ -107,10 +108,11 @@
       .title {
         padding: 4px;
         font-weight: bold;
+        font-size: 110%;
       }
 
       .description {
-        font-size: 60%;
+        font-size: 70%;
         line-height: 16px;
         padding: 2px;
         font-style: italic;
