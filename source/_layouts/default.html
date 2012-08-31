@@ -29,15 +29,17 @@
 	<link href="{{ root_url }}/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<div id="me" class="header dark">
-		<h1 href="/">Chetan Surpur</h1>
-		<ul>
-			<li class="bold">Twitter</li>
-			<li class="">LinkedIn</li>
-			<li class="bold">Email</li>
-			<li class="">Resume</li>
-			<li class="bold">Feed</li>
-		<ul>
+	<div id="me" class="header dark{% if page.index != true %} small{% endif %}">
+		<div class="content">
+			<h1 href="/">{% if page.index != true %}&larr; {% endif %}Chetan Surpur</h1>
+			<ul>
+				<li class="bold">Twitter</li>
+				<li class="">LinkedIn</li>
+				<li class="bold">Email</li>
+				<li class="">Resume</li>
+				<li class="bold">Feed</li>
+			<ul>
+		</div>
 	</div>
 
 	{{ content | expand_urls: root_url }}

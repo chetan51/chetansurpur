@@ -51,36 +51,54 @@ hr {
   text-align: center;
   color: #eee;
   margin: 0;
-  padding: 12px;
 
-  h1 {
-    font-family: 'Bitter', serif;
-    font-size: 72px;
-    letter-spacing: 0;
-    line-height: 72px;
-    text-transform: uppercase;
-    margin: 10px 0 5px 0;
-    padding: 0;
+  .content {
+    padding: 10px;
+
+    h1 {
+      font-family: 'Bitter', serif;
+      font-size: 72px;
+      letter-spacing: 0;
+      line-height: 72px;
+      text-transform: uppercase;
+      margin: 10px 0 5px 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline;
+        font-family: 'QuicksandLight', Arial, sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        margin-left: 3px;
+        -webkit-font-smoothing: antialiased;
+
+        &.bold {
+          font-family: 'QuicksandBook', Arial, sans-serif;
+          font-weight: bold;
+        }
+      }
+    }
   }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  &.small {
+    text-align: left;
 
-    li {
+    h1 {
       display: inline;
-      font-family: 'QuicksandLight', Arial, sans-serif;
       font-size: 24px;
-      text-transform: uppercase;
-      letter-spacing: -1px;
-      margin-left: 3px;
-      -webkit-font-smoothing: antialiased;
+      line-height: 24px;
+      margin: 0;
+    }
 
-      &.bold {
-        font-family: 'QuicksandBook', Arial, sans-serif;
-        font-weight: bold;
-      }
+    ul {
+      display: none;
     }
   }
 }
@@ -98,14 +116,30 @@ hr {
   }
 
   #me {
-    h1 {
-      font-size: 42px;
-      line-height: 42px;
+    .content {
+      h1 {
+        font-size: 42px;
+        line-height: 42px;
+      }
+
+      ul li {
+        display: inline;
+        font-size: 16px;
+      }
     }
 
-    ul li {
-      display: inline;
-      font-size: 16px;
+    &.small {
+      .content {
+        padding: 6px;
+        
+        h1 {
+          font-size: 18px;
+          line-height: 18px;
+        }
+        ul {
+          display: none;
+        }
+      }
     }
   }
 
