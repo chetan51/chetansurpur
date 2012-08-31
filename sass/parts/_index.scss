@@ -1,0 +1,160 @@
+.home {
+  font-family: 'Open Sans', sans-serif;
+
+  .me, .posts, .projects {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      margin: 10px 0;
+      padding: 0;
+    }
+  }
+
+  .me {
+    text-align: center;
+    background-color: #2A2A2A;
+    color: #eee;
+    margin: 0;
+    padding: 12px;
+
+    h1 {
+      font-family: 'Bitter', serif;
+      font-size: 72px;
+      letter-spacing: 0;
+      line-height: 72px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+
+    ul {
+      margin: 0;
+
+      li {
+        display: inline;
+        font-family: 'QuicksandLight', Arial, sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        margin-left: 3px;
+        -webkit-font-smoothing: antialiased;
+
+        &.bold {
+          font-family: 'QuicksandBook', Arial, sans-serif;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .posts, .projects {
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 15px;
+    }
+
+    h1 {
+      font: 48px 'QuicksandLight', Arial, sans-serif;
+      line-height: 40px;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+    }
+  }
+
+  .posts {
+    ul li {
+      margin-bottom: 8px;
+
+      .title {
+        margin-right: 5px;
+        color: #000;
+        font-weight: bold;
+        line-height: 170%;
+
+        a {
+          border-bottom: none;
+        }
+      }
+
+      .date { 
+        font-size: 60%;
+        color: #777;
+      }
+
+      .snippet { 
+        display: block;
+        font-style: italic;
+        font-size: 80%;
+        color: #444;
+      }
+    }
+  }
+
+  .projects {
+    background-color: #2A2A2A;
+    color: #E1E1E1;
+
+    ul li {
+      width: 240px;
+      display: inline-block;
+      margin: 10px 20px 10px 0;
+
+      .thumbnail {
+        /*box-shadow: #aaa 0px 2px 10px 1px;*/
+        padding: 0;
+        margin: 0;
+        margin-bottom: 3px;
+
+        img {
+          display: block;
+          width: 240px;
+          height: 160px;
+        }
+      }
+
+      .title {
+        padding: 4px;
+        font-weight: bold;
+      }
+
+      .description {
+        font-size: 60%;
+        line-height: 16px;
+        padding: 2px;
+        font-style: italic;
+      }
+    }
+  }
+}
+
+/*****************************************************************************/
+/*
+/* Small screens
+/*
+/*****************************************************************************/
+
+@media all and (max-width: 800px) {
+
+  .me {
+    h1 {
+      font-size: 42px;
+      line-height: 42px;
+    }
+
+    ul li {
+      display: inline;
+      font-size: 16px;
+    }
+  }
+
+  .posts, .projects {
+    h1 {
+      font-size: 32px;
+    }
+  }
+
+}
