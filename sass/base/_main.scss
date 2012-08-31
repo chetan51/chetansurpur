@@ -65,6 +65,14 @@ hr {
       padding: 0;
     }
 
+    a {
+      color: #EEE;
+
+      &:hover {
+        text-shadow: #999 0px 0px 10px;
+      }
+    }
+
     ul {
       list-style-type: none;
       margin: 0;
