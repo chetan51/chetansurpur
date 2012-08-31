@@ -19,7 +19,7 @@
 	<link rel="canonical" href="{{ canonical }}">
 
 	<!-- Fonts -->
-	<link rel="stylesheet" href="stylesheets/fonts/Quicksand/stylesheet.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="{{ root_url }}/stylesheets/fonts/Quicksand/stylesheet.css" type="text/css" media="screen, projection" />
 	<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Headland+One' rel='stylesheet' type='text/css'>
@@ -29,6 +29,17 @@
 	<link href="{{ root_url }}/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 </head>
 <body>
+	<div id="me" class="header dark">
+		<h1 href="/">Chetan Surpur</h1>
+		<ul>
+			<li class="bold">Twitter</li>
+			<li class="">LinkedIn</li>
+			<li class="bold">Email</li>
+			<li class="">Resume</li>
+			<li class="bold">Feed</li>
+		<ul>
+	</div>
+
 	{{ content | expand_urls: root_url }}
 </body>
 </html>
