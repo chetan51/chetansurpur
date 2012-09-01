@@ -27,6 +27,9 @@
 	<!-- Styling -->
 	<link href="{{ root_url }}/favicon.png" rel="shortcut icon">
 	<link href="{{ root_url }}/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+	<!-- Scripts -->
+	{% include disqus.html %}
 </head>
 <body>
 	<div id="me" class="header dark{% if page.index != true %} small{% endif %}">
