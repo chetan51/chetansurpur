@@ -34,6 +34,10 @@
 
         a {
           border-bottom: none;
+
+          &:hover {
+            text-shadow: #AAA 0px 0px 3px;
+          }
         }
       }
 
