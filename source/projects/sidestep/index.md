@@ -6,7 +6,7 @@ snippet: Automatically secure your Internet connection in unprotected wireless n
 
 <div class="full-pane">
     <div class="stack">
-        <img src="{{root_url}}/media/images/projects/sidestep/logo.png" title="Sidestep Logo" alt="Sidestep Logo">
+        <img src="{{root_url}}/images/projects/sidestep/logo.png" title="Sidestep Logo" alt="Sidestep Logo">
     </div>
     <div class="stack">
         <div class="stack">
