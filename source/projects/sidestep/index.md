@@ -11,14 +11,14 @@ snippet: Automatically secure your Internet connection in unprotected wireless n
     <div class="stack">
         <div class="stack">
             <div>
-                <a href="https://github.com/downloads/chetan51/sidestep/Sidestep.zip" class="button download-button">Download</a>
+                <a href="https://github.com/downloads/chetan51/sidestep/Sidestep.zip" class="button download-button">Download &darr;</a>
             </div>
             <div>
                 <em>Mac OS X 10.5+ required</em>
             </div>
         </div>
         <div class="stack">
-            <a href="https://github.com/chetan51/sidestep" class="button">Source</a>
+            <a href="https://github.com/chetan51/sidestep" class="button">Source &rarr;</a>
         </div>
     </div>
 </div>
