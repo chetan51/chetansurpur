@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Sidestep Changelog</title>
+        <link>http://chetansurpur.com/projects/sidestep/appcast.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.3.2 (1 enhancement, 1 bugfix)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/release-notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Tue, 14 Aug 2012 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v1.3.2.zip"
+                       sparkle:version="1.3.2"
+                       sparkle:dsaSignature="MC0CFQCx2+WykRQSjDqtCWLPnEZTeNN5hAIUTfOhKNcCsbMCkpAvmjSyjraQMnY="
+                       length="763025"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.3.1 (1 new feature, 1 bugfix)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/release-notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Mon, 6 Feb 2012 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v1.3.1.zip"
+                       sparkle:version="1.3.1"
+                       sparkle:dsaSignature="MC0CFQDgpX9bJH7i9qRkemVcfgy6wytIKgIUGs9K09xmoEKK5WVDxl0CQC0gCLU="
+                       length="754597"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.2.8 (1 enhancement)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/release-notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Sun, 11 Sep 2011 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v1.2.8.zip"
+                       sparkle:version="1.2.8"
+                       sparkle:dsaSignature="MC0CFQDJKMMnDm1odQ9pe6AmlVkp340tKQIUIQQXZbBzgS5Wk8fNBb7ncp1hvLM="
+                       length="753713"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.2.7 (1 bugfix)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/release-notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Thu, 11 Aug 2011 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v1.2.7.zip"
+                       sparkle:version="1.2.7"
+                       sparkle:dsaSignature="MC4CFQC6RGFYA24LBYfb/8Gya+KAsTZGngIVAOtwPFxTHZLE5kTzh+jzbqXmbOVa"
+                       length="753644"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.2.6 (1 bugfix)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/release-notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Sun, 17 Jul 2011 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v1.2.6.zip"
+                       sparkle:version="1.2.6"
+                       sparkle:dsaSignature="MCwCFCOSp2kFHGi+8izhw9Cb9xplzf0HAhRz93YIZ4fzbU7xHSDEdpvMC9vG9Q=="
+                       length="753991"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.2.5 (1 new feature)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/release-notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Wed, 15 Dec 2010 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v1.2.5.zip"
+                       sparkle:version="1.2.5"
+                       sparkle:dsaSignature="MCwCFHmApGROZ+YKBF+hYidDEdHm4ol/AhQ3Nw8v53okEAJ7EYN322CAVBkifA=="
+                       length="802320"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.2.4 (1 new feature)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/1.2.4.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Tue, 14 Dec 2010 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v1.2.4.zip"
+                       sparkle:version="1.2.4"
+                       sparkle:dsaSignature="MC0CFBijkVhPZdYJFNx9bMW953Ivi7c2AhUAoZs9+Lsmg9QZgy1XbH+TFKznlS4="
+                       length="802265"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.2.3 (1 bugfix)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/1.2.3.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Thu, 2 Dec 2010 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v1.2.3.zip"
+                       sparkle:version="1.2.3"
+                       sparkle:dsaSignature="MC0CFQCtq4zDLftOqF8FlGFosKt/G+ZPYgIUTqsm8g9GZ1nZBxvUwS7eXkgPkqw="
+                       length="779393"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.2.2 (1 bugfix)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/1.2.2.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Fri, 26 Nov 2010 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v1.2.2.zip"
+                       sparkle:version="1.2.2"
+                       sparkle:dsaSignature="MC4CFQCKarlZ5+nrYw77KPRGRBrAn0CTJQIVAJbnolVHRWtsi/YF+oFqyHqIcBLZ"
+                       length="779144"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.2.1 (2 new features, 1 bugfix)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/1.2.1.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Fri, 26 Nov 2010 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v1.2.1.zip"
+                       sparkle:version="1.2.1"
+                       sparkle:dsaSignature="MCwCFFNya7L1dRoVUHr//eHtWSKTScBIAhQEO+7RdB16GoKhSei9kErCg0PqpQ=="
+                       length="776375"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.1.1 (1 new feature, 1 bugfix)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/1.1.1.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Thu, 25 Nov 2010 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v1.1.1.zip"
+                       sparkle:version="1.1.1"
+                       sparkle:dsaSignature="MC4CFQDTZOgiNmILH8CoaUKxFb2l8WgrbAIVAN0xhg1W6Cy3HgSka2sfqf44b4aV"
+                       length="664610"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 0.3.1 (1 bugfix)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/0.3.1.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Tue, 23 Nov 2010 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v0.3.1.zip"
+                       sparkle:version="0.3.1"
+                       sparkle:dsaSignature="MC4CFQDa3GEgVy9/aH+9ByG7yZ4KCU85WwIVAMcTE/yWag7glR5JqYDEcNCU3Zb3"
+                       length="661752"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 0.2.2 (2 bugfixes)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/0.2.2.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Tue, 23 Nov 2010 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v0.2.2.zip"
+                       sparkle:version="0.2.2"
+                       sparkle:dsaSignature="MC0CFQCOak1y0iAwWiVngi6PVdANpIPCqQIUOGN9Fd7DVq8RTt+qeCbuJjnx9D0="
+                       length="661305"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 0.2.1 (1 bugfix)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/0.2.1.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Sun, 21 Nov 2010 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v0.2.1.zip"
+                       sparkle:version="0.2.1"
+                       sparkle:dsaSignature="MC0CFDasgV4eiXcKor+Y17y773xM2hLfAhUAz59aimyem9LfhNZShIouEU4wFZI="
+                       length="639154"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 0.1.1 (First Alpha Release)</title>
+            <sparkle:releaseNotesLink>
+                http://chetansurpur.com/projects/sidestep/0.1.1.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Sat, 20 Nov 2010 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/chetan51/sidestep/Sidestep v0.1.1.zip"
+                       sparkle:version="0.1.1"
+                       sparkle:dsaSignature="MC0CFQCqoOAM6Pm14pIO76sjkk5SwIFBOgIUKB92Tzuy/lFJ5SkM1NWNS5U77t8="
+                       length="612319"
+                       type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>

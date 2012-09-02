@@ -1,3 +1,47 @@
 #disqus_thread {
 	padding-top: 50px;
 }
+
+.image-and-caption {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.image-and-caption img, 
+.image-and-cation div
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7px;
+}
+
+.stack {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.stack div {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.button {
+	display:inline-block;
+	width:193px;
+	height:43px;
+	background:url({{root_url}}/media/images/buttons/button.png) no-repeat;
+	font-size:15px;
+	text-align:center;
+	color:#000;
+	font-size:20px;
+	line-height:40px;
+	text-shadow:none;
+	padding:0 0 0 0;
+}
+
+.download-button {
+	background:url({{root_url}}/media/images/buttons/download-button.png) no-repeat;
+}
