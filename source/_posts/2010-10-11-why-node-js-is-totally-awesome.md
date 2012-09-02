@@ -5,7 +5,7 @@
 ---
 
 <div class="image-and-caption">
-    <img src="{{site.url}}/media/images/blog/2010/10/node-logo.png" title="From http://nodejs.org/" alt="Node.js logo">
+    <img src="{{root_url}}/media/images/blog/2010/10/node-logo.png" title="From http://nodejs.org/" alt="Node.js logo">
 </div>
 
 Three reasons: speed, easability, and reusability. And that's what will drive the next generation of web apps and services.
@@ -35,7 +35,7 @@ From the [creator's presentation](http://drop.io/dpqbat2/asset/talk-final-pdf),
 Seeing as nginx is the current heart-throb of the web developer's server platforms (if you haven't heard of it, just know that it blows Apache out of the water), Node claims high score by beating it.
 
 <div class="image-and-caption">
-    <img src="{{site.url}}/media/images/blog/2010/10/roadrunner.jpg" title="From http://victoriasealsbaseball.blogspot.com/2010/08/st-george-roadrunners-series-preview.html" alt="Roadrunner cartoon">
+    <img src="{{root_url}}/media/images/blog/2010/10/roadrunner.jpg" title="From http://victoriasealsbaseball.blogspot.com/2010/08/st-george-roadrunners-series-preview.html" alt="Roadrunner cartoon">
     <em>Beep, beep, motherfucker.</em>
 </div>
 
@@ -50,7 +50,7 @@ It also turns out that the current standard JavaScript interpreter V8 (by Google
 But the real awesome thing about JavaScript on the server is that you can use the same code that you use in the browser (for example, form validation) in your server too. And, with a standard language like JavaScript being used in every level on the web, more libraries and plugins are being made every day so you don't have to make your own session management system, or static file server, or user access system. You can get a solid web app ready to be deployed in half the time, and have more time for your kids, or friends, or WoW addiction, or whatever.
 
 <div class="image-and-caption">
-    <img src="{{site.url}}/media/images/blog/2010/10/WoW.jpg" title="From http://boards.babyzone.com/video-games-hot-for-me-t13365648.html" alt="Hot World of Warcraft girl">
+    <img src="{{root_url}}/media/images/blog/2010/10/WoW.jpg" title="From http://boards.babyzone.com/video-games-hot-for-me-t13365648.html" alt="Hot World of Warcraft girl">
     <em>She wants you to come back and play with her.</em>
 </div>
 
@@ -84,7 +84,7 @@ Since JavaScript is such a pervasive language, putting it on the server has only
 Want to create a clone of [FML](http://www.fmylife.com/), complete with user-authentication, comments, and the power to destroy any semblance of concentration among innocent college kids during midterm season? Just throw together a few Node.js modules from any of the [hundreds](http://github.com/ry/node/wiki/modules) on its Github wiki page, and you got yourself a nice time-killer.
 
 <div class="image-and-caption">
-    <img src="{{site.url}}/media/images/blog/2010/10/legos.jpg" title="From http://www.geekologie.com/2007/06/lego_sculptures.php" alt="Lego sculpture">
+    <img src="{{root_url}}/media/images/blog/2010/10/legos.jpg" title="From http://www.geekologie.com/2007/06/lego_sculptures.php" alt="Lego sculpture">
     <em>It's like Legos for web apps. What could be better?</em>
 </div>
 

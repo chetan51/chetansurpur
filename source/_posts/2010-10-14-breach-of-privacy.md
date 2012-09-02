@@ -26,7 +26,7 @@ Crazy, right? But even if you go out and burn all of your trash today, you can't
 The paranoid and security-aware among you already know this, but let me tell all of you others plainly and clearly - there is no such thing as perfect practical security. The services we take for granted and trust our secrets to are too complex to not have any holes, and brilliant hackers will always find ways to break the system.
 
 <div class="image-and-caption">
-    <img src="{{site.url}}/media/images/blog/2010/10/lisbeth-salander.jpg" title="From http://www.altfg.com/blog/movie/carey-mulligan-the-girl-with-the-dragon-tattoo/" alt="Lisbeth Salander">
+    <img src="{{root_url}}/media/images/blog/2010/10/lisbeth-salander.jpg" title="From http://www.altfg.com/blog/movie/carey-mulligan-the-girl-with-the-dragon-tattoo/" alt="Lisbeth Salander">
     <em>As long as people like this exist, your life is an open book.</em>
 </div>
 
@@ -56,7 +56,7 @@ You think it's just them? Ever thought about what chain grocery stores do with y
 The reason you don't care too much about trading your privacy for free Internet search or an awesome email service is because you don't care if some faceless Google employee knows tidbits about you. However, if a Safeway cashier came and told your parents exactly how much vodka you drink every day, you probably wouldn't be too happy.
 
 <div class="image-and-caption">
-    <img src="{{site.url}}/media/images/blog/2010/10/safeway-asshole.gif" title="From http://shop.safeway.com/corporate/safeway/feedback/default1_ef.asp" alt="Safeway asshole" width="147px" height="174px">
+    <img src="{{root_url}}/media/images/blog/2010/10/safeway-asshole.gif" title="From http://shop.safeway.com/corporate/safeway/feedback/default1_ef.asp" alt="Safeway asshole" width="147px" height="174px">
     <em>Just give me one more reason to punch your face in.</em>
 </div>
 
