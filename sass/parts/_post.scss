@@ -2,6 +2,10 @@
 	padding-top: 50px;
 }
 
+.full-pane {
+	text-align: center;
+}
+
 .image-and-caption {
     text-align: center;
     width: 100%;
@@ -25,27 +29,31 @@
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
+
+    em {
+    	font-size: 80%;
+    }
 }
 
 .stack div {
     display: block;
-    margin-bottom: 5px;
 }
 
 .button {
 	display:inline-block;
 	width:193px;
-	height:43px;
-	background:url({{root_url}}/media/images/buttons/button.png) no-repeat;
-	font-size:15px;
-	text-align:center;
-	color:#000;
-	font-size:20px;
+	height:40px;
 	line-height:40px;
-	text-shadow:none;
 	padding:0 0 0 0;
+	text-align:center;
+	border-radius: 3px;
+
+	background-color: #222;
+	color:#fff;
+
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .download-button {
-	background:url({{root_url}}/media/images/buttons/download-button.png) no-repeat;
 }
