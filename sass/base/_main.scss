@@ -144,6 +144,44 @@ hr {
   }
 }
 
+#quote {
+  .content {
+    padding-top: 20px;
+    font-family: 'Dancing Script', cursive;
+
+    .quote {
+      position: relative;
+      display: table;
+      margin: auto;
+      font-size: 16px;
+      color: #777;
+
+      .mark {
+        position: absolute;
+        top: 30px;
+        font-family: 'Headland One', serif;
+        font-size: 72px;
+        color: #E1E1E1;
+
+        &.left {
+          left: -60px;
+        }
+        &.right {
+          right: -60px;
+        }
+      }
+    }
+
+    .author {
+      display: block;
+      text-align: right;
+      font-size: 14px;
+      font-style: italic;
+      color: #888;
+    }
+  }
+}
+
 /*****************************************************************************/
 /*
 /* Small screens
@@ -198,6 +236,12 @@ hr {
           }
         }
       }
+    }
+  }
+
+  #quote {
+    .quote {
+      width: 200px;
     }
   }
 

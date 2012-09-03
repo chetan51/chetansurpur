@@ -24,6 +24,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Headland+One' rel='stylesheet' type='text/css'>
 	<link href="{{ root_url }}/stylesheets/symbols/ss-social.css" rel="stylesheet" />
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
 
 	<!-- Styling -->
 	<link href="{{ root_url }}/favicon.png" rel="shortcut icon">
@@ -47,5 +48,18 @@
 	</div>
 
 	{{ content | expand_urls: root_url }}
+
+	{% if page.quote_text %}
+	<div id="quote" class="light">
+		<div class="content">
+			<div class="quote">
+				<span class="mark left">&ldquo;</span>
+				<span class="text">{{ page.quote_text }}</span>
+				<span class="author">{{ page.quote_author }}</span>
+				<span class="mark right">&rdquo;</span>
+			</div>
+		</div>
+	</div>
+	{% endif %}
 </body>
 </html>
