@@ -89,11 +89,20 @@ hr {
       li {
         display: inline;
         font-family: 'QuicksandLight', Arial, sans-serif;
-        font-size: 24px;
+        font-size: 20px;
         text-transform: uppercase;
         letter-spacing: -1px;
-        margin-left: 3px;
+        margin-left: 10px;
         -webkit-font-smoothing: antialiased;
+
+        img {
+          height: 20px;
+        }
+
+        .text {
+          margin-left: 5px;
+          font-size: 22px;
+        }
 
         &.bold {
           font-family: 'QuicksandBook', Arial, sans-serif;
@@ -114,7 +123,23 @@ hr {
     }
 
     ul {
-      display: none;
+      display: inline;
+      margin-left: 5px;
+
+      li {
+        display: inline;
+        font-size: 16px;
+        line-height: 16px;
+        margin-left: 3px;
+
+        .text {
+          display: none;
+        }
+
+        img {
+          height: 16px;
+        }
+      }
     }
   }
 }
@@ -136,13 +161,22 @@ hr {
       h1 {
         font-size: 32px;
         line-height: 32px;
-        margin-bottom: 0;
+        margin-bottom: 5px;
       }
 
       ul li {
         display: inline;
         font-size: 14px;
         line-height: 14px;
+        margin-left: 3px;
+
+        img {
+          height: 14px;
+        }
+
+        .text {
+          display: none;
+        }
       }
     }
 
@@ -154,8 +188,14 @@ hr {
           font-size: 18px;
           line-height: 18px;
         }
-        ul {
-          display: none;
+
+        ul li {
+          font-size: 12px;
+          line-height: 12px;
+
+          img {
+            height: 12px;
+          }
         }
       }
     }

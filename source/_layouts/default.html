@@ -23,6 +23,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Headland+One' rel='stylesheet' type='text/css'>
+	<link href="{{ root_url }}/stylesheets/symbols/ss-social.css" rel="stylesheet" />
 
 	<!-- Styling -->
 	<link href="{{ root_url }}/favicon.png" rel="shortcut icon">
@@ -36,11 +37,11 @@
 		<div class="content">
 			<h1 href="/"><a href="{{ root_url }}">{% if page.index != true %}&larr; {% endif %}Chetan Surpur</a></h1>
 			<ul>
-				<li class="bold"><a href="">Twitter</a></li>
-				<li class=""><a href="">LinkedIn</a></li>
-				<li class="bold"><a href="">Email</a></li>
-				<li class=""><a href="">Resume</a></li>
-				<li class="bold"><a href="">Feed</a></li>
+				<li class=""><a href=""><span class="ss-twitter"></span><span class="text">Twitter</span></a></li>
+				<li class=""><a href=""><span class="ss-linkedin"></span><span class="text">LinkedIn</span></a></li>
+				<li class=""><a href=""><span class="ss-mail"></span><span class="text">Email</span></a></li>
+				<li class=""><a href=""><img src="{{ root_url }}/stylesheets/symbols/paper.png"><span class="text">Resume</span></a></li>
+				<li class=""><a href=""><span class="ss-rss"></span><span class="text">Feed</span></a></li>
 			<ul>
 		</div>
 	</div>
