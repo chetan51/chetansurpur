@@ -2,6 +2,8 @@
 layout: post
 title: Sidestep
 snippet: Automatically secure your Internet connection in unprotected wireless networks
+quote_text: "They are ill discoverers that think there is no land, when they can see nothing but sea."
+quote_author: "Francis Bacon"
 ---
 
 <div class="full-pane">

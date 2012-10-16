@@ -1,7 +1,9 @@
 ---
-    layout: post
-    title: Why Node.js Is Totally Awesome
-    snippet: Or rather, why it's the future of the Internet.
+layout: post
+title: Why Node.js Is Totally Awesome
+snippet: Or rather, why it's the future of the Internet.
+quote_text: "Life isn't about finding yourself. Life is about creating yourself."
+quote_author: "George Bernard Shaw"
 ---
 
 <div class="image-and-caption">

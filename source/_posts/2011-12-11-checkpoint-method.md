@@ -1,7 +1,9 @@
 ---
-    layout: post
-    title: "Life Hack: The Checkpoint Method Will Supercharge Your Day, Every Day"
-    snippet: Turning productivity into a game.
+layout: post
+title: "Life Hack: The Checkpoint Method Will Supercharge Your Day, Every Day"
+snippet: Turning productivity into a game.
+quote_text: "All this will not be finished in the first hundred days. Not will it be finished in the first thousand days, nor in the life of this Administration, nor perhaps in our lifetime on this planet. But let us begin."
+quote_author: "John F. Kennedy"
 ---
 
 I just had the most productive day I've had in years. I finished everything I wanted to get done today through 10 hours of solid efficiency, no sweat. And the best part – I have 4 whole hours to do whatever I want for the rest of the day, and I know I completely earned them.

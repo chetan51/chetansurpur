@@ -1,7 +1,9 @@
 ---
-    layout: post
-    title: A Curious Breach Of Privacy
-    snippet: I'm gonna steal your identity from your trash can.
+layout: post
+title: A Curious Breach Of Privacy
+snippet: I'm gonna steal your identity from your trash can.
+quote_text: "The greatest good you can do for another is not just to share your riches but to reveal to him his own."
+quote_author: "Benjamin Disraeli"
 ---
 
 I got this email from a friend today.

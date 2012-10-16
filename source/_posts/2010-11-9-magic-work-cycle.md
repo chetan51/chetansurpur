@@ -1,7 +1,9 @@
 ---
-    layout: post
-    title: "Life Hack: The 30/30 Minute Work Cycle Feels Like Magic"
-    snippet: Work hard, play hard.
+layout: post
+title: "Life Hack: The 30/30 Minute Work Cycle Feels Like Magic"
+snippet: Work hard, play hard.
+quote_text: "If you want to build a ship, don't drum up people together to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea."
+quote_author: "Antoine de Saint-Exupery"
 ---
 
 A year ago, I switched to the [Colemak keyboard layout](http://colemak.com/). I've since had zero pain in my hands when typing for many hours straight, I've been able to type faster, and I make fewer mistakes while typing.

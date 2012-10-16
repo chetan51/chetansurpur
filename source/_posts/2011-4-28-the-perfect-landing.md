@@ -1,7 +1,9 @@
 ---
-    layout: post
-    title: "The Perfect Landing: Crowdsourcing A Great Product Description"
-    snippet: Friends can actually be useful sometimes.
+layout: post
+title: "The Perfect Landing: Crowdsourcing A Great Product Description"
+snippet: Friends can actually be useful sometimes.
+quote_text: "All know that the drop merges into the ocean but few know that the ocean merges into the drop."
+quote_author: "Kabir, reformer, poet"
 ---
 
 So you've about finished your shiny new app, and you're ready to unveil it to a salivating world (or so you hope). Only one thing left to do: create that glimmering landing page that your potential users will see and instantly be enlightened about what your app does and why they should use it.

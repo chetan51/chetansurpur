@@ -1,7 +1,9 @@
 ---
-    layout: post
-    title: The 4+1 Tier Password System for Staying Safe and Sane
-    snippet: Alliterations abound.
+layout: post
+title: The 4+1 Tier Password System for Staying Safe and Sane
+snippet: Alliterations abound.
+quote_text: "The secret of being a bore is to tell everything."
+quote_author: "Voltaire"
 ---
 
 Let's just face it. We've all been guilty of reusing passwords. (If you don't, then I'm not talking to you. Asshole.) And for good reason — it's just too damn inconvenient to manage unique passwords across the hundreds of services we use. But we can at least be a bit intelligent about it, and achieve a certain level of security with a smart system without having to blow our brains out.
