@@ -7,7 +7,7 @@ html, body {
 body {
   color: #2A2A2A;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 26px;
 }
 
@@ -34,7 +34,7 @@ a:visited {
 }
 
 section {
-  font-family: 'Headland One', serif;
+  font-family: 'Lora', serif;
 }
 
 hr {
@@ -161,7 +161,7 @@ hr {
       .mark {
         position: absolute;
         top: 30px;
-        font-family: 'Headland One', serif;
+        font-family: 'Georgia', serif;
         font-size: 72px;
         color: #E1E1E1;
 
@@ -194,6 +194,10 @@ hr {
 
   body {
     font-size: 85%;
+  }
+
+  section {
+    font-size: 110%;
   }
 
   #me {
