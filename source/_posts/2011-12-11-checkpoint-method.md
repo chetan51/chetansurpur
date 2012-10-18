@@ -6,6 +6,8 @@ quote_text: "All this will not be finished in the first hundred days. Not will i
 quote_author: "John F. Kennedy"
 ---
 
+_Edit: This post is deprecated in favor of the simpler [Time Bending](http://chetansurpur.com/blog/2012/10/time-bending.html) method._
+
 I just had the most productive day I've had in years. I finished everything I wanted to get done today through 10 hours of solid efficiency, no sweat. And the best part – I have 4 whole hours to do whatever I want for the rest of the day, and I know I completely earned them.
 
 It's called the Checkpoint Method, and it will supercharge your day. It turns productivity into a game, and the prize is the best one of all – free time to do anything you want and feel great about it too.
