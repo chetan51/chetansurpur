@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Time Bending Lets You Get Everything Done And More
-snippet: And leaves you time to spare.
+snippet: It really is as cool as it sounds.
 quote_text: "All this will not be finished in the first 100 days. Nor will it be finished in the first 1,000 days, nor in the life of this Administration, nor even perhaps in our lifetime on this planet. But let us begin."
 quote_author: "John F. Kennedy"
 ---
