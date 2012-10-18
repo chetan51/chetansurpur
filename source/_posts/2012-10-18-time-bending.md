@@ -33,7 +33,7 @@ And when I say "do whatever you want with your reserve time", I mean it. It's yo
 
 Such an epic name for so straightforward a process, right? But I shit you not, the simple act of assigning durations to your tasks works wonders for your productivity, and you'll be shocked at how much more you can realistically get done every day.
 
-Here's why it works. A lot of the day is wasted on the little pockets of useless shit you do in between productive tasks. I'm talking to you, you Reddit-surfing, Draw Something-playing, obsessively-refreshing-Gmail harpy. On top of that, when you're not sure exactly what you need to be doing every hour, it's almost natural to just screw around instead of doing something useful.
+Here's why it works. A lot of the day is wasted on the little pockets of useless crap you do in between productive tasks. I'm talking to you, you Reddit-surfing, Draw Something-playing, obsessively-refreshing-Gmail harpy. On top of that, when you're not sure exactly what you need to be doing every hour, it's almost natural to just screw around instead of doing something useful.
 
 Time Bending fixes all that by making sure you've planned a very doable, clear set of things to do that you can choose from every hour, and gives you an incentive to get it all done in time: the reserve time counter. It becomes like a game: finish a task, choose what you feel like doing next, work diligently on it and finish it in time, and you're rewarded with golden free time that you get to spend how YOU want, not how the procrastinating asshole in you wants to spend it. And the thrill of actually finishing everything you'd planned to get done is totally unbeatable.
 
