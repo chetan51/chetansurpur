@@ -9,6 +9,7 @@ comments: true
 		<section>
 			{{ content }}
 		</section>
+		{% if page.draft != true %}
 		<div class="follow">
 			<span class="follow-me">
 			<a id="follow-button" target="_blank" class="btn" title="View your profile on Twitter" href="https://twitter.com/intent/follow?region=follow_link&amp;screen_name=chetan51&amp;source=followbutton&amp;variant=2.0">
@@ -16,9 +17,12 @@ comments: true
 			</a>
 			<span class="tease">(You know you want to.)</span>
 		</div>
+		{% endif %}
 	</div>
 </div>
 
+{% if page.draft != true %}
 <div id="comments" class="dark">
 	<div id="disqus_thread" class="content"></div>
 </div>
+{% endif %}
