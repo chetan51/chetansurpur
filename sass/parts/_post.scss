@@ -2,6 +2,14 @@
     .content {
         padding-top: 0;
     }
+
+    .subtitle {
+        margin-top: -25px;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: normal;
+        color: #444;
+    }
 }
 
 #disqus_thread {
@@ -72,4 +80,20 @@
         margin-left: 5px;
         font-size: 90%;
     }
+}
+
+/*****************************************************************************/
+/*
+/* Small screens
+/*
+/*****************************************************************************/
+
+@media all and (max-width: 800px) {
+
+  #post {
+    .subtitle {
+        margin-top: -18px;
+    }
+  }
+
 }
