@@ -28,4 +28,4 @@ Now hold on to your hats; we're about to make ourselves some _goddamn intelligen
 3. Machine Learning
 4. …
 
-Next up: [Overview]({{ site.root }}drafts/intuitive-ai-1-overview.html)
+_Next up: [Overview]({{ site.root }}drafts/intuitive-ai-1-overview.html)_
