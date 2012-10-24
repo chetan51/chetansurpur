@@ -27,20 +27,19 @@
 
   #posts {
     ul li {
-      margin-bottom: 8px;
+      margin-bottom: 15px;
 
       .title {
         margin-right: 5px;
         color: #000;
-        font-weight: bold;
         font-size: 110%;
-        line-height: 160%;
+        line-height: 100%;
 
         a {
           border-bottom: none;
 
           &:hover {
-            text-shadow: #AAA 0px 0px 3px;
+            text-shadow: #ccc 0px 0px 3px;
           }
         }
       }
@@ -49,8 +48,8 @@
         display: block;
         font-style: italic;
         font-size: 90%;
-        line-height: 150%;
-        color: #444;
+        line-height: 100%;
+        color: #999;
       }
     }
   }
@@ -89,7 +88,6 @@
 
         .title {
           padding-bottom: 4px;
-          font-weight: bold;
           font-size: 110%;
         }
 
