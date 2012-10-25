@@ -19,6 +19,14 @@
 
 #disqus_thread {
 	padding-top: 30px;
+
+    a {
+        color: #eee;
+
+        &:visited {
+            color: #ccc;
+        }
+    }
 }
 
 .full-pane {
