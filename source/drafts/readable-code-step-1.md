@@ -11,24 +11,25 @@ It fucking sucks.
 
 Here, let me give you a quick illustration.
 
-    function nPr(int fr)
-    {
-         bool f = false;
-         int n = fr;
+``` c
+function nPr(int fr) {
+    bool f = false;
+    int n = fr;
 
-         while (!f) {
-              n++;
-              f = true; // assume true until proven otherwise
+    while (!f) {
+         n++;
+         f = true; // assume true until proven otherwise
 
-              for (int i = 2; i < n; i++) {
-                   if (n % i == 0) {
-                        f = false;
-                   }
+         for (int i = 2; i < n; i++) {
+              if (n % i == 0) {
+                   f = false;
               }
          }
-
-         return n;
     }
+
+    return n;
+}
+```
 
 I'm sorry for raping your brain like that. I would suggest scrolling down a bit to hide that shit-stain from your bleeding eyes.
 
@@ -40,24 +41,26 @@ Why? It's simple – you can only juggle so many variable names in your head at 
 
 And finally, here's the same thing with names that weren't defecated from the gaping anus of Satan:
 
-    function nextPrime(var from)
-    {
-         bool found = false;
-         int next_prime = from;
+``` c
+function nextPrime(var from)
+{
+    bool found = false;
+    int next_prime = from;
 
-         while (!found) {
-              next_prime++;
-              found = true; // assume true until proven otherwise
+    while (!found) {
+         next_prime++;
+         found = true; // assume true until proven otherwise
 
-              for (int i = 2; i < next_prime; i++) {
-                   if (next_prime % i == 0) {
-                        found = false;
-                   }
+         for (int i = 2; i < next_prime; i++) {
+              if (next_prime % i == 0) {
+                   found = false;
               }
          }
-
-         return next_prime;
     }
+
+    return next_prime;
+}
+```
 
 Makes perfect sense now, doesn't it? It's fucking magic!
 
