@@ -26,12 +26,14 @@ The keys in Colemak are scientifically arranged with the following goals in mind
 
 And it succeeds in meeting those goals ([source](http://colemak.com)):
 
-* Your fingers on QWERTY move 2.2x more than on Colemak. QWERTY has 16x more same-hand row-jumping than Colemak. There are 35x more words you can type using only the home row on Colemak.
-* Allows easy transition from QWERTY. Only 2 keys move between hands. Many common shortcuts (including _Ctrl+Z/X/C/V/A/W/Q_) remain the same.
+* Your fingers on QWERTY move 2.2x more than on Colemak.
+* QWERTY has 16x more same-hand row-jumping than Colemak.
+* There are 35x more words you can type using only the home row on Colemak.
+* Colemak easy transition from QWERTY; only 2 keys move between hands. Many common shortcuts (including _Ctrl+Z/X/C/V/A/W/Q_) remain the same.
 * Most of the typing is done on the strongest and fastest fingers, with a low same-finger ratio.
 * Encourages a natural "drum" motion of typing from pinkies to index fingers.
-* Alternates between hands for speed.
-* Built-in to Mac OS X and most Linux distributions, and available as free software on Windows.
+* Typing in Colemak alternates between hands for speed.
+* It's built-in to Mac OS X and most Linux distributions, and available as free software on Windows.
 
 All this means you can frictionlessly switch to Colemak and type faster you ever could with QWERTY, and ward off [RSI](http://en.wikipedia.org/wiki/Repetitive_strain_injury) and [Carpal Tunnel](http://en.wikipedia.org/wiki/Carpal_tunnel_syndrome) as you do. It's really a no-brainer.
 
