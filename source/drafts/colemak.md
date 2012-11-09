@@ -51,7 +51,7 @@ And as for touch screens, since you use just your thumbs anyway, you'll be able 
 
 ## How to switch
 
-1. **Learn the layout.** Use a typing tutor program to [learn the layout](http://colemak.com/wiki/index.php?title=Learn), and do 1-2 hours of learning using the program every day. I used [KTouch for Mac](http://colemak.com/wiki/index.php?title=KTouch) and finished this step in a week. If possible, choose a time to do this in which you won't be typing a lot, so you don't confuse yourself too much.
+1. **Learn the layout.** Use a typing tutor program to [learn the layout](http://colemak.com/wiki/index.php?title=Learn), and do 1-2 hours of learning using the program every day. I used [KTouch for Mac](http://colemak.com/wiki/index.php?title=KTouch) and finished this step in a week. On Windows, my friend used [TypeFaster](http://colemak.com/wiki/index.php?title=TypeFaster). If possible, choose a time to do this in which you won't be typing a lot, so you don't confuse yourself too much.
 2. **Memorize the layout.** Practice the layout with your typing tutor program for a week. You should be able to get to a point where you can slowly type anything from memory, without having to look at the layout diagram.
 3. **Go cold turkey.** This is the hardest step, and it requires the most patience. Use only Colemak for all your typing, and don't look down. If necessary, you can print and keep a [layout diagram](http://colemak.com/wiki/images/e/ef/Colemak_fingers.png) on your desk, but don't swap the keys on your keyboard or repaint them (because in about a week, you shouldn't have to look at your hands at all). I typed less than 30 WPM for a month, and while initially frustrating, it gets fun when you start feeling yourself getting faster and faster.
 
