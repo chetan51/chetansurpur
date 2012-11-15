@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: draft
 title: "Intellectual Diamonds"
 snippet: "Carefully selected from the rough."
 quote_text: "Judge a person by their questions, rather than their answers."
