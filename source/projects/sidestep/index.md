@@ -112,3 +112,4 @@ Sidestep is open-source, so you can help make it better. Grab the source code fr
 A big thank you to you guys who have made and are working on making Sidestep better:
 
 *   [Steve Warren](https://github.com/usernumber9)
+*   [Matt Coneybeare](https://github.com/coneybeare)
