@@ -113,3 +113,6 @@ A big thank you to you guys who have made and are working on making Sidestep bet
 
 *   [Steve Warren](https://github.com/usernumber9)
 *   [Matt Coneybeare](https://github.com/coneybeare)
+*   [Diogo Gomes](http://about.me/dgomes)
+*   [Justin Ridgewell](https://github.com/jridgewell)
+*   [Stan Seibert](https://github.com/seibert)
