@@ -23,12 +23,13 @@ Of those, here are the highest-quality links spread out among categories; each o
 * [Harry Potter and the Methods of Rationality](http://hpmor.com/)
 * [An Intuitive Explanation of Bayes' Theorem](http://yudkowsky.net/rational/bayes)
 
-## Artificial Intelligence and Machine Learning
+## Artificial Intelligence
 
 * [UC Berkeley's CS188: Introduction to Artificial Intelligence](https://www.edx.org/courses/BerkeleyX/CS188.1x/2012_Fall/about)
 * [Udacity's CS373: AI – Programming A Robotic Car](http://www.udacity.com/overview/Course/cs373/CourseRev/apr2012)
 * [Genetic Algorithms in Javascript](http://burakkanber.com/blog/machine-learning-genetic-algorithms-part-1-javascript/)
 * ['A Perfect and Beautiful Machine': What Darwin's Theory of Evolution Reveals About Artificial Intelligence](http://www.theatlantic.com/technology/archive/2012/06/a-perfect-and-beautiful-machine-what-darwins-theory-of-evolution-reveals-about-artificial-intelligence/258829/)
+* [Norvig vs. Chomsky and the Fight for the Future of AI](http://www.tor.com/blogs/2011/06/norvig-vs-chomsky-and-the-fight-for-the-future-of-ai)
 
 ### Theoretical Computer Science
 
