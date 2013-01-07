@@ -30,6 +30,12 @@ Of those, here are the highest-quality links spread out among categories; each o
 * [Genetic Algorithms in Javascript](http://burakkanber.com/blog/machine-learning-genetic-algorithms-part-1-javascript/)
 * ['A Perfect and Beautiful Machine': What Darwin's Theory of Evolution Reveals About Artificial Intelligence](http://www.theatlantic.com/technology/archive/2012/06/a-perfect-and-beautiful-machine-what-darwins-theory-of-evolution-reveals-about-artificial-intelligence/258829/)
 
+### Theoretical Computer Science
+
+* [Scott Aaronson's blog – Shtetl-Optimized](http://www.scottaaronson.com/blog/)
+* [Great Ideas in Theoretical Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-080-great-ideas-in-theoretical-computer-science-spring-2008/index.htm)
+* [Quantum Computing Since Democritus](http://www.scottaaronson.com/democritus/default.html)
+
 ### Singularity
 
 * [The Future of Intelligence](http://users.digitalkingdom.org/~rlpowell/beliefs/sysop.html)
