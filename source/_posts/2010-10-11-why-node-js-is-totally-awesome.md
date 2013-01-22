@@ -24,13 +24,13 @@ Okay, let's talk speed. How fast is Node compared to the alternatives?
 
 From the [creator's presentation](http://drop.io/dpqbat2/asset/talk-final-pdf),
 
-> 100 concurrent clients  
+> 100 concurrent clients
 > 1 megabyte response
 >
-    node      822 req/sec  
-    nginx     708  
-    thin      85  
-    mongrel   4  
+    node      822 req/sec
+    nginx     708
+    thin      85
+    mongrel   4
 >
 > (more is better)
 
@@ -113,3 +113,5 @@ Welcome to the future of web development.
 _Edit 1: Updated post with more accurate information on speed of V8 compared to Python and PHP._
 
 _Edit 2: Thanks to all the excellent feedback that has brought to light my bad habit of making too-bold claims, I've corrected Node's claim to speed to something more verifiable. Sorry about that everyone!_
+
+_Edit 3: Jovana Milutinovich has graciously [translated this page to Croation](http://science.webhostinggeeks.com/node-js). Thanks Jovana!_
