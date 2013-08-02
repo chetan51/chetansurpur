@@ -7,4 +7,5 @@
 
 # Deploying
 
+    rake generate
     rake deploy
