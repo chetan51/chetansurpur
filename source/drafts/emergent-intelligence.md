@@ -3,7 +3,7 @@ layout: draft
 title: "Emergent Intelligence"
 ---
 
-I'm falling in love with the concept of [emergence](http://en.wikipedia.org/wiki/Emergence) – the idea that complex behavior can emerge from a set of very simple rules. And I'm starting to think that true Artificial Intelligence is not going to be a mathematically complex program expressly designed towards a pre-determined product, but rather an emergent behavior of a very simple ruleset.
+I'm falling in love with the concept of [emergence](http://en.wikipedia.org/wiki/Emergence) – the idea that complex behavior can emerge from a set of very simple rules. And I'm starting to think that true artificial intelligence is not going to be a mathematically complex program expressly designed towards a pre-determined product, but rather an emergent behavior of a very simple ruleset.
 
 ### Emergence in the universe
 
@@ -17,7 +17,7 @@ For example, here is one rule and how it affects the squares over time:
 
 The rules are so simple that they can be encoded in just 8 bits. That means that it's possible to visualize all the possible rules.
 
-When doing so, Wolfram very quickly found a rule (Rule 30) that resulted in really complex, unpredictable behavior:
+When doing so, Wolfram very quickly found a rule that resulted in really complex, unpredictable behavior:
 
 ![Rule 30](http://mathworld.wolfram.com/images/eps-gif/ElementaryCARule030_1000.gif)
 
@@ -25,7 +25,11 @@ To see how magical this is, take a look at 250 iterations with the same rule:
 
 ![250 iterations of Rule 30](http://mathworld.wolfram.com/images/gifs/Rule30Big.jpg)
 
-If I were to ask you what the value of the middle square would be after a million iterations, you wouldn't be able to tell me without actually running through all the iterations. Now, this unpredictability isn't due to randomness; in fact, it's fully deterministic. After all, you know the exact rule that transforms the squares for every step!
+If I were to ask you what the value of the middle square would be after a million iterations, you wouldn't be able to tell me without actually running through all those iterations. Now, this unpredictability isn't due to randomness; in fact, it's fully deterministic. After all, you know the exact rule that transforms the squares for every step!
+
+Marvel at some other beautiful results from rules just as simple as Rule 30:
+
+![Results from other rules](http://blog.stephenwolfram.com/data/uploads/2013/03/slide_004x.png)
 
 This is a great example of emergent behavior – computationally unpredictable results from a computationally simple rule. Wolfram goes so far as to say that maybe our entire universe is the product of a very simple rule, the discovery of which would be the final goal of physics.
 
