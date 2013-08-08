@@ -1,6 +1,9 @@
 ---
-layout: draft
+layout: post
 title: "Emergent Intelligence"
+snippet: "Power from simplicity."
+quote_text: "The first ultra-intelligent machine is the last invention that man need ever make."
+quote_author: "I.J. Good"
 ---
 
 I'm falling in love with the concept of [emergence](http://en.wikipedia.org/wiki/Emergence) – the idea that complex behavior can emerge from a set of very simple rules. And I'm starting to think that true artificial intelligence is not going to be a mathematically complex program expressly designed towards a pre-determined product, but rather an emergent behavior of a very simple ruleset.
