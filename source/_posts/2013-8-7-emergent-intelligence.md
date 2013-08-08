@@ -16,23 +16,23 @@ Wolfram starts with a line of squares, each one either black or white. Then, he 
 
 For example, here is one rule and how it affects the squares over time:
 
-![A simple rule](http://blog.stephenwolfram.com/data/uploads/2013/03/slide_001x.png)
+[![A simple rule](http://blog.stephenwolfram.com/data/uploads/2013/03/slide_001x.png)](http://blog.stephenwolfram.com/2013/03/talking-about-the-computational-future-at-sxsw-2013/)
 
 The rules are so simple that they can be encoded in just 8 bits. That means that it's possible to visualize all the possible rules.
 
 When doing so, Wolfram very quickly found a rule that resulted in really complex, unpredictable behavior:
 
-![Rule 30](http://mathworld.wolfram.com/images/eps-gif/ElementaryCARule030_1000.gif)
+[![Rule 30](http://mathworld.wolfram.com/images/eps-gif/ElementaryCARule030_1000.gif)](http://mathworld.wolfram.com/Rule30.html)
 
 To see how magical this is, take a look at 250 iterations with the same rule:
 
-![250 iterations of Rule 30](http://mathworld.wolfram.com/images/gifs/Rule30Big.jpg)
+[![250 iterations of Rule 30](http://mathworld.wolfram.com/images/gifs/Rule30Big.jpg)](http://mathworld.wolfram.com/Rule30.html)
 
 If I were to ask you what the value of the middle square would be after a million iterations, you wouldn't be able to tell me without actually running through all those iterations. Now, this unpredictability isn't due to randomness; in fact, it's fully deterministic. After all, you know the exact rule that transforms the squares for every step!
 
 Marvel at some other beautiful results from rules just as simple as Rule 30:
 
-![Results from other rules](http://blog.stephenwolfram.com/data/uploads/2013/03/slide_004x.png)
+[![Results from other rules](http://blog.stephenwolfram.com/data/uploads/2013/03/slide_004x.png)](http://blog.stephenwolfram.com/2013/03/talking-about-the-computational-future-at-sxsw-2013/)
 
 This is a great example of emergent behavior – computationally unpredictable results from a computationally simple rule. Wolfram goes so far as to say that maybe our entire universe is the product of a very simple rule, the discovery of which would be the final goal of physics.
 
