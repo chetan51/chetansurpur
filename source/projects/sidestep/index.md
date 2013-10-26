@@ -13,7 +13,7 @@ quote_author: "Francis Bacon"
     <div class="stack">
         <div class="stack">
             <div>
-                <a href="https://github.com/downloads/chetan51/sidestep/Sidestep.zip" class="button download-button">Download &darr;</a>
+                <a href="https://github.com/chetan51/sidestep/releases/download/1.4.1/Sidestep.zip" class="button download-button">Download &darr;</a>
             </div>
             <div>
                 <em>Mac OS X 10.5+ required</em>
@@ -104,7 +104,7 @@ Sidestep is open-source, so you can help make it better. Grab the source code fr
 ### FAQ ###
 
 *   How come I'm seeing "Proxy Server" errors in my web browser?
-    
+
     Try opening and then closing Sidestep. It might have changed your proxy settings and then been forcibly closed before it could reset the settings.
 
 ### Contributors ###
