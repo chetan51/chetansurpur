@@ -50,3 +50,5 @@ $$
 $$
 
 Starting to look familiar?
+
+_Question_: Is it possible to create an isomorphism of exponentiation using this same idea?
