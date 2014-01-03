@@ -59,6 +59,8 @@ $$
 
 Starting to look familiar?
 
+_Edit: I just read_ Chapter III: Figure and Ground _. Imagine my surprise when Hofstadter goes through the multiplication exercise as well, even using the exact same name for the system I used above. Guess this section is redundant to anyone who read the book!_
+
 #### Question A1. Is it possible to create an isomorphism of exponentiation using this same idea? ####
 
 Well, the axiom would be the same as the axiom in the _tq-system_ (multiplication) defined above. Only the rule would be different.
