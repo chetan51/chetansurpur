@@ -5,11 +5,13 @@ title: "Insights from Gödel, Escher, Bach: An Eternal Golden Braid (Part 1)"
 
 I'm currently reading the acclaimed [_GEB_](http://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach), and it's blowing my mind.
 
-As I read, I will accumulate any insights or questions I have in this blog series, with the hope that the insights will amuse you and that you can answer some of my questions.
+Like a glass of exquisite wine, this book deserves to be patiently and deliberately enjoyed. So as I read, I will accumulate my explorations and any insights and questions I have in this blog series.
 
-If you can answer a question, please write down your answer in the comments. I'll quote the convincing answers below the questions. Let's expand our minds together!
+If you can answer a question, please write down your answer in the comments. I'll quote the convincing answers below the questions.
 
-### 1. Can we create multiplication using a system like the pq-System? ###
+Let the intellectual journey begin!
+
+### Exploration 1. Can we create multiplication using a system like the pq-System? ###
 
 The _pq-system_ is introduced in Chapter II to show an isomorphism of the addition system represented typographically. [TODO: Reprint _pq-system_ here.]
 
