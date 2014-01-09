@@ -1,15 +1,15 @@
 ---
 layout: draft
-title: "Insights from Gödel, Escher, Bach: An Eternal Golden Braid"
+title: "Insights from Gödel, Escher, Bach: An Eternal Golden Braid (Part 1)"
 ---
 
 I'm currently reading the acclaimed [_GEB_](http://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach), and it's blowing my mind.
 
-As I read, I will write down any insights or questions I have here. At the end of my reading, I will publish this collection in the hopes that the insights will amuse you and that you can answer some of my questions.
+As I read, I will accumulate any insights or questions I have in this blog series, with the hope that the insights will amuse you and that you can answer some of my questions.
 
 If you can answer a question, please write down your answer in the comments. I'll quote the convincing answers below the questions. Let's expand our minds together!
 
-### A. Can we create multiplication using a system like the pq-System? ###
+### 1. Can we create multiplication using a system like the pq-System? ###
 
 The _pq-system_ is introduced in Chapter II to show an isomorphism of the addition system represented typographically. [TODO: Reprint _pq-system_ here.]
 
@@ -59,9 +59,9 @@ $$
 
 Starting to look familiar?
 
-_Edit: I just read_ Chapter III: Figure and Ground _. Imagine my surprise when Hofstadter goes through the multiplication exercise as well, even using the exact same name for the system I used above. Guess this section is redundant to anyone who read the book!_
+_Edit: I just read_ Chapter III: Figure and Ground _. Imagine my surprise when Hofstadter goes through the multiplication exercise as well, even using the exact same name for the system written above!_
 
-#### Question A1. Is it possible to create an isomorphism of exponentiation using this same idea? ####
+#### Question 1A. Is it possible to create an isomorphism of exponentiation using this same idea? ####
 
 Well, the axiom would be the same as the axiom in the _tq-system_ (multiplication) defined above. Only the rule would be different.
 
