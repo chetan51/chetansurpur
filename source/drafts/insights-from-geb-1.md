@@ -1,11 +1,11 @@
 ---
 layout: draft
-title: "Insights from Gödel, Escher, Bach: An Eternal Golden Braid (Part 1)"
+title: "Insights from Gödel, Escher, Bach (Part 1)"
 ---
 
-I'm currently reading the acclaimed [_GEB_](http://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach), and it's blowing my mind.
+I'm currently reading the acclaimed book [_Gödel, Escher, Bach: An Eternal Golden Braid_](http://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach), and it's blowing my mind.
 
-Like a glass of exquisite wine, this book deserves to be patiently and deliberately enjoyed. So as I read, I will accumulate my explorations and any insights and questions I have in this blog series.
+Like a glass of exquisite wine, this work of art deserves to be patiently and deliberately enjoyed. So as I read, I will accumulate my explorations and any insights and questions I have in this blog series.
 
 If you can answer a question, please write down your answer in the comments. I'll quote the convincing answers below the questions.
 
@@ -70,3 +70,11 @@ Well, the axiom would be the same as the axiom in the _tq-system_ (multiplicatio
 The difference in the rule between the _pq-system_ (addition) and the _mq-system_ (multiplication) was that instead of ...${\bf q}z-$ we had ...${\bf q}zx$. Basically, we upgraded the _symbol_ $-$ to the _variable_ $x$. This is like moving one level up the conceptual hierarchy.
 
 But to get from the multiplication system to the exponentiation system, what would we upgrade the _variable_ $x$ to? There's nothing conceptually higher available to use. So can it actually be done without adding more capabilities to the system definition?
+
+#### Answer 1A. ####
+
+Reading the end of _Chapter III_, section _Primes as Figure Rather than Ground_ gave me an idea.
+
+We might not be able to do it with just one system, but we can do it with two.
+
+Let's assume we have the multiplication system (as defined above) available to us. Then, we can use it as a base to define the exponentiation system. After all, what is exponentiation but repeated multiplication?
