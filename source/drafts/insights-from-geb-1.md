@@ -134,3 +134,9 @@ $$
 $$
 
 Lookin' good!
+
+#### Question 1B. Can we represent tetration (repeated exponentiation)? ...and beyond? [Open] ####
+
+Addition (also called hyper-1), multiplication (hyper-2), exponentiation (hyper-3), [tetration (hyper-4)](http://en.wikipedia.org/wiki/Tetration)...
+
+Each operation (hyper-$i$) is the previous operation repeated $y$ times. Using a typographical formal system like those above, can we assert theorems of the form $w{\bf i}x{\bf h}y{\bf q}z$ (where $w$ is the hyper number), and thus represent a meta-operation that refers to any hyper operation?
