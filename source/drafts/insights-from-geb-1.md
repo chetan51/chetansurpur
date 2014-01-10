@@ -23,7 +23,7 @@ _Definition_: $x{\bf t}-{\bf q}x$ is an axiom, whenever $x$ is composed of hyphe
 
 _Rule_: Suppose $x$, $y$, and $z$ all stand for particular strings containing only hyphens. And suppose that $x{\bf t}y{\bf q}z$ is a theorem. Then $x{\bf t}y-{\bf q}zx$ is a theorem.
 
-Example: If we follow the _bottom-up_ decision procedure on page 49, we can generate example theorems from the system to see if it does indeed represent multiplication.
+_Example_: If we follow the _bottom-up_ decision procedure on page 49, we can generate example theorems from the system to see if it does indeed represent multiplication.
 
 Here are a couple theorems generated using this procedure:
 
@@ -78,3 +78,59 @@ Reading the end of _Chapter III_, section _Primes as Figure Rather than Ground_ 
 We might not be able to do it with just one system, but we can do it with two.
 
 Let's assume we have the multiplication system (as defined above) available to us. Then, we can use it as a base to define the exponentiation system. After all, what is exponentiation but repeated multiplication?
+
+_Definition_: $x{\bf e}-{\bf q}x$ is an axiom.
+
+_Rule_: If $x{\bf e}y{\bf q}z$ is a theorem, and $z{\bf t}x{\bf q}w$ is a theorem, then $x{\bf e}y-{\bf q}w$ is a theorem.
+
+And let's not forget the power of zero! Labeling $0$ as a new symbol:
+
+_Definition_: $x{\bf e}0{\bf q}-$ is an axiom.
+
+_Example_: Following the _bottom-up_ decision procedure, we generate example theorems from the system:
+
+$$
+- {\bf e} 0 {\bf q} -
+$$
+$$
+- - {\bf e} 0 {\bf q} -
+$$
+$$
+- {\bf e} - {\bf q} -
+\Rightarrow
+- {\bf e} - - {\bf q} - -
+\Rightarrow
+- {\bf e} - - - {\bf q} - - -
+$$
+$$
+- - {\bf e} - {\bf q} - -
+\Rightarrow
+- - {\bf e} - - {\bf q} - - - -
+\Rightarrow
+- - {\bf e} - - - {\bf q} - - - - - -
+$$
+
+In the language of exponentiation, the theorems above would look like this:
+
+$$
+1 ^ 0 = 1
+$$
+$$
+2 ^ 0 = 1
+$$
+$$
+1 ^ 1 = 1
+\Rightarrow
+1 ^ 2 = 1
+\Rightarrow
+1 ^ 3 = 1
+$$
+$$
+2 ^ 1 = 2
+\Rightarrow
+2 ^ 2 = 4
+\Rightarrow
+2 ^ 3 = 8
+$$
+
+Lookin' good!
