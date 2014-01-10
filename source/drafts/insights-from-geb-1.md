@@ -13,7 +13,7 @@ Let the intellectual journey begin!
 
 ### Exploration 1. Can we create multiplication using a system like the pq-System? ###
 
-The _pq-system_ is introduced in Chapter II to show an isomorphism of the addition system represented typographically. [TODO: Reprint _pq-system_ here.]
+The _pq-system_ is introduced in Chapter II to show an isomorphism of the addition system represented typographically.
 
 Can we create a version that represents multiplication?
 
