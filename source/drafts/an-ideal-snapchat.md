@@ -3,7 +3,7 @@ layout: draft
 title: "An Ideal Snapchat"
 ---
 
-Snapchat was recently acquired for 3 billion dollars. It's a ridiculous sum of money for a ridiculous product, and most people seem to think so, even the people who use it the most.
+Snapchat was recently valued at 3 billion dollars. It's a ridiculous sum of money for a ridiculous product, and most people seem to think so, even the people who use it the most.
 
 I personally hate Snapchat, with the burning fury of a thousand suns. It's not just me; even my friends who are probably in the top 20% of most active Snapchat users, have major qualms with it. But instead of complaining about all that is wrong with Snapchat, I'll instead describe a few (relatively) simple changes that I think can turn Snapchat from the worst app to take the market by storm in recent years to the ideal photo / video messaging service.
 
