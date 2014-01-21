@@ -41,6 +41,11 @@ section {
   font-family: 'Lora', serif;
 }
 
+blockquote {
+  border-left: 5px solid #ddd; 
+  padding-left: 15px;
+}
+
 hr {
   border-style: dashed;
   border-color: #ccc;
