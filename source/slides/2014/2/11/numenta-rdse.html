@@ -164,17 +164,25 @@ class: center
 
 # Why RDSE?
 
+- Basic Scalar Encoder saturates representation of input at edges
+
+- Have to decide on min / max up front
+
+- Can't change the range of the encoder at run-time, or learning will be lost
+
 ---
 
 # Objectives of a Scalar Encoder
 
 - Represent each bucket with a number of bits
 
-- Adjacent buckets should share many bits, non-adjacent buckets shouldn't share any bits
+- Adjacent buckets should share many bits
+
+- Non-adjacent buckets shouldn't share any bits
 
 ---
 
-# Definitions
+# Parameters
 
 - 'n' is total number of available bits
 
@@ -208,6 +216,16 @@ class: center
 
 # Algorithm
 
+- Remember which bits were assigned to which bucket
+
+- When moving along the scalar number line, and a new bucket is needed:
+
+  - Look up which bits were assigned to the last bucket (let's call it P)
+
+  - Select all but one of the bits in P, and a randomly selected bit not in P, and make a new set of bits to represent the new bucket
+
+- Otherwise, when assigning a scalar to an existing bucket, just look up which bits were assigned to the target bucket
+
 ---
 
 class: center
@@ -215,6 +233,15 @@ class: center
 # RDSE Example
 
 ![Example](/images/slides/numenta-rdse/random-distributed-scalar-encoder.png)
+
+---
+
+class: center, middle, inverse
+
+# Thank you.
+Questions?
+
+.footnote[csurpur@numenta.com]
 
     </textarea>
     <script src="http://gnab.github.io/remark/downloads/remark-0.6.0.min.js" type="text/javascript">
