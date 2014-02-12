@@ -186,15 +186,17 @@ class: center
 
 # Algorithm
 
+- For the first bucket, select a number of bits randomly
+
 - Remember which bits were assigned to which bucket
 
 - When moving along the scalar number line, and a new bucket is needed:
 
-  - Look up which bits were assigned to the last bucket (let's call it P)
+  - Look up which bits were assigned to the previous bucket (let's call it P)
 
-  - Select all but one of the bits in P, and a randomly selected bit not in P, and make a new set of bits to represent the new bucket
+  - With all but one of the bits in P, and one randomly selected bit not in P, and make a new set of bits to represent the new bucket
 
-- Otherwise, when assigning a scalar to an existing bucket, just look up which bits were assigned to the target bucket
+- When assigning a scalar to an existing bucket, just look up which bits were assigned to the target bucket
 
 ---
 
@@ -218,11 +220,11 @@ class: center
 
 # Intuitions
 
-- Each bit contributes in representing multiple adjacent buckets
+- Each bit contributes to representing multiple adjacent buckets
 
-- As you create more and more buckets, the chances of selecting a bit for new buckets that already represents another bucket increases
+- As you create more and more buckets, the chances of selecting a bit for a new bucket that already represents an existing non-adjacent bucket increases
 
-- Eventually, when the number of possible buckets saturates, it'll be hard for the SP to tell which scalar range (bucket) a particular bit is representing
+- Eventually, when the number of generated buckets saturates, it'll be hard for the SP to tell which scalar range (bucket) a particular bit is representing
 
 - But this happens smoothly, and learning is never lost since representations never change, only become more blurry
 
