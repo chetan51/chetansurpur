@@ -144,13 +144,13 @@ layout: false
 
 4. Objectives
 
-5. Algorithm
+5. Algorithm w/ Example
 
-6. Example
+6. Parameters
 
-7. Parameters
+7. Intuitions
 
-8. Intuitions
+8. Results
 
 9. Q&A
 
@@ -237,6 +237,20 @@ class: center
 - The bigger the 'w', the more similarity will be attributed to adjacent buckets
 
 - The bigger the 'r', the more similarity will be attributed to adjacent scalars (more grouping)
+
+---
+
+# Results
+
+- RDSE out-performs Basic Scalar Encoder in our datasets (Reference: Subutai)
+
+- Easier to configure and use
+
+- No reason to use Basic Scalar Encoder instead of RDSE anymore (other than as a tool for explaination)
+
+- Caveat: RDSE is not an adaptive encoder that learns the statistics of the input and allocates buckets accordingly
+
+  - Those kinds of modifications are still open for experimentation
 
 ---
 
