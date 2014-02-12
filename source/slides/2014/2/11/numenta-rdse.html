@@ -142,15 +142,17 @@ layout: false
 
 3. Why Random Distributed Scalar Encoder?
 
-3. Objectives
+4. Objectives
 
-4. Definitions
+5. Algorithm
 
-5. Intuitions
+6. Example
 
-6. Algorithm
+7. Parameters
 
-7. Q&A
+8. Intuitions
+
+9. Q&A
 
 ---
 
@@ -179,6 +181,28 @@ class: center
 - Adjacent buckets should share many bits
 
 - Non-adjacent buckets shouldn't share any bits
+
+---
+
+# Algorithm
+
+- Remember which bits were assigned to which bucket
+
+- When moving along the scalar number line, and a new bucket is needed:
+
+  - Look up which bits were assigned to the last bucket (let's call it P)
+
+  - Select all but one of the bits in P, and a randomly selected bit not in P, and make a new set of bits to represent the new bucket
+
+- Otherwise, when assigning a scalar to an existing bucket, just look up which bits were assigned to the target bucket
+
+---
+
+class: center
+
+# RDSE Example
+
+![Example](/images/slides/numenta-rdse/random-distributed-scalar-encoder.png)
 
 ---
 
@@ -211,28 +235,6 @@ class: center
 - The bigger the 'w', the more similarity will be attributed to adjacent buckets
 
 - The bigger the 'r', the more similarity will be attributed to adjacent scalars (more grouping)
-
----
-
-# Algorithm
-
-- Remember which bits were assigned to which bucket
-
-- When moving along the scalar number line, and a new bucket is needed:
-
-  - Look up which bits were assigned to the last bucket (let's call it P)
-
-  - Select all but one of the bits in P, and a randomly selected bit not in P, and make a new set of bits to represent the new bucket
-
-- Otherwise, when assigning a scalar to an existing bucket, just look up which bits were assigned to the target bucket
-
----
-
-class: center
-
-# RDSE Example
-
-![Example](/images/slides/numenta-rdse/random-distributed-scalar-encoder.png)
 
 ---
 
