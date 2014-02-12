@@ -194,9 +194,11 @@ class: center
 
   - Look up which bits were assigned to the previous bucket (let's call it P)
 
-  - With all but one of the bits in P, and one randomly selected bit not in P, and make a new set of bits to represent the new bucket
+  - Make a new set of bits to represent the new bucket that has all but one of the bits in P and one randomly* selected bit not in P
 
 - When assigning a scalar to an existing bucket, just look up which bits were assigned to the target bucket
+
+.footnote[_* Some bits are excluded from the selection process as an optimization_]
 
 ---
 
@@ -236,13 +238,13 @@ class: center
 
 - The bigger the 'w', the more similarity will be attributed to adjacent buckets
 
-- The bigger the 'r', the more similarity will be attributed to adjacent scalars (more grouping)
+- The bigger the 'r', the more scalars will be grouped together into buckets
 
 ---
 
 # Results
 
-- RDSE out-performs Basic Scalar Encoder in our datasets (Reference: Subutai)
+- RDSE is better than Basic Scalar Encoder, at least for our datasets (Reference: Subutai)
 
 - Easier to configure and use
 
