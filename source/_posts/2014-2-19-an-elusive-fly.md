@@ -1,7 +1,7 @@
 ---
 layout: draft
 title: "An Elusive Fly"
-snippet: "The AI dream."
+snippet: "And the AI dream."
 quote_text: "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less."
 quote_author: "Marie Curie"
 ---
