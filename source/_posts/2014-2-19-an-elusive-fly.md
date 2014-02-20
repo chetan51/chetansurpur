@@ -1,6 +1,9 @@
 ---
 layout: draft
 title: "An Elusive Fly"
+snippet: "The AI dream."
+quote_text: "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less."
+quote_author: "Marie Curie"
 ---
 
 There's a fly in my room. It's distracting me from my work. I can't stop watching its trajectory, the way it moves smoothly in one direction, and then abruptly jerks to the side. It sometimes moves in circles, sometimes in straight lines, sometimes up and sometimes down. I try to understand its motion, understand why it's flying the way it is. It's not moving towards any food source, it doesn't seem to have any purpose. It's just tracing arbitrary spaghetti in a small cubic area in my room.
