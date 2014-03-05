@@ -2,8 +2,8 @@
 layout: post
 title: "To Those Who Want To Drop Out of School"
 snippet: "Don't."
-quote_text: ""
-quote_author: ""
+quote_text: "Education is not the filling of a pail, but the lighting of a fire."
+quote_author: "William Butler Yeats"
 ---
 
 I get it, I really do. I've complained about school just like you have. There's a lot to dislike about the current education system, and if you feel you have an idea and the drive to change the world all on your own, it's very tempting to just drop out and pursue your passion exclusively.
