@@ -106,7 +106,7 @@
         height: 92%;
         float: left;
       }
-        .left-column h2:last-of-type, .left-column h3:last-child {
+        .left-column h2:last-of-type, .left-column h3:last-child, .left-column h5:last-child {
           color: #000;
         }
       .right-column {
@@ -309,7 +309,7 @@ class: center, middle, inverse
 ]
 .right-column[
 
-  ![IO of SP](http://placehold.it/600x350)
+  ![IO of TP](http://placehold.it/600x350)
 
 ]
 
@@ -333,6 +333,230 @@ class: center, middle, inverse
     - A prediction (or depolarization) of cells
 
   - Looking at the set of columns that predicted cells are in gives you the next predicted SDR (and the cells in columns gives you context)
+
+]
+
+---
+
+class: center, middle, inverse
+
+# Spatial Pooler
+
+---
+
+.left-column[
+
+  ## Review input / output
+
+]
+.right-column[
+
+  ![IO of SP](http://placehold.it/600x350)
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Initialization
+  ### 1) Map potential
+
+]
+.right-column[
+
+  - Each column is mapped to a subset of the input bits
+
+  - Those input bits are the only ones the column can ever be connected to
+
+  - When these input bits are on, the column is more likely to be activated
+
+  - Relevant parameters: potentialRadius, potentialPct
+
+  - potentialPct helps adjacent columns learn to represent different inputs
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Initialization
+  ### 1) Map potential
+  ### 2) Initialize permanences
+
+]
+.right-column[
+
+  - Permanence represents the potential for a connection to be formed between column and input
+
+  - Relevant parameter: synPermConnected
+
+    - The minimum permanence at which we consider the column to be "connected" to the input
+
+  - Of the set of potential inputs for each column, initialize the permanence of connections between the column and each input
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Initialization
+  ### 1) Map potential
+  ### 2) Initialize permanences
+
+]
+.right-column[
+
+  - Several possible approaches
+
+    - Gaussian (good for topology)
+
+      - Each column has a natural center over the input bits 
+
+      - Inputs close to the center have high permanence
+
+      - Inputs far from the center have low permanence
+
+    - Random (currently implemented, deviates from whitepaper)
+
+      - Half (randomly selected) have permanence over connected threshold
+
+      - Half have random permanence between 0 and connected threshold
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Initialization
+  ### 1) Map potential
+  ### 2) Initialize permanences
+  ### 3) Update inhibition radius
+
+]
+.right-column[
+
+  - Columns within the "inhibition radius" inhibit each other in order to produce sparse output
+
+  - Inhibition radius grows as columns get "connected" to wider and wider range of inputs (and shrinks vice versa)
+
+  - It's estimated as a function of:
+
+    - The average range of inputs that each column is connected to
+
+    - The average number of columns each input is connected to
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Calculate overlap
+
+]
+.right-column[
+
+  - For each column, compute an "overlap score" that represents how many inputs that are active are "connected" to the column
+
+  - "Boost" overlaps as necessary (will go into more detail later)
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Calculate overlap
+  ##### 2) Inhibit columns
+
+]
+.right-column[
+
+  - For each column, look at the neighboring columns within inhibition radius
+
+  - Keep the top N columns with respect to overlap score
+
+  - N is chosen to achieve a desired level of sparsity (relevant parameters: localAreaDensity, numActiveColumnsPerInhArea)
+
+  - Results in a set of active columns, which is the output of the SP
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Calculate overlap
+  ##### 2) Inhibit columns
+  ##### 3) Perform learning: update connections
+
+]
+.right-column[
+
+  - Connections to active inputs are strengthened, and connections to inactive inputs are weakened
+
+  - Active inputs connected to more than one active column have all their connections weakened, to discourage multiple columns learning the same input pattern (?)
+
+  - Any column that becomes so weakly connected to its potential inputs that it can never become active in the future has all its connections strengthened (to keep it from dying)
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Calculate overlap
+  ##### 2) Inhibit columns
+  ##### 3) Perform learning: update connections
+  ##### 4) Bump up weak columns and update boost factors
+
+]
+.right-column[
+
+  - Strengthen connections of columns who don't have enough overlap with their inputs (relevant parameters: minOverlapDutyCycles, synPermBelowStimulusInc)
+
+  - Get ready to boost in the next cycle those columns that aren't active enough (relevant parameter: minActiveDutyCycles)
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Calculate overlap
+  ##### 2) Inhibit columns
+  ##### 3) Perform learning: update connections
+  ##### 4) Bump up weak columns and update boost factors
+  ##### 5) Update inhibition radius
+
+]
+.right-column[
+
+Same as during initialization.
+
+]
+
+---
+
+.left-column[
+
+  ## Learning disabled
+
+]
+.right-column[
+
+  - Learning can be disabled
+
+  - In this case, we stop after Compute step 2) Inhibit columns
 
 ]
 
