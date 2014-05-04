@@ -622,9 +622,9 @@ class: center, middle, inverse
 
   - The are fairly major differences between the current TP implementation and the whitepaper
 
-  - Put in to solve practical problems with small datasets while Grok was exploring different commercial opportunities
+  - Put in to speed up learning on small datasets while Grok was exploring different commercial opportunities
 
-  - Many of the high level concepts are the same but there are many (non biological) differences
+  - Many of the high level concepts are the same but there are many (non biological) additions
 
   - Currently in the process of re-implementing a pure whitepaper version of the TP
 
@@ -955,7 +955,7 @@ class: center, middle, inverse
 ]
 .right-column[
 
-  - Outdated, need to remove
+  - Old form of pooling, not using it in anything currently
 
   - Since we're not really doing pooling, all segments are sequence segments
 
@@ -1005,13 +1005,13 @@ class: center, middle, inverse
 
 - True temporal pooling
 
-  - Currently, the "temporal pooler" is really just a sequence learner
+  - The current "temporal pooler" is really just a sequence learner
 
   - We want to add (biologically realistic) functionality for pooling together known sequences into singular representations
 
   - Like representing a melody with the name of a song
 
-  - Necessary for hierarchies
+  - We're currently working on the theory
 
 ---
 
@@ -1020,10 +1020,6 @@ class: center, middle, inverse
 - Remove TP confidences calculation
 
   - https://github.com/numenta/nupic/issues/907
-
-- Remove outdated pooling from TP
-
-  - https://github.com/numenta/nupic/issues/908
 
 - Support topology in the TP
 
