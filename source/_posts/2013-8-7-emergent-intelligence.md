@@ -57,3 +57,6 @@ So Hawkins' company [Numenta](http://numenta.org/) is taking the approach of stu
 ### Towards the dream
 
 When I imagine an AI as powerful as the human mind, I see a system very similar to the brain, with just a bunch of connected neurons and simple rules describing how they interact. With that in mind, I believe that studying the brain and applying what we learn from it will lead us most quickly towards realizing the big AI dream. Instead of spending all our time on highly specialized algorithms to solve one-off problems, we should focus on creating more general systems that can learn in the amazing way our own brains do. And if we get lucky, we'll end up discovering the beautifully simple set of rules that lead to true emergent intelligence.
+
+_Edit: Vicky Rotarova has [translated this post to French](http://www.piecesdiscount24.fr/edu/?p=1359). Thanks Vicky!_
+
