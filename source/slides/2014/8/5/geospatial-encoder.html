@@ -216,6 +216,20 @@ Given an input (GPS reading: `latitude`, `longitude`, `speed`), produce an outpu
 
 ## Encode (continued)
 
+### Square size
+
+Note that every position that falls in a particular square will have an identical representation. Thus, the size of the squares indicates the maximum resolution of the encoder. 
+
+The size of the squares is a parameter to the encoder called `scale`.
+
+The smaller this parameter, the higher the maximum resolution of the encoder, and the longer it takes to generate an encoding (since it has to look at more squares per encoding).
+
+---
+
+## Encode (continued)
+
+### Properties
+
 Notice that this satisfies Property #1*. Positions close together will have overlapping boxes, so they'll likely share the highest-order squares.
 
 But what about Property #2⁺?
