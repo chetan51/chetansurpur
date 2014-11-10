@@ -1,6 +1,6 @@
 ---
 layout: draft
-title: "Relativity: A conversation"
+title: "Relativity: a conversation"
 ---
 
 _A and B are leaving the IMAX movie theater where they have just finished watching_ Interstellar _, looks of wonder and delight on their faces._
