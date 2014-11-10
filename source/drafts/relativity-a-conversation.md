@@ -3,7 +3,7 @@ layout: draft
 title: "Relativity: A conversation"
 ---
 
-_A and B are leaving the IMAX movie theater where they have just finished watching _ Interstellar _, looks of wonder and delight on their faces._
+_A and B are leaving the IMAX movie theater where they have just finished watching_ Interstellar _, looks of wonder and delight on their faces._
 
 A: Wow, that was really something, wasn't it?
 
