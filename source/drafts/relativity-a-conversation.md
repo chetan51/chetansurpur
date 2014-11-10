@@ -166,7 +166,7 @@ B: There's more? More craziness than this?
 
 A (_winking_): This was only the tip of the iceberg.
 
-## The Rate of Time
+## Dilation
 
 _It is getting late. A and B decide to begin the long drive home, and talk in the car. B is navigating, using the GPS on his phone._
 
