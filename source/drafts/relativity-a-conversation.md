@@ -3,7 +3,7 @@ layout: draft
 title: "Relativity: A conversation"
 ---
 
-_A and B are leaving the IMAX movie theater where they have just finished watching _Interstellar_, looks of wonder and delight on their faces._
+_A and B are leaving the IMAX movie theater where they have just finished watching _ Interstellar _, looks of wonder and delight on their faces._
 
 A: Wow, that was really something, wasn't it?
 
@@ -89,9 +89,6 @@ Imagine two people, Mr. Front and Ms. Back, are sitting across from a table in a
 
 The game is being played between Dr. In, who is sitting in the train with them, and Dr. Out, who is standing on the platform outside of the train. Both doctors are equidistant from the two witnesses.
 
-_A pulls out a notepad and draws the game setup._
-![](setup.jpg)
-
 The rules of the game are as follows:
 
 - At some point, the lamp will be turned on.
@@ -133,7 +130,7 @@ A: That's the craziest thing about all this. There's no absolute perspective. Ev
 
 B: How does that even make sense? This is hurting my head.
 
-A: Here's an analogy to make it more palatable. [TODO: Is this analogy accurate?]
+A: Here's an analogy to make it more palatable.
 
 Let's say you're standing up close to a tree, and you stretch your hands to measure how tall it is. I stand far away, and stretch my hands to measure it as well. Your hands will be stretched far wider than my hands, right? So we disagree on how tall the tree is (how much space it occupies) relative to us, since we are different relative distances away from it. Who's right about the size of the tree? Well, we both are, considering our own perspectives.
 
