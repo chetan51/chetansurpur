@@ -4,6 +4,7 @@ title: "Life Hack: The 30/30 Minute Work Cycle Feels Like Magic"
 snippet: Work hard, play hard.
 quote_text: "If you want to build a ship, don't drum up people together to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea."
 quote_author: "Antoine de Saint-Exupery"
+archived: true
 ---
 
 A year ago, I switched to the [Colemak keyboard layout](http://colemak.com/). I've since had zero pain in my hands when typing for many hours straight, I've been able to type faster, and I make fewer mistakes while typing.
@@ -12,14 +13,14 @@ A few months ago, I decided to try the [biphasic sleep cycle](http://www.stevepa
 
 A few weeks ago, after these successful life hacks, my friend told me about the eccentric work cycle that he follows.
 
-"You might think it's crazy and stupid, but it works for me," he said. "I sit at my desk and **work for 30 minutes without distraction**, completely absorbed in my work. Then, after the 30 minutes are up, I drop whatever I'm doing and go **do something fun for 30 minutes**. During this relaxation time, I don't think about work at all - I play games, write, whatever, but no work. After 30 minutes, I go back to my desk, rinse and repeat." 
+"You might think it's crazy and stupid, but it works for me," he said. "I sit at my desk and **work for 30 minutes without distraction**, completely absorbed in my work. Then, after the 30 minutes are up, I drop whatever I'm doing and go **do something fun for 30 minutes**. During this relaxation time, I don't think about work at all - I play games, write, whatever, but no work. After 30 minutes, I go back to my desk, rinse and repeat."
 
 Immediately, I thought,
 
-'That won't work for me.'  
-'Switching context that often would be too distracting.'  
-'When I'm in my groove, I can't drop it and come back to it easily.'  
-'It sounds like it would take twice as long to get anything done!'  
+'That won't work for me.'
+'Switching context that often would be too distracting.'
+'When I'm in my groove, I can't drop it and come back to it easily.'
+'It sounds like it would take twice as long to get anything done!'
 
 'Hmmm. Screw it. I'll give it a shot.'
 
@@ -36,7 +37,7 @@ It works.
 
 *   I would dread each essay assigned in my humanities class. I would have to spend 2 hours planning my essay, 3 hours staring at Microsoft Word and then another 4 hours painstakingly writing the essay for school (a total of 9+ precious hours down the drain). Most of these hours would be spent in frustration, hating life and the college humanities requirement, and refreshing Gmail and iGoogle every 5 minutes, putting off the time I would have to buckle down and write.
 
-    The other day, I spent a total of 3.5 hours (1 hour planning and 30 minutes on each paragraph) and finished my latest essay, no sweat.  
+    The other day, I spent a total of 3.5 hours (1 hour planning and 30 minutes on each paragraph) and finished my latest essay, no sweat.
 
     Oh, and while writing the essay, I also ended up finishing the Halo Reach campaign.
 
@@ -51,7 +52,7 @@ It works.
 So why does it work?
 
 *   **The work you do is more focused.**
-    
+
     Instead of constantly checking your email or RSS feed while you work, distracting yourself and having to switch context every few minutes, you get 30 minutes of solid, focused work. And it's not too hard to stay focused since the promise of a 30 minute break is just around the corner.
 
 *   **There is less time to work in each interval, so there is more incentive to focus and work hard in the little time you have.**
@@ -67,7 +68,7 @@ So why does it work?
     Anyone who has fixed a difficult bug (or even been stuck on a difficult level of a video game) can attest to this. Clearing your mind allows inspiration to sneak its way in when you come back to your desk. Taking a break regularly is a useful habit to adopt even outside of the 30/30 cycle.
 
 *   **It's fun!**
-    
+
     Work doesn't even feel like work anymore. It feels more like a game, with checkpoints every 30 minutes and a regular prize to look forward to.
 
 ### The proverbial catch ###

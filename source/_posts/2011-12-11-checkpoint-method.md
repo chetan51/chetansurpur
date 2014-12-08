@@ -4,6 +4,7 @@ title: "Life Hack: The Checkpoint Method Will Supercharge Your Day, Every Day"
 snippet: Turning productivity into a game.
 quote_text: "All this will not be finished in the first hundred days. Not will it be finished in the first thousand days, nor in the life of this Administration, nor perhaps in our lifetime on this planet. But let us begin."
 quote_author: "John F. Kennedy"
+archived: true
 ---
 
 _Edit: This post is deprecated in favor of the simpler [Time Bending](http://chetansurpur.com/blog/2012/10/time-bending.html) method._

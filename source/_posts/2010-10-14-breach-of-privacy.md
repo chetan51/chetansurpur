@@ -4,21 +4,22 @@ title: A Curious Breach Of Privacy
 snippet: I'm gonna steal your identity from your trash can.
 quote_text: "The greatest good you can do for another is not just to share your riches but to reveal to him his own."
 quote_author: "Benjamin Disraeli"
+archived: true
 ---
 
 I got this email from a friend today.
 
 > this is unbelievable. im taking this class about the legal implications of the drug trade, and what we did today was to bring in a bunch of trash bags and examine the contents, to see what people throw away or leave behind. at the end of the investigation heres what we know:
-> 
-> 1) the family is three people, a husband, a wife, and a son  
-> 2) we know the names  
-> 3) they have a cat  
-> 4) we know their bank account number, and username and password for multiple email addresses, and the wellsfargo account itself  
-> 5) we have their credit card number  
-> 6) we know they are heavy drinkers, and they prefer vodka   
-> 7) we have knowledge of specific days that they are planning to take a vacation  
-> 8) we have the names of extended family members, and the gifts they plan to buy for them  
->  
+>
+> 1) the family is three people, a husband, a wife, and a son
+> 2) we know the names
+> 3) they have a cat
+> 4) we know their bank account number, and username and password for multiple email addresses, and the wellsfargo account itself
+> 5) we have their credit card number
+> 6) we know they are heavy drinkers, and they prefer vodka
+> 7) we have knowledge of specific days that they are planning to take a vacation
+> 8) we have the names of extended family members, and the gifts they plan to buy for them
+>
 > im tripping out how much you can get from two bags of garbage for one family in newport
 
 Crazy, right? But even if you go out and burn all of your trash today, you can't stop the steady leak of information that is telling someone out there that you're thinking of buying a digital photo frame for your mother-in-law for Christmas. In fact, you're the biggest cause for this breach of privacy.

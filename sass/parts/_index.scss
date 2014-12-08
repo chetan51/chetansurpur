@@ -34,22 +34,26 @@
         color: #000;
         font-size: 110%;
         line-height: 100%;
-
-        a {
-          border-bottom: none;
-
-          &:hover {
-            text-shadow: #ccc 0px 0px 3px;
-          }
-        }
       }
 
-      .snippet { 
+      .snippet {
         display: block;
         font-style: italic;
         font-size: 90%;
         line-height: 100%;
         color: #999;
+      }
+    }
+
+    a {
+      border-bottom: none;
+
+      &:hover {
+        text-shadow: #ccc 0px 0px 3px;
+      }
+
+      &.archived {
+        color: #aaa;
       }
     }
   }
@@ -72,7 +76,7 @@
             text-shadow: #999 0px 0px 10px;
           }
         }
-        
+
         .thumbnail {
           /*box-shadow: #aaa 0px 2px 10px 1px;*/
           padding: 0;

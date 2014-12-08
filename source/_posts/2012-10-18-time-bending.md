@@ -4,6 +4,7 @@ title: Time Bending Lets You Get Everything Done And More
 snippet: It really is as cool as it sounds.
 quote_text: "All this will not be finished in the first 100 days. Nor will it be finished in the first 1,000 days, nor in the life of this Administration, nor even perhaps in our lifetime on this planet. But let us begin."
 quote_author: "John F. Kennedy"
+archived: true
 ---
 
 Listen, I really want you to try this. It's a simple technique that will get you to plan what you want to get done today, and actually get it all done, with time left to spare. For the last few months, it's totally changed my life day by day, and whether you're a lethargic loser who wastes most of the day or a productive workaholic who wants to get even more done in less time, it will change your life too.

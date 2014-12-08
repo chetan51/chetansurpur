@@ -4,6 +4,7 @@ title: The 4+1 Tier Password System for Staying Safe and Sane
 snippet: Alliterations abound.
 quote_text: "The secret of being a bore is to tell everything."
 quote_author: "Voltaire"
+archived: true
 ---
 
 Let's just face it. We've all been guilty of reusing passwords. (If you don't, then I'm not talking to you. Asshole.) And for good reason — it's just too damn inconvenient to manage unique passwords across the hundreds of services we use. But we can at least be a bit intelligent about it, and achieve a certain level of security with a smart system without having to blow our brains out.
@@ -15,28 +16,28 @@ Let's just face it. We've all been guilty of reusing passwords. (If you don't, t
 #### Tier 4 - The Bullshits ####
 These are things you don't care about losing, but you don't want them to become public property.
 
-* **Includes**: Bookmark web apps, library card accounts, StumbleUpon  
-* **Use**: A single 3-word memorable phrase  
+* **Includes**: Bookmark web apps, library card accounts, StumbleUpon
+* **Use**: A single 3-word memorable phrase
 * **Example**: _monkeys love diagrams_
 
 #### Tier 3 - The Importants ####
 Things you care about, for which you want privacy and protection.
 
-* **Includes**: Email, social networks, blogs  
-* **Use**: A single 4-word phrase with short, memorable words  
+* **Includes**: Email, social networks, blogs
+* **Use**: A single 4-word phrase with short, memorable words
 * **Example**: _bleach baby hair cyan_
 
 #### Tier 2 - The Mission-Criticals ####
 Services that other people rely on, and would be very, very bad if compromised.
 
-* **Includes**: Servers, hosting, shared data drives  
-* **Use**: A single 4-word phrase with obscure words  
+* **Includes**: Servers, hosting, shared data drives
+* **Use**: A single 4-word phrase with obscure words
 * **Example**: _liquidity likens graphical theorems_
 
 #### Tier 1 - The Benjamins ####
 Sensitive financial services.
 
-* **Includes**: Bank accounts, PayPal, tax assistants  
+* **Includes**: Bank accounts, PayPal, tax assistants
 * **Use**: For each service, a 3-word phrase with obscure words + "in" + the name of the service
 * **Example**: _wheatgrass makes octagrams in paypal_
 
@@ -47,14 +48,14 @@ The extra bit at the end of the passwords makes sure they are unique across thes
 #### Tier 0 - The One To Rule Them All ####
 Use to lock the password-storage services that manage passwords from Tiers 2 - 4. This one is optional and exists for the sake of convenience only.
 
-* **Use**: A 4-word phrase with short, obscure words  
+* **Use**: A 4-word phrase with short, obscure words
 * **Example**: _bruisers cremate coaster pylons_
 
 Restrict this one to just your head too.
 
 As you'll be typing out this one the most, make sure the words are easy and fast to type. You might also want to consider crafting it so that the letters are hard to make out as you type them on the keyboard (to keep away prying eyes from guessing the phrase).
 
-_For your information, all of the above example passwords are rated as "Strong...typically good enough to safely guard sensitive information like financial records" (by [rumkin.com's password strength analyzer](http://rumkin.com/tools/password/passchk.php)). Even the bullshit one._  
+_For your information, all of the above example passwords are rated as "Strong...typically good enough to safely guard sensitive information like financial records" (by [rumkin.com's password strength analyzer](http://rumkin.com/tools/password/passchk.php)). Even the bullshit one._
 _And I just love what the analyzer says about the Tier 1 password._
 
 ### A little caveat ###
