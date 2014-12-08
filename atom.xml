@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Chetan Surpur]]></title>
+  <link href="http://chetan51.github.com/chetansurpur/atom.xml" rel="self"/>
+  <link href="http://chetan51.github.com/chetansurpur/"/>
+  <updated>2014-12-07T22:11:49-08:00</updated>
+  <id>http://chetan51.github.com/chetansurpur/</id>
+  <author>
+    <name><![CDATA[Chetan Surpur]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[To Those Who Want To Drop Out of School]]></title>
+    <link href="http://chetan51.github.com/chetansurpur/blog/2014/03/dropout.html"/>
+    <updated>2014-03-04T00:00:00-08:00</updated>
+    <id>http://chetan51.github.com/chetansurpur/blog/2014/03/dropout</id>
+    <content type="html"><![CDATA[<p>I get it, I really do. I’ve complained about school just like you have. There’s a lot to dislike about the current education system, and if you feel you have an idea and the drive to change the world all on your own, it’s very tempting to just drop out and pursue your passion exclusively.</p>
+
+<p>But unless you either a) are an intellectual genius, or b) have an undeterrable love of learning and discipline of steel, or c) are born lucky enough to win the lottery, it’s probably not a good idea. You’ll just end up stunting your long-term growth.</p>
+
+<p>I’m not saying you won’t be successful. I’m sure you can name plenty of people who dropped out of college, or even high school, who are insanely successful. Who knows, you just might be one of them.</p>
+
+<p>The real reason is this. Unless you’re a rare exception, you probably don’t really know what you want to do for the rest of your life, and you’re about to put all of your eggs in one ultimately short-sighted basket. Flipping it around, staying in school will likely give you the most long-term flexibility to pursue what you really love, rather than what you think you love right now.</p>
+
+<p>You may give everything else up to become successful in what you want to do right now, but can you be sure that’s what you’ll continue wanting to do for the rest of your life?</p>
+
+<p>That’s the question I was faced with when I was in school. In case your situation is anything like mine was, let me tell you my story. Perhaps you can take advantage of the lesson I learned about keeping options open, without having to make the same mistakes I made.</p>
+
+<hr />
+
+<p>I started making apps in high school, and I got really good at it by the time I was in college. The feeling of creating something out of nothing, something actually useful and sometimes even delightful, was exhilarating to the point of addiction. As much as school pushed me away, writing software drew me in. I constantly found myself wondering how something like differential equations would ever help me in what I really liked to do (building apps of course!), and I grew resentful of my classes.</p>
+
+<p>Fortunately, my upbringing had fostered in me a need to do well in everything, and I still learned the material enough to got good grades. But outside of the bare minimum requirements, I didn’t take any advantage what school offered, since I was so interested in the app scene.</p>
+
+<p>I thought I would make apps for the rest of my life; after all, it felt so natural and fun.</p>
+
+<p>One thing to note. I’ve always held a latent interest in artificial intelligence (AI) and cognitive science, but I had long since given it up because it was so much easier to make quick, tangible progress in web and mobile development. Still, AI and psychology were my favorite classes in school, and they were the only ones I looked forward to. And yet I remember working on a little time-management app while sitting in my AI class, ignoring the interesting things the professor was saying, knowing I could just cram for it later. That’s how addictive the whole thing was.</p>
+
+<p>Then I graduated from college. Almost immediately after entering the industry, I found myself bored of app development. Everything started feeling like a repeat of something I had already done. It was like playing with Legos; putting pieces together to create something unique was fun, but only up until a point. My intellectual curiously started to crave something more challenging, something more fulfilling.</p>
+
+<p>Maybe it was finally being free of mandatory, curriculum-based learning, or maybe I just matured, but I began to thirst for knowledge. You know that feeling that you get when you truly, deeply understand something? It’s something you don’t get if you’re just trying to pass a test, or when you’re hacking components together to make something useful. That satisfying feeling of true learning, a feeling I had totally ignored throughout school, I wanted more and more.</p>
+
+<p>And that’s when I started to really fall in love with artificial intelligence, in a much more deep and permanent way than anything else I had enjoyed. Whereas earlier the daunting depth of the field had kept me at bay, now it was the same endless potential for learning that pulled me in. I wanted nothing more than to understand everything I could, and through the immense power of AI help change the world in a fundamental way.</p>
+
+<p>Today, I recognize it not just as my life’s work, but as my life’s calling.</p>
+
+<p>It’s too bad that I wasted the opportunities I had in school to learn deeply all that I could in a setting whose sole purpose is just that. It’s not entirely my fault; the school system sucked at engaging me and encouraging in me that desire to learn. But at the end of the day, I’m thankful that despite everything, I went through it. I gained important knowledge that I surely wouldn’t have on my own, regardless of how painful that process was. If not for school, I would be far behind in my ability to think, to be disciplined, and to work on as challenging of a problem as AI.</p>
+
+<p>I really enjoyed building apps, but there’s no way I would have known that my true calling would be something else entirely. Only by making myself invest in school and balance my attention did I ensure that I kept my options open, until I could grow enough to discover what I really wanted to do, and actually be able to start making progress on it.</p>
+
+<hr />
+
+<p>Don’t cut yourself short. You’re young, you have your whole life ahead of you, and there’s a lot to do and a whole lot to learn. Keep doing what you enjoy most right now, keep fueling that fire. But don’t let it completely consume the rest of your potential.</p>
+
+<p>You don’t yet know what else you have in yourself.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[An Elusive Fly]]></title>
+    <link href="http://chetan51.github.com/chetansurpur/blog/2014/02/an-elusive-fly.html"/>
+    <updated>2014-02-19T00:00:00-08:00</updated>
+    <id>http://chetan51.github.com/chetansurpur/blog/2014/02/an-elusive-fly</id>
+    <content type="html"><![CDATA[<p>There’s a fly in my room. It’s distracting me from my work. I can’t stop watching its trajectory, the way it moves smoothly in one direction, and then abruptly jerks to the side. It sometimes moves in circles, sometimes in straight lines, sometimes up and sometimes down. I try to understand its motion, understand why it’s flying the way it is. It’s not moving towards any food source, it doesn’t seem to have any purpose. It’s just tracing arbitrary spaghetti in a small cubic area in my room.</p>
+
+<p>It amazes me that its motion is both predictable and unpredictable. I know with high certainty that it’s going to stay in this small cubic area, at least for the next few seconds. At least that’s what it has been doing for the last five minutes. But I don’t know if in the next second it’s going to keep moving in the direction it’s moving right now, or turn suddenly to the side. I wouldn’t bet either way.</p>
+
+<p>At any given time, why does it choose to fly straight, or why does it choose to turn? From just looking at it with my eyes, it would be impossible for me to tell. It seems to have a mind of its own. But I know that if I was to look into its little brain, I would see a very predictable series of chemical reactions. Why does this fly move the way it does? Why instead does it not hover in place, or beeline in one direction until it hits an obstacle? Well, it’s been programmed this way. The physical events that direct its body and brain are entirely controlling its behavior.</p>
+
+<p>I’ve always imagined a device that could measure every single variable of a physical system, know every law of physics that dictates its development, and put two and two together to predict the future. If you knew every bit of information that affected the flip of a coin, from the initial velocity and torque of the finger flick, to the air pressure at every atomic position around it, to the exact distribution of weight around the coin, you would be able to tell accurately whether it would land heads or tails. You would be able to take a random event, and make it deterministic.</p>
+
+<p>Maybe such a device could never actually exist. There are some (quantum) theories that say the world is random all the way down to its basic building blocks. This seems to imply that you would never in fact be able to measure all the variables with 100% confidence.</p>
+
+<p>But even in the light of this potential unpredictability, the world is still quite predictable. If I place my hand on the table my computer is resting on, I can predict, with exceedingly high confidence, that my hand will not pass through it. Of course, there’s an infinitesimally small chance that the atoms in the table and the atoms in my hand will align just right to make this happen. But I’ve learned enough of the world to bet that this won’t happen, and this kind of knowledge is what allows me to navigate the world effectively.</p>
+
+<p>Even if the world is inherently unpredictable at its core, having the ability to know the most likely future is still enormously useful. After all, this is exactly why we have brains. Intelligence is the ability to build a model of the world, and confidently predict it. At every moment, our brains allow us to anticipate what’s coming next, so that we can affect it.</p>
+
+<p>Our brains are less-powerful versions of the device mentioned above. Since they cannot model every one of the infinite variables that direct physical activity, they concede to model the most obvious ones. For our purposes, that’s good enough. Knowing that touching a fire will burn us without having to actually do it every time keeps us alive. Of course, with our capacity for intelligence, we do so much more than just staying alive. But with all the wonderful things humans can do, we’re limited by our brains. I can’t model the motion of this fly beyond a certain point, in the same way that I can’t predict the weather as well as I would like.</p>
+
+<p>But what if we could build better brains? More powerful versions of these future-predicting devices? What if we could build something that could tell me, with very high confidence, exactly when this fly was going to turn in the next few seconds? Then we could turn this more powerful predictor against things like weather and stocks and the effects of public policy, things that even the smartest of us don’t have the capacity to really understand. Imagine how powerful such a thing would be. I would go so far as to say it that eventually, it could be the most powerful thing in the world.</p>
+
+<p>That’s why I’m so fascinated by Artificial Intelligence. The big dream of AI is to understand our own minds, and build even more capable ones.</p>
+
+<p>Today, this little fly eludes me. It reminds me how little we understand everything, with all our capacity for intelligence. But our greatest ability has always been to turn the light of our intelligence on itself. If we get this right, we can build things that allow us to finally exceed our biological grasp, and fully understand and change our world.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Intelligent Interfaces]]></title>
+    <link href="http://chetan51.github.com/chetansurpur/blog/2014/02/intelligent-interfaces.html"/>
+    <updated>2014-02-09T00:00:00-08:00</updated>
+    <id>http://chetan51.github.com/chetansurpur/blog/2014/02/intelligent-interfaces</id>
+    <content type="html"><![CDATA[<p>Today’s computer interfaces are really, really stupid.</p>
+
+<p>Think about it. Your computer and your phone together know more about you than anyone else does. They’ve been privy to most of your conversations. You’ve conveyed to them your deepest thoughts. They’ve seen pretty much every side of you.</p>
+
+<p>And yet, you have to tell them, one key or one mouse click at a time, in excruciating detail, exactly what you want them to do.</p>
+
+<p>User interfaces (UIs) are getting flatter and prettier by the day. But the true next evolution of UIs will involve interfaces that are intelligent, that know what is in your mind without you having to tell them.</p>
+
+<p>In fact, this transformation has already begun. Let me show you an example.</p>
+
+<hr />
+
+<p>I recently got an Android phone, and started using a <a href="http://www.youtube.com/watch?v=f9Ukb6Migl0">“swiping” keyboard</a> for all my touchscreen typing. Instead of carefully tapping individual keys with the tip of my thumbs, I can just swipe my finger over them, spelling out the word I want to type. It’s okay if I miss keys, or spell something wrong. It gets faster and easier the more I use it, learning new words and understanding which ones I use in different contexts.</p>
+
+<p>There are two aspects of this that make it a revolutionary interface.</p>
+
+<p>First, it allows me to indicate my general intention by waving my fingers vaguely over the screen, rather than having to spell it out in detail. This reduces the friction between having thoughts in my mind and seeing them appear as words on the screen. The interface is meeting me halfway, giving me a more direct link between my brain and my computer.</p>
+
+<p>Second, it’s learning about me, and using that knowledge to get better over time. It’s starting to feel like a friend who knows me so well that I don’t even have to say anything out loud. Sometimes I can type a word or two, and just use the suggested words to complete the rest of my sentence. Soon, I will be able to trust it enough to type my thoughts without looking at the screen at all.</p>
+
+<p>My keyboard is thinking for me, and in doing so, it’s getting out of my way.</p>
+
+<p>Of course, it’s still very limited. It doesn’t actually understand language, or what I’m trying to say in the way another human would. It doesn’t take into account context of who I’m talking to, what time it is, or what the other person has said. In the grand scheme of things, it’s actually pretty dumb too.</p>
+
+<p>But it’s moving in the right direction.</p>
+
+<hr />
+
+<p>And this is only the tip of the iceberg. Imagine a world in which your keyboard has a better grasp of language than the best writer, understands you better than your best friend, but is millions of times faster than a human, never bored, and always trying to be one step ahead of the game. What would typing look like then? Would we even be typing?</p>
+
+<p>Now extend this line of thinking to your entire operating system, and every interaction you have with it. Our computers will be literal extensions of our minds. <em>That</em> is the holy grail of user interfaces.</p>
+
+<p>The next evolution of UI includes AI. Every interface will become smarter and easier to use, until it eventually fades into the background, finally letting us focus our full attention on what really matters.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Quantity and Quality]]></title>
+    <link href="http://chetan51.github.com/chetansurpur/blog/2014/01/quantity-and-quality.html"/>
+    <updated>2014-01-21T00:00:00-08:00</updated>
+    <id>http://chetan51.github.com/chetansurpur/blog/2014/01/quantity-and-quality</id>
+    <content type="html"><![CDATA[<blockquote>
+  <p>The ceramics teacher announced on opening day that he was dividing the class into two groups.</p>
+
+  <p>All those on the left side of the studio, he said, would be graded solely on the quantity of work they produced, all those on the right solely on its quality.</p>
+
+  <p>His procedure was simple: on the final day of class he would bring in his bathroom scales and weigh the work of the “quantity” group: fifty pound of pots rated an “A”, forty pounds a “B”, and so on.</p>
+
+  <p>Those being graded on “quality”, however, needed to produce only one pot — albeit a perfect one — to get an “A”.</p>
+
+  <p>Well, came grading time and a curious fact emerged: the works of highest quality were all produced by the group being graded for quantity.</p>
+
+  <p>It seems that while the “quantity” group was busily churning out piles of work — and learning from their mistakes — the “quality” group had sat theorizing about perfection, and in the end had little more to show for their efforts than grandiose theories and a pile of dead clay.</p>
+</blockquote>
+
+<p><em>(From <a href="http://www.amazon.com/exec/obidos/ASIN/0961454733/saelonsstudio/102-5411399-5291312">Art &amp; Fear</a>)</em></p>
+
+<p>In aspiring to become a better writer, I’ll take a leaf from the book above. Consistency is the key to success, and instead of sitting here theorizing about perfection, I want to consistently improve my writing by actually writing.</p>
+
+<p>With that spirit, I hereby declare:</p>
+
+<p><strong>I will publish one blog post here every two weeks for the next year. For each two week stretch that I miss, I will post a separate statement of failure on this blog, immortalizing my shame for that period.</strong></p>
+
+<p>It doesn’t matter if the posts are good, bad, or ugly. I’m only being graded on quantity.</p>
+
+<p>By the end of the year, if all goes well, I should be 25 <em>published</em> posts better at writing than today.</p>
+
+<p>Let the flurry begin!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Emergent Intelligence]]></title>
+    <link href="http://chetan51.github.com/chetansurpur/blog/2013/08/emergent-intelligence.html"/>
+    <updated>2013-08-07T00:00:00-07:00</updated>
+    <id>http://chetan51.github.com/chetansurpur/blog/2013/08/emergent-intelligence</id>
+    <content type="html"><![CDATA[<p>I’m falling in love with the concept of <a href="http://en.wikipedia.org/wiki/Emergence">emergence</a> – the idea that complex behavior can emerge from a set of very simple rules. And I’m starting to think that true artificial intelligence is not going to be a mathematically complex program expressly designed towards a pre-determined product, but rather an emergent behavior of a very simple ruleset.</p>
+
+<h3 id="emergence-in-the-universe">Emergence in the universe</h3>
+
+<p>I recently watched <a href="http://blog.stephenwolfram.com/2013/03/talking-about-the-computational-future-at-sxsw-2013/">a talk by Stephen Wolfram</a> on his experiments with a simplified version of Conway’s Game of Life. It’s a game-changing talk; it literally gave me a new way to look at the world.</p>
+
+<p>Wolfram starts with a line of squares, each one either black or white. Then, he applies a rule for how the values of a square and its left and right neighbors specifies the next value of that square. In this way, the line of colored squares transforms into a new line of squares with different colored values based on the simple rule. If you know about <a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life">Conway’s Game of Life</a>, this should sound very familiar.</p>
+
+<p>For example, here is one rule and how it affects the squares over time:</p>
+
+<p><a href="http://blog.stephenwolfram.com/2013/03/talking-about-the-computational-future-at-sxsw-2013/"><img src="http://blog.stephenwolfram.com/data/uploads/2013/03/slide_001x.png" alt="A simple rule" /></a></p>
+
+<p>The rules are so simple that they can be encoded in just 8 bits. That means that it’s possible to visualize all the possible rules.</p>
+
+<p>When doing so, Wolfram very quickly found a rule that resulted in really complex, unpredictable behavior:</p>
+
+<p><a href="http://mathworld.wolfram.com/Rule30.html"><img src="http://mathworld.wolfram.com/images/eps-gif/ElementaryCARule030_1000.gif" alt="Rule 30" /></a></p>
+
+<p>To see how magical this is, take a look at 250 iterations with the same rule:</p>
+
+<p><a href="http://mathworld.wolfram.com/Rule30.html"><img src="http://mathworld.wolfram.com/images/gifs/Rule30Big.jpg" alt="250 iterations of Rule 30" /></a></p>
+
+<p>If I were to ask you what the value of the middle square would be after a million iterations, you wouldn’t be able to tell me without actually running through all those iterations. Now, this unpredictability isn’t due to randomness; in fact, it’s fully deterministic. After all, you know the exact rule that transforms the squares for every step!</p>
+
+<p>Marvel at some other beautiful results from rules just as simple as Rule 30:</p>
+
+<p><a href="http://blog.stephenwolfram.com/2013/03/talking-about-the-computational-future-at-sxsw-2013/"><img src="http://blog.stephenwolfram.com/data/uploads/2013/03/slide_004x.png" alt="Results from other rules" /></a></p>
+
+<p>This is a great example of emergent behavior – computationally unpredictable results from a computationally simple rule. Wolfram goes so far as to say that maybe our entire universe is the product of a very simple rule, the discovery of which would be the final goal of physics.</p>
+
+<h3 id="emergence-in-ai">Emergence in AI</h3>
+
+<p>In a similar vein, the big AI dream is to create a generic Artificial Intelligence that can learn any kind of pattern and make predictions, whether the problem is to recognize faces or understand language or tell you what movie you should watch. Up until recently, each of these problem domains had tens to thousands of specialized researchers creating an algorithm specifically designed to solve that problem and that problem only, using hand-coded features and heuristics applicable to that domain.</p>
+
+<p>But lately, there’s been growing interest and measured success in <a href="http://deeplearning.net/">deep learning</a>, the process of letting the AI learn from unlabeled training data and come up with those features and heuristics on its own, thus generalizing its capacity to learn in any problem domain. We’ve seen powerful techniques from the labs of researchers like <a href="http://www.youtube.com/watch?v=5elcmFNRCWk">Andrew Ng</a> such as <a href="http://nlp.stanford.edu/~socherr/sparseAutoencoder_2011new.pdf">sparse autoencoders</a> and <a href="http://en.wikipedia.org/wiki/Artificial_neural_network">hierarchical neural networks</a> perform well at this task, using mathematical processes like gradient descent to extract patterns from raw sensory input.</p>
+
+<p>I posit that if we continue along this trajectory of generalizing intelligence to learn for itself as much as possible, reducing the need for a specific algorithm directing its “thinking process”, we’ll end up with a system of connected neurons following a simple but powerful set of rules that ultimately lead to intelligence.</p>
+
+<p>If this is the case, our ultimate goal is to figure out what those simple rules are that result in intelligent behavior. But here we run into a brick wall – if our desired emergent behavior is to be so complex and chaotic that we can’t even begin to predict it, how can we possibly find the rules that lead to it?</p>
+
+<h3 id="brain-inspired-ai">Brain-inspired AI</h3>
+
+<p>This is where I admire <a href="http://www.youtube.com/watch?v=qZM9JREjnp4">Jeff Hawkins’ approach</a> to taking inspiration from the best proof-of-concept we have that is conveniently located right inside our own heads – the human brain.</p>
+
+<p>At its core, the brain is just a connected set of biological neurons that follow a simple set of rules. These rules specify how the neurons form and strengthen connections, and how they communicate electrical signals through the network. I can’t imagine that they have a pre-determined, complex algorithm (such a stochastic gradient descent) controlling their behavior. It’s much more likely that it’s just these simple rules they follow that lead to the same kind of behavior that the more complex algorithms we have are designed to do.</p>
+
+<p>So Hawkins’ company <a href="http://numenta.org/">Numenta</a> is taking the approach of studying how the brain works, trying to see if they can trace the intelligent behavior of the brain back to the simple mechanisms that they’re driven by. If we can map this out, we can implement them in software and hardware, and it’ll be a much more easy and scalable task than trying to hand-engineer more complex algorithms towards the same goal. I think it’s also the most practical approach to try to find the set of simple rules that result in complex intelligence.</p>
+
+<h3 id="towards-the-dream">Towards the dream</h3>
+
+<p>When I imagine an AI as powerful as the human mind, I see a system very similar to the brain, with just a bunch of connected neurons and simple rules describing how they interact. With that in mind, I believe that studying the brain and applying what we learn from it will lead us most quickly towards realizing the big AI dream. Instead of spending all our time on highly specialized algorithms to solve one-off problems, we should focus on creating more general systems that can learn in the amazing way our own brains do. And if we get lucky, we’ll end up discovering the beautifully simple set of rules that lead to true emergent intelligence.</p>
+
+<p><em>Edit: Vicky Rotarova has <a href="http://www.piecesdiscount24.fr/edu/?p=1359">translated this post to French</a>. Thanks Vicky!</em></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ditch QWERTY – Your Hands Need Colemak]]></title>
+    <link href="http://chetan51.github.com/chetansurpur/blog/2012/11/colemak.html"/>
+    <updated>2012-11-08T00:00:00-08:00</updated>
+    <id>http://chetan51.github.com/chetansurpur/blog/2012/11/colemak</id>
+    <content type="html"><![CDATA[<p>If I offered you the choice of typing at half of your current typing speed for <em>two months</em> in exchange for typing even faster and more comfortably than you do now <em>for the rest of your life</em>, would you take it?</p>
+
+<p>Let me ask you another question. Look down at your keyboard. Have you ever wondered why the keys are arranged in that way?</p>
+
+<p>The answer might surprise you. The <a href="http://en.wikipedia.org/wiki/QWERTY">QWERTY key arrangement</a> on almost every single keyboard in existence, including yours, was designed with the express purpose of preventing typewriters from jamming. That’s right, <em>typewriters</em>.</p>
+
+<p>Turns out, when you typed too fast on one of the original typewriters, adjacent typebars would sometimes clash and jam. So a clever man named Mr. Sholes arranged the keys in such a way to bypass the mechanical problems with typewriters, and we’ve been stuck with that obsolete design all the way through the digital age.</p>
+
+<h2 id="enter-colemak">Enter Colemak</h2>
+
+<p>That’s where <a href="http://colemak.com/">Colemak</a> comes in. It’s an alternate keyboard layout made for the modern age, engineered to provide maximally efficient typing. Here’s what it looks like:</p>
+
+<p><img src="http://colemak.com/wiki/images/8/80/Colemak_layout_2.png" /></p>
+
+<p>The keys in Colemak are scientifically arranged with the following goals in mind:</p>
+
+<ul>
+  <li>Fingers should travel the least distance possible</li>
+  <li>Most of the typing should be done on the strongest and fastest fingers</li>
+  <li>Typing should alternate between the hands for greater speed and comfort</li>
+  <li>Should be easy to learn and switch from QWERTY</li>
+</ul>
+
+<p>And it succeeds in meeting those goals (<a href="http://colemak.com">source</a>):</p>
+
+<ul>
+  <li>Your fingers on QWERTY move 2.2x more than on Colemak.</li>
+  <li>QWERTY has 16x more same-hand row-jumping than Colemak.</li>
+  <li>There are 35x more words you can type using only the home row on Colemak.</li>
+  <li>Colemak easy transition from QWERTY; only 2 keys move between hands. Many common shortcuts (including <em>Ctrl+Z/X/C/V/A/W/Q</em>) remain the same.</li>
+  <li>Most of the typing is done on the strongest and fastest fingers, with a low same-finger ratio.</li>
+  <li>Encourages a natural “drum” motion of typing from pinkies to index fingers.</li>
+  <li>Typing in Colemak alternates between hands for speed.</li>
+  <li>It’s built-in to Mac OS X and most Linux distributions, and available as free software on Windows.</li>
+</ul>
+
+<p>All this means you can frictionlessly switch to Colemak and type faster you ever could with QWERTY, and ward off <a href="http://en.wikipedia.org/wiki/Repetitive_strain_injury">RSI</a> and <a href="http://en.wikipedia.org/wiki/Carpal_tunnel_syndrome">Carpal Tunnel</a> as you do. It’s really a no-brainer.</p>
+
+<h2 id="through-the-eyes-of-another">Through the eyes of another</h2>
+
+<p>I switched to Colemak over 3 years ago. I type <em>a lot</em>, and before Colemak I was using QWERTY but wasn’t <a href="http://en.wikipedia.org/wiki/Touch_typing">touch typing</a>. So starting to touch type was already an improvement, but Colemak really topped the cake.  I also use a split keyboard, the <a href="http://www.amazon.com/Microsoft-Natural-Ergonomic-Keyboard-4000/dp/B000A6PPOK/ref=pd_cp_e_0">Microsoft Natural Keyboard 4000</a> (my favorite keyboard by far).</p>
+
+<p>Now, I can type for hours continuously with zero pain in my hands (something that just couldn’t happen before), and I type faster than my top speed with QWERTY.</p>
+
+<p>It took me two weeks to learn and memorize the new layout, and then two months to get up to my old typing speed (75 WPM). From then on, it was smooth sailing all the way to 90 WPM, which I achieved about 4 months after I started. That’s 15 words more per minute that I can now type, every minute for the rest of my life. And I type with less effort and pain than before, all for just two months of a learning curve.</p>
+
+<p>One neat thing is, even after 3 years, I can still type in QWERTY (albeit not very fast) when I absolutely have to. My friend who used to touch type QWERTY can also use it if necessary, so it’s not like we’re totally lost to the mainstream world. On the other hand, we find ourselves rarely if ever using QWERTY, because Colemak is already available on every keyboard we actually use, so there’s really no problem there.</p>
+
+<p>And as for touch screens, since you use just your thumbs anyway, you’ll be able to type in touch screen QWERTY exactly as fast as you did before learning Colemak. (For the record, I type at 74 WPM on my iPhone screen, so it’s totally unaffected by the fact that I only use Colemak on my computer.)</p>
+
+<h2 id="how-to-switch">How to switch</h2>
+
+<ol>
+  <li><strong>Learn the layout.</strong> Use a typing tutor program to <a href="http://colemak.com/wiki/index.php?title=Learn">learn the layout</a>, and do 1-2 hours of learning using the program every day. I used <a href="http://colemak.com/wiki/index.php?title=KTouch">KTouch for Mac</a> and finished this step in a week. On Windows, my friend used <a href="http://colemak.com/wiki/index.php?title=TypeFaster">TypeFaster</a>. If possible, choose a time to do this in which you won’t be typing a lot, so you don’t confuse yourself too much.</li>
+  <li><strong>Memorize the layout.</strong> Practice the layout with your typing tutor program for a week. You should be able to get to a point where you can slowly type anything from memory, without having to look at the layout diagram.</li>
+  <li><strong>Go cold turkey.</strong> This is the hardest step, and it requires the most patience. Use only Colemak for all your typing, and don’t look down. If necessary, you can print and keep a <a href="http://colemak.com/wiki/images/e/ef/Colemak_fingers.png">layout diagram</a> on your desk, but don’t swap the keys on your keyboard or repaint them (because in about a week, you shouldn’t have to look at your hands at all). I typed less than 30 WPM for a month, and while initially frustrating, it gets fun when you start feeling yourself getting faster and faster.</li>
+</ol>
+
+<p>Ideally, choose a time of your life in which you won’t have to type a whole lot, so you can ease into it. In the worst case, type in Colemak for half the day, and QWERTY half the day (that’s what my friend did).</p>
+
+<p>You also want to set up a keyboard shortcut (mine is <em>Ctrl+Shift+Z</em>) that will swap between Colemak and QWERTY for easy switching when you need to hand your keyboard to someone else. (Or do what I do and just give it to them on Colemak, and happily watch their confusion as they type nonsense on to the screen.)</p>
+
+<h2 id="other-layouts">Other layouts</h2>
+
+<p>You might have heard of other alternative keyboard layouts, like <a href="http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">Dvorak</a> (which is actually the 2nd most popular layout after QWERTY, and sounds like it could be a character in Game of Thrones). So why Colemak, and not Dvorak?</p>
+
+<p>First off, Colemak is just as well-designed as Dvorak. In fact, according to <a href="http://mkweb.bcgsc.ca/carpalx/?colemak">carpalx</a>, which is the most extensive research on keyboard layouts done so far, Colemak wins over Dvorak and QWERTY in all different typing effort models. Dvorak just happened to be made and got popular first.</p>
+
+<p>But really, they’re almost identical in terms of efficiency, so it’s the other stuff that really counts:</p>
+
+<ul>
+  <li>Colemak keeps the punctuation keys in the same place, and common shortcuts don’t change either, so it better utilizes your current brain wiring. In Dvorak, almost every key is changed, including punctuation.</li>
+  <li>Colemak is easier to learn, since it’s designed to be as similar to QWERTY as possible without compromising on efficiency.</li>
+  <li>Colemak was mathematically designed by computers.</li>
+  <li>The right hand does too much work in Dvorak, and weak fingers are used too much.</li>
+</ul>
+
+<p>As more personal evidence, I actually switched to Dvorak first, and used it for 2 months before I heard of Colemak. I found the placement of the punctuation keys and keyboard shortcuts too painful to get used to with Dvorak, so I was willing to spend the extra effort to switch to Colemak instead. Now I can happily cut and paste with one hand, just as before.</p>
+
+<h2 id="now-go-make-your-hands-happy">Now go make your hands happy</h2>
+
+<p>Switch to Colemak, encourage your friends, and spit in the face of QWERTY, the most successful hindrance to efficiency since the age of typewriters. Your hands will thank you forever.</p>
+
+<p><em>Edit: Natalie Harmann has <a href="http://www.besteonderdelen.nl/blog/?p=760">translated this page to French</a>. Thanks Natalie!</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Time Bending Lets You Get Everything Done And More]]></title>
+    <link href="http://chetan51.github.com/chetansurpur/blog/2012/10/time-bending.html"/>
+    <updated>2012-10-18T00:00:00-07:00</updated>
+    <id>http://chetan51.github.com/chetansurpur/blog/2012/10/time-bending</id>
+    <content type="html"><![CDATA[<p>Listen, I really want you to try this. It’s a simple technique that will get you to plan what you want to get done today, and actually get it all done, with time left to spare. For the last few months, it’s totally changed my life day by day, and whether you’re a lethargic loser who wastes most of the day or a productive workaholic who wants to get even more done in less time, it will change your life too.</p>
+
+<p>I call it Time Bending.</p>
+
+<h3 id="the-process">The process</h3>
+
+<p>Just three steps:</p>
+
+<ol>
+  <li>Decide when your day starts and ends. This lets you know how many total hours you have to work with.</li>
+  <li>Plan tasks with specified durations, each up to an hour long, to fill up most of the time in your day. Leave a bit of reserve time at the end.</li>
+  <li>Start working through your tasks. Try to work quickly enough to finish tasks in the time allotted for each, so you maintain your reserve time until the end of the day, at which point you can do whatever you want with it!</li>
+</ol>
+
+<p>Those tasks you plan can be anything, from work to play to eating lunch. But the important thing is that they are well-defined, doable things that have a definite end. So instead of “Reading for 1 hour”, make it “Read chapters 1-3 in 1 hour”. A good rule of thumb to follow: every task should lead to some kind of measurable, tangible achievement.</p>
+
+<p>Here’s an example day:</p>
+
+<div class="image-and-caption">
+    <img src="http://chetan51.github.com/chetansurpur/images/blog/2012/10/timebend.jpg" alt="TimeBend screenshot" />
+    <em>If you&#8217;re wondering what app that is, read on to find out.</em>
+</div>
+
+<p>And when I say “do whatever you want with your reserve time”, I mean it. It’s your free time to spend however you like, and you earned it by sticking to your plan. That means if you leave aside 2 hours reserve, you can get everything you want done <em>and</em> watch a full movie, while feeling great about it.</p>
+
+<h3 id="it-freakin-works-lets-see-why">It freakin’ works. Let’s see why.</h3>
+
+<p>Such an epic name for so straightforward a process, right? But I shit you not, the simple act of assigning durations to your tasks works wonders for your productivity, and you’ll be shocked at how much more you can realistically get done every day.</p>
+
+<p>Here’s why it works. A lot of the day is wasted on the little pockets of useless crap you do in between productive tasks. I’m talking to you, you Reddit-surfing, Draw Something-playing, obsessively-refreshing-Gmail harpy. On top of that, when you’re not sure exactly what you need to be doing every hour, it’s almost natural to just screw around instead of doing something useful.</p>
+
+<p>Time Bending fixes all that by making sure you’ve planned a very doable, clear set of things to do that you can choose from every hour, and gives you an incentive to get it all done in time: the reserve time counter. It becomes like a game: finish a task, choose what you feel like doing next, work diligently on it and finish it in time, and you’re rewarded with golden free time that you get to spend how YOU want, not how the procrastinating asshole in you wants to spend it. And the thrill of actually finishing everything you’d planned to get done is totally unbeatable.</p>
+
+<h3 id="go-try-it-seriously">Go try it. Seriously.</h3>
+
+<p>I really want everyone to taste the benefits I’ve been enjoying every day for the last few months, so I’ll make it even easier for you. Here’s a beautiful app called <a href="https://itunes.apple.com/us/app/timebend/id525224894?mt=8">TimeBend</a> (the app in the screenshot above) that’ll get you bending time in no time. (Non-iPhone users: click <a href="http://timebend.me">here</a>.) Just try it for one whole day, and you’ll never go back.</p>
+
+<div class="image-and-caption">
+	TimeBend (for iOS)
+	<a href="https://itunes.apple.com/us/app/timebend/id525224894?mt=8&amp;uo=4" target="itunes_store" style="border: 0;"><img src="http://r.mzstatic.com/images/web/linkmaker/badge_appstore-lrg.gif" alt="TimeBend - Chetan Surpur" style="border: 0;" /></a>
+</div>
+
+<p>(BTW, the design for the app is inspired by <a href="http://www.realmacsoftware.com/clear/">Clear for iPhone</a>, which is damn awesome. Go get that too!)</p>
+
+<p>So, remember — Time Bending lets you make the most of your day by getting you to plan tasks with durations so you always know exactly what you should be doing and how long it’ll take, and shows you the hidden pockets of wasted time throughout the day to help you eliminate them.</p>
+
+<p>Now, go own every hour. Good luck.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Life Hack: The Checkpoint Method Will Supercharge Your Day, Every Day]]></title>
+    <link href="http://chetan51.github.com/chetansurpur/blog/2011/12/checkpoint-method.html"/>
+    <updated>2011-12-11T00:00:00-08:00</updated>
+    <id>http://chetan51.github.com/chetansurpur/blog/2011/12/checkpoint-method</id>
+    <content type="html"><![CDATA[<p><em>Edit: This post is deprecated in favor of the simpler <a href="http://chetansurpur.com/blog/2012/10/time-bending.html">Time Bending</a> method.</em></p>
+
+<p>I just had the most productive day I’ve had in years. I finished everything I wanted to get done today through 10 hours of solid efficiency, no sweat. And the best part – I have 4 whole hours to do whatever I want for the rest of the day, and I know I completely earned them.</p>
+
+<p>It’s called the Checkpoint Method, and it will supercharge your day. It turns productivity into a game, and the prize is the best one of all – free time to do anything you want and feel great about it too.</p>
+
+<p>A few months ago, I wrote about the <a href="http://chetansurpur.com/blog/2010/11/magic-work-cycle.html">30/30 Magic Work Cycle</a> that I follow, which made its rounds on the Internet and helped lots of people make smooth progress on all kinds of shit that takes an impossible amount of willpower to get started on. But that’s for when you know what you need to do, and you just gotta blaze through it. What about actually planning what you need to do, and sticking to your plan? That’s where the Checkpoint Method will change your life.</p>
+
+<h3 id="the-recipe">The recipe</h3>
+
+<ol>
+  <li>Choose when you want your day to start, and how long your waking day will last.</li>
+  <li>Choose how many hours of productivity and how many hours of free time you want in your day. This will depend on how much work you actually need to get done. Note that an hour of productivity can include everyday chores, like showering or lunch, and free time is really free time. For example, it’s finals week, so I chose 12 hours of productivity and 4 hours of free time.</li>
+  <li>Write down a list of tasks you want to complete today. Each task should be concrete and explicit, and should take just less than an hour to complete. For example, instead of saying “Study for exam”, say “Do problems 1-3 of first practice exam”. You can add as many tasks as will fill up your chosen hours of productivity.</li>
+  <li>Start your day. At the beginning of each hour, choose any one task from your list and complete it within the hour.</li>
+  <li>As time passes, your reserve (free) time is being drained. Whenever you check off an hour-long task, you replenish an hour of reserve time.</li>
+  <li>At the end of each hour is a checkpoint. If you finished one hour’s worth of productivity within the checkpoint, you’re on track. Otherwise, you used up some of your reserve time.</li>
+  <li>If you are able to check off more than one task in an hour, you gain more reserve time for each additional task. This way, you can regain lost reserve time by working faster, or even earn extra reserve time if you move quickly enough through your list. Remember, the objective is to maximize the reserve time you have left at the end of the day.</li>
+  <li>If you work efficiently and finish all your tasks in time, you get to spend your allotted reserve time however you want. But be warned – the first day you try this, you’ll probably just spend all that free time sobbing in pleasure at the thought of how much shit you got done today.</li>
+</ol>
+
+<h3 id="is-there-an-app-to-help-with-all-this">Is there an app to help with all this?</h3>
+
+<p>Of course I made an app. Why, you think I would have made you keep track of all that shit <em>manually</em>? What kind of asshole did you take me for?</p>
+
+<p>Here, <a href="http://checkpointtimer.com/">take it and run</a>. It works beautifully on your smartphone too. And if you <a href="http://italkmagazine.com/how-use-iphone-itouch-web-app">add it to your iDevice’s home screen</a>, it turns into a full-screen offline app. You’re welcome.</p>
+
+<h3 id="get-out-your-magnifying-glasses-cause-were-taking-this-bitch-apart">Get out your magnifying glasses, cause we’re taking this bitch apart</h3>
+
+<p>Hopefully, it’s obvious enough why this method works. But if you really need some convincing, let’s break it down and see what it’s made of:</p>
+
+<ul>
+  <li><strong>The explicit task component</strong></li>
+</ul>
+
+<p>At the heart of the Checkpoint Method is the process of splitting up your work into clean, clear chunks. It’s much easier to kill a task when you know exactly what you need to do and you know that it can be done within the hour. And at the end of the day, you can tell yourself, “I now have these 12 things I did under my belt,” and you know exactly what those things are. It’s a great feeling.</p>
+
+<ul>
+  <li><strong>The hourly deadline component</strong></li>
+</ul>
+
+<p>Everyone knows how hard it is to do something when the deadline is so far away that it’s just a dot. So by having checkpoints every hour, you have a simple deadline to work towards; it really motivates you to finish that bit of work you’re doing so you can check it off before the end of the hour and maintain your level of reserve time. It feels like a race in which you always know exactly where you stand and how well you’re doing, so you never lose track of time.</p>
+
+<ul>
+  <li><strong>The reward system</strong></li>
+</ul>
+
+<p>Instead of just screwing around all day, not knowing when you’re working and when you’re procrastinating, this method collects all your free time and turns it into an incentive to work towards. Opening your assignment in one window and spending an hour procrastinating on Reddit doesn’t feel like free time, even though you didn’t actually get anything done. Instead, turn that same time into explicit free time, and do something you’ll actually enjoy without any guilt or stress.</p>
+
+<h3 id="a-couple-questions-you-probably-have">A couple questions you (probably) have</h3>
+
+<ul>
+  <li><strong>What about tasks that will take 30 minutes or 2 hours?</strong></li>
+</ul>
+
+<p>2 × 30 minutes = 1 hour, so if you check off two 30 minute tasks before the checkpoint, you’re good to go.</p>
+
+<p>As for 2 hour tasks, split them up into two 1 hour parts, and then just do them contiguously.</p>
+
+<ul>
+  <li><strong>What if I don’t know exactly how long something will take (like a difficult math problem, for example)?</strong></li>
+</ul>
+
+<p>In this case, it’s okay to be vague and say “Work on math problems for 1 hour”, and then at the half-hour mark, evaluate how much you were able to get done and update the task accordingly. With enough practice, you’ll get the hang of it and you’ll be able to estimate fairly accurately how much you’ll be able to do in an hour.</p>
+
+<h3 id="just-try-it-already">Just try it already</h3>
+
+<p>In fact, this method is the sort of thing productive people do all the time already – finish everything they need to get done without distractions, and spend their free time at the end of the day without worry. But for those of us who find it hard to swing that way, sometimes all we need is a little push in the form of a formal process. So the Checkpoint Method is here, to shove you headfirst towards an amazing day, every day.</p>
+
+<p>So <a href="http://checkpointtimer.com">just try it</a>. I promise it won’t bite. If you have a great day with it, let me know in the comments; I’d love to hear about it.</p>
+
+<p>Now, I think I’ll go watch not one, but <em>two</em> goddamn movies, and still sleep like a baby.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The 4+1 Tier Password System for Staying Safe and Sane]]></title>
+    <link href="http://chetan51.github.com/chetansurpur/blog/2011/08/tiered-passwords.html"/>
+    <updated>2011-08-08T00:00:00-07:00</updated>
+    <id>http://chetan51.github.com/chetansurpur/blog/2011/08/tiered-passwords</id>
+    <content type="html"><![CDATA[<p>Let’s just face it. We’ve all been guilty of reusing passwords. (If you don’t, then I’m not talking to you. Asshole.) And for good reason — it’s just too damn inconvenient to manage unique passwords across the hundreds of services we use. But we can at least be a bit intelligent about it, and achieve a certain level of security with a smart system without having to blow our brains out.</p>
+
+<p><a href="http://xkcd.com/936/">Yesterday’s xkcd</a> about password security sparked a bit of thought and debate across the interblags. I’ve long been using a simple system to manage my passwords, and today I incorporated The Venerable Mr. Munroe’s comic advice. I now give to you…</p>
+
+<h3 id="the-41-tier-password-system">The 4+1 Tier Password System</h3>
+
+<h4 id="tier-4---the-bullshits">Tier 4 - The Bullshits</h4>
+<p>These are things you don’t care about losing, but you don’t want them to become public property.</p>
+
+<ul>
+  <li><strong>Includes</strong>: Bookmark web apps, library card accounts, StumbleUpon  </li>
+  <li><strong>Use</strong>: A single 3-word memorable phrase  </li>
+  <li><strong>Example</strong>: <em>monkeys love diagrams</em></li>
+</ul>
+
+<h4 id="tier-3---the-importants">Tier 3 - The Importants</h4>
+<p>Things you care about, for which you want privacy and protection.</p>
+
+<ul>
+  <li><strong>Includes</strong>: Email, social networks, blogs  </li>
+  <li><strong>Use</strong>: A single 4-word phrase with short, memorable words  </li>
+  <li><strong>Example</strong>: <em>bleach baby hair cyan</em></li>
+</ul>
+
+<h4 id="tier-2---the-mission-criticals">Tier 2 - The Mission-Criticals</h4>
+<p>Services that other people rely on, and would be very, very bad if compromised.</p>
+
+<ul>
+  <li><strong>Includes</strong>: Servers, hosting, shared data drives  </li>
+  <li><strong>Use</strong>: A single 4-word phrase with obscure words  </li>
+  <li><strong>Example</strong>: <em>liquidity likens graphical theorems</em></li>
+</ul>
+
+<h4 id="tier-1---the-benjamins">Tier 1 - The Benjamins</h4>
+<p>Sensitive financial services.</p>
+
+<ul>
+  <li><strong>Includes</strong>: Bank accounts, PayPal, tax assistants  </li>
+  <li><strong>Use</strong>: For each service, a 3-word phrase with obscure words + “in” + the name of the service</li>
+  <li><strong>Example</strong>: <em>wheatgrass makes octagrams in paypal</em></li>
+</ul>
+
+<p>Don’t store the passwords anywhere but in your head.</p>
+
+<p>The extra bit at the end of the passwords makes sure they are unique across these sensitive services, but still easy to remember when you try to log in. You might also want to use this trick for your email accounts from Tier 3, since they usually enable password recovery for other services.</p>
+
+<h4 id="tier-0---the-one-to-rule-them-all">Tier 0 - The One To Rule Them All</h4>
+<p>Use to lock the password-storage services that manage passwords from Tiers 2 - 4. This one is optional and exists for the sake of convenience only.</p>
+
+<ul>
+  <li><strong>Use</strong>: A 4-word phrase with short, obscure words  </li>
+  <li><strong>Example</strong>: <em>bruisers cremate coaster pylons</em></li>
+</ul>
+
+<p>Restrict this one to just your head too.</p>
+
+<p>As you’ll be typing out this one the most, make sure the words are easy and fast to type. You might also want to consider crafting it so that the letters are hard to make out as you type them on the keyboard (to keep away prying eyes from guessing the phrase).</p>
+
+<p><em>For your information, all of the above example passwords are rated as “Strong…typically good enough to safely guard sensitive information like financial records” (by <a href="http://rumkin.com/tools/password/passchk.php">rumkin.com’s password strength analyzer</a>). Even the bullshit one.</em><br />
+<em>And I just love what the analyzer says about the Tier 1 password.</em></p>
+
+<h3 id="a-little-caveat">A little caveat</h3>
+
+<p>Those readers gifted with a little foresight will see there’s a problem brewing up ahead. What happens when you have to change your password because a service got hacked, or it requires you to change your password regularly? Then the whole one-memorable-password-per-tier system breaks down, right? This question plagued me for a while, but then I thought of something cool. Why not use the same technique used for Tier 1?</p>
+
+<p>So when you have to change your password for say, Twitter, from “dogs eat bunnies”, just change it to “dogs eat bunnies on twitter”. Now, when you try to login to Twitter, if “dogs eat bunnies” doesn’t work, then you know to try “dogs eat bunnies on twitter”. And if you have to change the password again, just change it back to your original password. Neat, right? (Yeah, I know, there are some services that don’t let you use the same password you used previously. Fuck them.)</p>
+
+<h3 id="but-isnt-reusing-passwords-tantamount-to-genocide">But isn’t reusing passwords tantamount to genocide?</h3>
+
+<p>In the end, it’s all about balance. You might naively believe that you can maintain ultimate security using a different password for every service and can keep track of all of them with an encrypted spreadsheet or something, but you’re kidding yourself. You’ll end up getting lazy, and then fall back to a system that ends up becoming the worst of all evils. This tiered system keeps a certain level of security while staying easy and convenient enough that you won’t feel the need to subvert it.</p>
+
+<p>I even flirted with the idea of using a randomly-generated password for each individual service, and locking them all up in one place (like 1Password). But in the end, I realized that I didn’t want to rely on something external to my own mind to be able to log in to my services; it just becomes too damn inconvenient when you don’t have access to it (like when you have to log in from someone else’s device). Being able to log in from pure memory is simply more practical than anything else.</p>
+
+<p>And for even more convenience, I use 1Password to automatically sign me in to most services, and use the Tier 0 password as a master password for it.</p>
+
+<p>Alright, that’s all I got. Enjoy putting off a long fall into the endless void of insanity for another day.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Perfect Landing: Crowdsourcing A Great Product Description]]></title>
+    <link href="http://chetan51.github.com/chetansurpur/blog/2011/04/the-perfect-landing.html"/>
+    <updated>2011-04-28T00:00:00-07:00</updated>
+    <id>http://chetan51.github.com/chetansurpur/blog/2011/04/the-perfect-landing</id>
+    <content type="html"><![CDATA[<p>So you’ve about finished your shiny new app, and you’re ready to unveil it to a salivating world (or so you hope). Only one thing left to do: create that glimmering landing page that your potential users will see and instantly be enlightened about what your app does and why they should use it.</p>
+
+<p>There’s just one problem: you’re just a humble developer / designer, and you don’t have thousands of dollars to shell out to a professional marketing firm.</p>
+
+<h3 id="cue-the-perfect-landing-method">Cue “The Perfect Landing” method</h3>
+
+<p>The premise is simple. You can’t possibly know exactly what your audience needs to hear, so instead of creating it yourself, you iteratively create it with them.</p>
+
+<p>What you’ll need:</p>
+
+<ul>
+  <li>1 Internet connection</li>
+  <li>3 non-techie friends, who have an Internet connection, and know nothing about your product</li>
+  <li>1 techie friend, who also knows nothing about your product</li>
+</ul>
+
+<p>Okay, let’s get started.</p>
+
+<ol>
+  <li>Bust out your favorite IM client, and start a chat with Non-Techie Friend 1. Start explaining to them what your product is about, in a way that makes them realize that they need to have it. It’s just a conversation; it doesn’t need to be difficult, and you can take your time. When you start to notice that they fully understand what your app does, and why it would be useful to them, you can end the chat.</li>
+  <li>Go over the chat log (this is why you need to talk to them online) and pick out the most salient points of the conversation, the essential phrases that you think made them truly understand your app. Be very stingy here: less is better than more, and it’s okay if you skip over some important stuff; you’ll get it back in the next few steps.</li>
+  <li>Start a chat with Non-Techie Friend 2. Start explaining your product using only the vital phrases you extracted in the step above. If they understand everything, you’re done. If not, go ahead and add in some more details that will get them to where they need to be.</li>
+  <li>Repeat steps 2 and 3 with Non-Techie Friend 3, continuing to separate the wheat from the chaff until you have a concise, clear description of your product.</li>
+  <li>Finally, take the finished description to your techie friend, and confirm that they don’t read it and say, “Well, this is stupid.” Basically, it should be simplified enough that anyone in your target audience can understand it, but not too dumbed down that it just seems obvious.</li>
+  <li>Acquire and drink a piña colada. You deserve it.</li>
+</ol>
+
+<p>One important point: don’t skip step 6. It’s essential to the process. Trust me.</p>
+
+<h3 id="why-it-works">Why it works</h3>
+
+<p>The goal is to create the most succinct description of your product that will appeal to the entire range of your target audience. So by talking to your target audience, you can actually see what they need to hear, and by using your previous conversation to improve your description for the next one, you simultaneously shape your product description into its ideal form, and test it on a real live potential user.</p>
+
+<p>And that’s not all. You can use this method to create blurbs for the media, improve slideshows, and even come up with ideas for new features. You just have to be a bit creative with it.</p>
+
+<h3 id="run-along-now">Run along, now</h3>
+
+<p>Congratulations on your new product launch. Hope you enjoyed your drink.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Life Hack: The 30/30 Minute Work Cycle Feels Like Magic]]></title>
+    <link href="http://chetan51.github.com/chetansurpur/blog/2010/11/magic-work-cycle.html"/>
+    <updated>2010-11-09T00:00:00-08:00</updated>
+    <id>http://chetan51.github.com/chetansurpur/blog/2010/11/magic-work-cycle</id>
+    <content type="html"><![CDATA[<p>A year ago, I switched to the <a href="http://colemak.com/">Colemak keyboard layout</a>. I’ve since had zero pain in my hands when typing for many hours straight, I’ve been able to type faster, and I make fewer mistakes while typing.</p>
+
+<p>A few months ago, I decided to try the <a href="http://www.stevepavlina.com/forums/health-fitness/1638-switching-biphasic-sleeping-start-here.html">biphasic sleep cycle</a>. It worked as advertised, allowing me to get better sleep and need less of it. I used to sleep for 9 - 10 hours each day, and now I need just 6 - 7.5 to stay just as sprightly, if not more.</p>
+
+<p>A few weeks ago, after these successful life hacks, my friend told me about the eccentric work cycle that he follows.</p>
+
+<p>“You might think it’s crazy and stupid, but it works for me,” he said. “I sit at my desk and <strong>work for 30 minutes without distraction</strong>, completely absorbed in my work. Then, after the 30 minutes are up, I drop whatever I’m doing and go <strong>do something fun for 30 minutes</strong>. During this relaxation time, I don’t think about work at all - I play games, write, whatever, but no work. After 30 minutes, I go back to my desk, rinse and repeat.” </p>
+
+<p>Immediately, I thought,</p>
+
+<p>‘That won’t work for me.’<br />
+‘Switching context that often would be too distracting.’<br />
+‘When I’m in my groove, I can’t drop it and come back to it easily.’<br />
+‘It sounds like it would take twice as long to get anything done!’  </p>
+
+<p>‘Hmmm. Screw it. I’ll give it a shot.’</p>
+
+<p>You can probably tell by now where this story is going.</p>
+
+<h3 id="abracadabra">Abracadabra</h3>
+
+<p>It works.</p>
+
+<ul>
+  <li>
+    <p>While working on a software project, I would get stuck on a bug and spend hours trying to figure out what went wrong, addicted to the quest and unable to stop, even when I run out of ideas on what else to try.</p>
+
+    <p>Now, I stop at the 30 minute mark and relax for half an hour, and when I come back to my computer, my calm mind has a divine inspiration in the first 5 minutes and I blow the bug to smithereens, saving countless hours of exasperation.</p>
+  </li>
+  <li>
+    <p>I would dread each essay assigned in my humanities class. I would have to spend 2 hours planning my essay, 3 hours staring at Microsoft Word and then another 4 hours painstakingly writing the essay for school (a total of 9+ precious hours down the drain). Most of these hours would be spent in frustration, hating life and the college humanities requirement, and refreshing Gmail and iGoogle every 5 minutes, putting off the time I would have to buckle down and write.</p>
+
+    <p>The other day, I spent a total of 3.5 hours (1 hour planning and 30 minutes on each paragraph) and finished my latest essay, no sweat.  </p>
+
+    <p>Oh, and while writing the essay, I also ended up finishing the Halo Reach campaign.</p>
+  </li>
+  <li>
+    <p>I used to cordon off entire days to study for my midterms, and spend most of them procrastinating and wasting time.</p>
+
+    <p>Now, I know that given 8 hours, I’ll have complete focus for 4 of them, and that’s all the total concentrated studying I need for the midterm. Planning is easier, and so is the studying process.</p>
+  </li>
+  <li>
+    <p>And the best part is, I don’t stress about work as much. I know exactly how much I can get done given a set amount of time. Time is now my bitch, not the other way around.</p>
+  </li>
+</ul>
+
+<h3 id="revealing-the-trick">Revealing the trick</h3>
+
+<p>So why does it work?</p>
+
+<ul>
+  <li>
+    <p><strong>The work you do is more focused.</strong></p>
+
+    <p>Instead of constantly checking your email or RSS feed while you work, distracting yourself and having to switch context every few minutes, you get 30 minutes of solid, focused work. And it’s not too hard to stay focused since the promise of a 30 minute break is just around the corner.</p>
+  </li>
+  <li>
+    <p><strong>There is less time to work in each interval, so there is more incentive to focus and work hard in the little time you have.</strong></p>
+
+    <p>Normally, I find it hard to focus if I feel like I have a whole day to get something done, or something isn’t due for a while. The 30 minute restriction makes it feel like you only have half an hour to get something done, so it provides a psychological incentive to work harder and finish “in time”.</p>
+  </li>
+  <li>
+    <p><strong>It’s less stressful, since relaxation occurs regularly.</strong></p>
+
+    <p>Spending a ton of hours <em>trying</em> to work still feels like a ton of hours of work, even if you end up getting nothing done. With the 30/30 cycle, you’re only working half the time, and the relaxation time actually feels like relaxation without the stress of work. This makes many continuous hours of work much more bearable and productive.</p>
+  </li>
+  <li>
+    <p><strong>When stuck on a problem, taking the 30 minute break works wonders.</strong></p>
+
+    <p>Anyone who has fixed a difficult bug (or even been stuck on a difficult level of a video game) can attest to this. Clearing your mind allows inspiration to sneak its way in when you come back to your desk. Taking a break regularly is a useful habit to adopt even outside of the 30/30 cycle.</p>
+  </li>
+  <li>
+    <p><strong>It’s fun!</strong></p>
+
+    <p>Work doesn’t even feel like work anymore. It feels more like a game, with checkpoints every 30 minutes and a regular prize to look forward to.</p>
+  </li>
+</ul>
+
+<h3 id="the-proverbial-catch">The proverbial catch</h3>
+
+<p>I’ve only been doing this for a few weeks, so I have yet to see if it’s a sustainable model. But it’s been working great so far, so I’m very optimistic.</p>
+
+<p>It also takes a certain level of discipline when I’m in the 30 minute work interval, which I’m able to achieve now, because of the novelty of a new approach. But it shouldn’t be too hard to maintain, since the intervals are so short and there is always a reward to look forward to.</p>
+
+<h3 id="go-forth-and-prosper-my-children">Go forth and prosper, my children</h3>
+
+<p>If you’re interested in trying the 30/30 work cycle, please let me know in the comments, and make sure you update your comments later with how it goes! I’d love to hear about it.</p>
+
+<p>Oh, and if you think 30 minutes might be too short, feel free to experiment. One size most definitely does not fit all, and you might benefit more from a 60/30 min cycle, or whatever. After all, if I don’t have enough time, or if I’m working on something inherently fun, I end up using a 60/30 cycle. Basically, the point is to set aside regular intervals of relaxation and fun to keep your mind fresh and alert throughout. How you go about doing it is totally up to you.</p>
+
+<p>Okay, my thirty minutes are up. I’m off to start the Black Ops campaign. Good luck and godspeed.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Curious Breach Of Privacy]]></title>
+    <link href="http://chetan51.github.com/chetansurpur/blog/2010/10/breach-of-privacy.html"/>
+    <updated>2010-10-14T00:00:00-07:00</updated>
+    <id>http://chetan51.github.com/chetansurpur/blog/2010/10/breach-of-privacy</id>
+    <content type="html"><![CDATA[<p>I got this email from a friend today.</p>
+
+<blockquote>
+  <p>this is unbelievable. im taking this class about the legal implications of the drug trade, and what we did today was to bring in a bunch of trash bags and examine the contents, to see what people throw away or leave behind. at the end of the investigation heres what we know:</p>
+
+  <p>1) the family is three people, a husband, a wife, and a son<br />
+2) we know the names<br />
+3) they have a cat<br />
+4) we know their bank account number, and username and password for multiple email addresses, and the wellsfargo account itself<br />
+5) we have their credit card number<br />
+6) we know they are heavy drinkers, and they prefer vodka <br />
+7) we have knowledge of specific days that they are planning to take a vacation<br />
+8) we have the names of extended family members, and the gifts they plan to buy for them  </p>
+
+  <p>im tripping out how much you can get from two bags of garbage for one family in newport</p>
+</blockquote>
+
+<p>Crazy, right? But even if you go out and burn all of your trash today, you can’t stop the steady leak of information that is telling someone out there that you’re thinking of buying a digital photo frame for your mother-in-law for Christmas. In fact, you’re the biggest cause for this breach of privacy.</p>
+
+<h3 id="security-is-an-illusion-privacy-doubly-so">Security is an illusion, privacy doubly so</h3>
+
+<p>The paranoid and security-aware among you already know this, but let me tell all of you others plainly and clearly - there is no such thing as perfect practical security. The services we take for granted and trust our secrets to are too complex to not have any holes, and brilliant hackers will always find ways to break the system.</p>
+
+<div class="image-and-caption">
+    <img src="http://chetan51.github.com/chetansurpur/images/blog/2010/10/lisbeth-salander.jpg" title="From http://www.altfg.com/blog/movie/carey-mulligan-the-girl-with-the-dragon-tattoo/" alt="Lisbeth Salander" />
+    <em>As long as people like this exist, your life is an open book.</em>
+</div>
+
+<p>People don’t need access to your garbage to uncover details about your (especially digital) life. There are other, easier ways, and there’s nothing you can do to guarantee that every bit of it will be safe from prying eyes.</p>
+
+<p>That doesn’t mean you should lose all hope, though. If you throw your bank statements whole into the recycling bin, start shredding that shit. If you repeat passwords across important online accounts, change them, you moron. While you can’t guarantee that your security can never be compromised, you can at least make it difficult for those slithery assholes trying to steal your credit card numbers.</p>
+
+<p>But when it comes to privacy, we’re all already fucked.</p>
+
+<h3 id="the-google-phenomenon">The Google Phenomenon</h3>
+
+<p>Even though you hear people constantly bitching about companies stealing their privacy, there’s one company out there that everyone is willingly telling their entire life’s stories to, day by day. They know when your next dentist appointment is, they know that you’re thinking of getting a tattoo, and even though you haven’t even told your friends that you’re trying to have a baby, they know.</p>
+
+<p>But you don’t care, because you get to search the Internet for free.</p>
+
+<div class="image-and-caption">
+    <div>
+        <object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/3-WRn9keARE?fs=1&amp;hl=en_US" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed src="http://www.youtube.com/v/3-WRn9keARE?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385" /></object>
+    </div>
+    <em>They know everything about you. And those bastards are rubbing it in your face.</em>
+</div>
+
+<p>You think it’s just them? Ever thought about what chain grocery stores do with your purchase history? They sell it to companies who make care about consumer purchase data. If you use a credit card, someone out there knows how much vodka you buy every week.</p>
+
+<h3 id="transparency-is-where-its-at">Transparency is where it’s at</h3>
+
+<p>The reason you don’t care too much about trading your privacy for free Internet search or an awesome email service is because you don’t care if some faceless Google employee knows tidbits about you. However, if a Safeway cashier came and told your parents exactly how much vodka you drink every day, you probably wouldn’t be too happy.</p>
+
+<div class="image-and-caption">
+    <img src="http://chetan51.github.com/chetansurpur/images/blog/2010/10/safeway-asshole.gif" title="From http://shop.safeway.com/corporate/safeway/feedback/default1_ef.asp" alt="Safeway asshole" width="147px" height="174px" />
+    <em>Just give me one more reason to punch your face in.</em>
+</div>
+
+<p>So it seems that we don’t care about random people having our data. We care about <em>which</em> people have our data.</p>
+
+<p>As the world gets closer and closer with the long threads of the Internet connecting more people together, there will be less and less privacy to go around. It’s gonna be (and already is) unreasonable to ask for complete privacy, especially if you want to use convenient services and products for free.</p>
+
+<p>So instead of worrying about privacy, we should start worrying about transparency. We need the people to whom we have to give up our personal information to state clearly how they’re going to use it. As long as we know who has our data and what they’re doing with it, life will continue to be good.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why Node.js Is Totally Awesome]]></title>
+    <link href="http://chetan51.github.com/chetansurpur/blog/2010/10/why-node-js-is-totally-awesome.html"/>
+    <updated>2010-10-11T00:00:00-07:00</updated>
+    <id>http://chetan51.github.com/chetansurpur/blog/2010/10/why-node-js-is-totally-awesome</id>
+    <content type="html"><![CDATA[<div class="image-and-caption">
+    <img src="http://chetan51.github.com/chetansurpur/images/blog/2010/10/node-logo.png" title="From http://nodejs.org/" alt="Node.js logo" />
+</div>
+
+<p>Three reasons: speed, easability, and reusability. And that’s what will drive the next generation of web apps and services.</p>
+
+<p>In one compact list, here is everything that makes Node.js really damn exciting.</p>
+
+<ul>
+  <li><strong>It’s a server-side JavaScript framework.</strong> That means the same type of code that powers awesome Ajax applications like Gmail will now power its servers, too. Code reuse FTW!</li>
+  <li><strong>It’s driven by asynchronous design.</strong> That means that it doesn’t have to wait for slow file I/O or database operations to continue processing, which makes it really damn fast (by that I mean faster than most other popular server languages / platforms). It also means that it can handle millions of concurrent connections at once.</li>
+  <li><strong>It makes real-time applications a walk in the park.</strong> No longer do you have to bother with low-level sockets and protocols. You can make a Comet-driven real-time chat application in the same time you would have made a simple blog in PHP or a birthday cake with a ready-made mix.</li>
+</ul>
+
+<h3 id="coyote-meets-roadrunner">Coyote meets Roadrunner</h3>
+
+<p>Okay, let’s talk speed. How fast is Node compared to the alternatives?</p>
+
+<p>From the <a href="http://drop.io/dpqbat2/asset/talk-final-pdf">creator’s presentation</a>,</p>
+
+<blockquote>
+  <p>100 concurrent clients
+1 megabyte response</p>
+
+  <pre><code>node      822 req/sec
+nginx     708
+thin      85
+mongrel   4
+</code></pre>
+
+  <p>(more is better)</p>
+</blockquote>
+
+<p>Seeing as nginx is the current heart-throb of the web developer’s server platforms (if you haven’t heard of it, just know that it blows Apache out of the water), Node claims high score by beating it.</p>
+
+<div class="image-and-caption">
+    <img src="http://chetan51.github.com/chetansurpur/images/blog/2010/10/roadrunner.jpg" title="From http://victoriasealsbaseball.blogspot.com/2010/08/st-george-roadrunners-series-preview.html" alt="Roadrunner cartoon" />
+    <em>Beep, beep, motherfucker.</em>
+</div>
+
+<h3 id="javascript-on-the-server-what-is-this-witchcraft">JavaScript on the server? What is this witchcraft?</h3>
+
+<p>For those of you geeks who don’t live in caves, skip to the next section. For every one else (noobs, I’m talking to you too), keep reading.</p>
+
+<p>Okay, you know how server-side code is usually written in PHP, or Python, or (sigh) .NET? And browser-side code is usually written in JavaScript? Well, as it turns out, JavaScript is pretty awesome, and getting awesomer by the day. So some clever chap thought that it might be cool to write server-side code in JavaScript too, and that’s how server-side JavaScript was born.</p>
+
+<p>It also turns out that the current standard JavaScript interpreter V8 (by Google, thank the Lord for them) is blazing fast, and makes JavaScript on the server around three times faster than Python 3 and around ten times faster than PHP.</p>
+
+<p>But the real awesome thing about JavaScript on the server is that you can use the same code that you use in the browser (for example, form validation) in your server too. And, with a standard language like JavaScript being used in every level on the web, more libraries and plugins are being made every day so you don’t have to make your own session management system, or static file server, or user access system. You can get a solid web app ready to be deployed in half the time, and have more time for your kids, or friends, or WoW addiction, or whatever.</p>
+
+<div class="image-and-caption">
+    <img src="http://chetan51.github.com/chetansurpur/images/blog/2010/10/WoW.jpg" title="From http://boards.babyzone.com/video-games-hot-for-me-t13365648.html" alt="Hot World of Warcraft girl" />
+    <em>She wants you to come back and play with her.</em>
+</div>
+
+<h3 id="asynchronous-is-the-new-black">Asynchronous is the new black</h3>
+
+<p>What’s a really common thing to do in a web application? Database access, of course. Too bad database I/O is one of the slowest things a web app has to deal with. So if you have:</p>
+
+<pre><code>data = readFromDatabase();
+printData(data);
+
+doSomethingUnrelated();
+</code></pre>
+
+<p><code>doSomethingUnrelated</code> is gonna have to wait for the slow <code>readFromDatabase</code> to finish in a normal language like PHP. And that’s where asynchronous JavaScript comes in.</p>
+
+<pre><code>readFromDatabase(function(data) {
+    printData(data);
+})
+
+doSomethingUnrelated();
+</code></pre>
+
+<p>Now, <code>doSomethingUnrelated</code> is gonna be called immediately after <code>readFromDatabase</code> blunders off to do its work, and the function callback given to it will be executed to print the data only when it’s done reading from the database.</p>
+
+<p>How brilliant is that? Now, there is no blocking of code, no wastage of CPU cycles, and everything runs in parallel.</p>
+
+<p>Another cool consequence of everything in Node being asynchronous is that all of Node runs on just one thread, and yet can handle millions of concurrent connections. Suck on that, PHP!</p>
+
+<h3 id="middleware-is-a-shitty-name-but-a-sick-concept">Middleware is a shitty name, but a sick concept</h3>
+
+<p>Since JavaScript is such a pervasive language, putting it on the server has only increased the influx of modules, libraries and plugins that you can use for common functionality. That’s another great thing about Node.js - there are so many different kinds of “middleware” that you can just plug and play instead of reinventing the wheel.</p>
+
+<p>Want to create a clone of <a href="http://www.fmylife.com/">FML</a>, complete with user-authentication, comments, and the power to destroy any semblance of concentration among innocent college kids during midterm season? Just throw together a few Node.js modules from any of the <a href="http://github.com/ry/node/wiki/modules">hundreds</a> on its Github wiki page, and you got yourself a nice time-killer.</p>
+
+<div class="image-and-caption">
+    <img src="http://chetan51.github.com/chetansurpur/images/blog/2010/10/legos.jpg" title="From http://www.geekologie.com/2007/06/lego_sculptures.php" alt="Lego sculpture" />
+    <em>It&#8217;s like Legos for web apps. What could be better?</em>
+</div>
+
+<h3 id="forget-about-those-goddamn-sockets">Forget about those goddamn sockets</h3>
+
+<p>Node.js makes it easy to implement real-time applications and network services. It’s as easy to deal with low-level protocols that you’d normally need to fuss over sockets for as it is to work with plain HTTP. Focus on your data, not on how you move it around.</p>
+
+<h3 id="heres-an-example-of-a-nodejs-app-that-will-blow-your-mind">Here’s an example of a Node.js app that will blow your mind</h3>
+
+<p>Just to give you a demonstration of the brilliance that is Node, take a look at <a href="http://projects.nuttnet.net/hummingbird/">Hummingbird</a>.</p>
+
+<p>From their website,</p>
+
+<blockquote>
+  <p>Hummingbird lets you see how visitors are interacting with your website in real time.</p>
+
+  <p>And by “real time” we don’t mean it refreshes every 5 minutes—WebSockets enable Hummingbird to update 20 times per second.</p>
+</blockquote>
+
+<h3 id="get-your-hands-dirty">Get your hands dirty</h3>
+
+<p>Head on over to the <a href="http://nodejs.org/">official website</a> for Node, and get crackin’. It’s still a baby project, so it’s not ready for commercial-scale applications yet, but it would be an excellent fit for that new pet project you’re thinking of starting.</p>
+
+<p>Welcome to the future of web development.</p>
+
+<p><em>Edit 1: Updated post with more accurate information on speed of V8 compared to Python and PHP.</em></p>
+
+<p><em>Edit 2: Thanks to all the excellent feedback that has brought to light my bad habit of making too-bold claims, I’ve corrected Node’s claim to speed to something more verifiable. Sorry about that everyone!</em></p>
+
+<p><em>Edit 3: Jovana Milutinovich has <a href="http://science.webhostinggeeks.com/node-js">translated this page to Croation</a>. Thanks Jovana!</em></p>
+
+<p><em>Edit 4: Kate Bondareva has <a href="http://www.autoteiledirekt.de/science/pourquoi-node-js-est-totalement-genial">translated this page to French</a>. Thank you Kate!</em></p>
+]]></content>
+  </entry>
+  
+</feed>

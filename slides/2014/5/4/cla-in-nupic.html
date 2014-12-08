@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Slides: Cortical Learning Algorithm as Implemented in NuPIC - Chetan Surpur</title>
+     <style type="text/css">
+      @import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+      @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+
+      body {
+        font-family: 'Droid Serif';
+        font-size: 20px;
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      h1 { font-size: 4em; }
+      h2 { font-size: 2em; }
+      h3 { font-size: 1.6em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        -moz-border-radius: 5px;
+        -web-border-radius: 5px;
+        background: #e7e8e2;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child, .left-column h5:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 2em;
+      }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  </head>
+  <body>
+    <textarea id="source">
+
+name: inverse
+layout: true
+class: center, middle, inverse
+
+---
+
+# Cortical Learning Algorithm as Implemented in NuPIC
+Chetan Surpur, Numenta
+.footnote[NuPIC Hackathon 2014]
+
+---
+
+layout: false
+
+# Agenda
+
+1. Overview
+
+2. Spatial Pooler
+
+3. Temporal Pooler
+
+4. R&D (our process)
+
+5. Resources
+
+6. Future Plans
+
+7. Available Work
+
+8. Q&A
+
+---
+
+class: center, middle, inverse
+
+# Overview
+
+---
+
+.left-column[
+
+  ## Sparse Distributed Representation (SDR)
+
+]
+.right-column[
+
+  - The representation format of data in the CLA
+
+  - Distributed: each bit has semantic meaning
+
+  - Sparse: Few bits are on, most are off
+
+  ![SDR](http://numenta.org/images/sdr.png)
+
+]
+
+---
+
+.left-column[
+
+  ## What is the Cortical Learning Algorithm?
+
+]
+.right-column[
+
+  - The CLA is an algorithm that describes the operation of a single layer of cortical neurons
+
+  - This layer can learn spatial and temporal patterns in data on its own
+
+  - In a hierarchy (not a part of CLA), it would learn higher-level patterns
+
+  - Each column represents some meaning
+
+  - Each cell in that column represents that same meaning, but in a different context
+
+  - Learning occurs by forming and un-forming connections between neurons
+
+]
+
+---
+
+.left-column[
+
+  ## CLA in NuPIC
+  ### - Spatial Pooler
+
+]
+.right-column[
+
+  - Converts a non-sparse representation of bits to an SDR
+
+  - Groups together similar inputs (ones with overlapping bits)
+
+]
+
+---
+
+.left-column[
+
+  ## CLA in NuPIC
+  ### - Spatial Pooler
+  ### - Temporal Pooler
+
+]
+.right-column[
+
+  - (Should be called "Sequence Learner")
+
+  - Learns transitions between SDRs
+
+  - Predicts unions of SDRs
+
+    - Trained on AB, AC, AD, given A predicts a compressed B+C+D
+
+  - High-order memory: prediction of next SDR is based on SDRs seen many timesteps ago
+
+    - Trained on ABCD, XBCY, given ABC predicts D, instead of D+Y
+
+]
+
+.footnote[.red[Note: Both SP and TP operate on the same layer of cortical neurons,<br> but it's useful to separate them functionally]]
+
+---
+
+.left-column[
+
+  ## Inputs and outputs
+
+]
+.right-column[
+
+  Let's start by treating the SP and TP as black boxes – what do they take, and what do they produce?
+
+]
+
+---
+
+.left-column[
+
+  ## Inputs and outputs
+  ### - Spatial Pooler
+
+]
+.right-column[
+
+  <img src="/images/slides/cla-in-nupic/sp-io.png" width="250px">
+
+  <img src="/images/slides/cla-in-nupic/sp-connections.png" width="550px">
+
+]
+
+---
+
+.left-column[
+
+  ## Inputs and outputs
+  ### - Spatial Pooler
+
+]
+.right-column[
+
+  - Input is a vector of bits
+
+    - Each bit should have semantic meaning, so that overlapping bits between inputs means something
+
+    - Not necessarily sparse
+
+    - Could be the output of an encoder (analogous to a retina) or the cells in a previous layer
+
+  - Output is a (sparse) activation of columns
+
+  - To the spatial pooler, each cell in a column behaves identically
+
+  - The whole column is connected to inputs
+
+  - "Why do we have cells then?" That will become clear when we get to the TP.
+
+]
+
+---
+
+.left-column[
+
+  ## Inputs and outputs
+  ### - Spatial Pooler
+  ### - Temporal Pooler
+
+]
+.right-column[
+
+  <img src="/images/slides/cla-in-nupic/tp-io-1.png" width="550px">
+
+]
+
+---
+
+.left-column[
+
+  ## Inputs and outputs
+  ### - Spatial Pooler
+  ### - Temporal Pooler
+
+]
+.right-column[
+
+  <img src="/images/slides/cla-in-nupic/tp-io-2.png" width="550px">
+
+]
+
+---
+
+.left-column[
+
+  ## Inputs and outputs
+  ### - Spatial Pooler
+  ### - Temporal Pooler
+
+]
+.right-column[
+
+  - Input is the state of cells from last timestep, and a (sparse) activation of columns (the output of the SP) from the current timestep
+
+  - Output is:
+
+    - An activation of cells within columns, representing a selection of a particular context
+
+    - A prediction (or depolarization) of cells
+
+  - Looking at the set of columns that predicted cells are in gives you the next predicted SDR (and the cells in columns gives you context)
+
+]
+
+---
+
+class: center, middle, inverse
+
+# Spatial Pooler
+
+---
+
+.left-column[
+
+  ## Review input / output
+
+]
+.right-column[
+
+  <img src="/images/slides/cla-in-nupic/sp-io.png" width="250px">
+
+  <img src="/images/slides/cla-in-nupic/sp-connections.png" width="550px">
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Initialization
+  ##### 1) Map potential
+
+]
+.right-column[
+
+  - Each column is mapped to a subset of the input bits
+
+  - Those input bits are the only ones the column can ever be connected to
+
+  - When these input bits are on, the column is more likely to be activated
+
+  - Relevant parameters: potentialRadius, potentialPct
+
+  - potentialPct helps adjacent columns learn to represent different inputs
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Initialization
+  ##### 1) Map potential
+  ##### 2) Initialize permanences
+
+]
+.right-column[
+
+  - Permanence represents the potential for a connection to be formed between column and input
+
+  - Relevant parameter: synPermConnected
+
+    - The minimum permanence at which we consider the column to be "connected" to the input
+
+  - Of the set of potential inputs for each column, initialize the permanence of connections between the column and each input
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Initialization
+  ##### 1) Map potential
+  ##### 2) Initialize permanences
+
+]
+.right-column[
+
+  - Several possible approaches
+
+    - Gaussian (good for topology)
+
+      - Each column has a natural center over the input bits 
+
+      - Inputs close to the center have high permanence
+
+      - Inputs far from the center have low permanence
+
+    - Random (currently implemented, deviates from whitepaper)
+
+      - Half (randomly selected) have permanence over connected threshold
+
+      - Half have random permanence between 0 and connected threshold
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Initialization
+  ##### 1) Map potential
+  ##### 2) Initialize permanences
+  ##### 3) Update inhibition radius
+
+]
+.right-column[
+
+  - Columns within the "inhibition radius" inhibit each other in order to produce sparse output
+
+  - Inhibition radius grows as columns get "connected" to wider and wider range of inputs (and shrinks vice versa)
+
+  - It's estimated as a function of:
+
+    - The average range of inputs that each column is connected to
+
+    - The average number of columns each input is connected to
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Calculate overlap
+
+]
+.right-column[
+
+  - For each column, compute an "overlap score" that represents how many inputs that are active are "connected" to the column
+
+  - "Boost" overlaps as necessary (will go into more detail later)
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Calculate overlap
+  ##### 2) Inhibit columns
+
+]
+.right-column[
+
+  - For each column, look at the neighboring columns within inhibition radius
+
+  - Keep the top N columns with respect to overlap score
+
+  - N is chosen to achieve a desired level of sparsity (relevant parameters: localAreaDensity, numActiveColumnsPerInhArea)
+
+  - Results in a set of active columns, which is the output of the SP
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Calculate overlap
+  ##### 2) Inhibit columns
+  ##### 3) Perform learning: update connections
+
+]
+.right-column[
+
+  - Connections to active inputs are strengthened, and connections to inactive inputs are weakened
+
+  - Any column that becomes so weakly connected to its potential inputs that it can never become active in the future has all its connections strengthened (to keep it from dying)
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Calculate overlap
+  ##### 2) Inhibit columns
+  ##### 3) Perform learning: update connections
+  ##### 4) Bump up weak columns and update boost factors
+
+]
+.right-column[
+
+  - Strengthen connections of columns who don't have enough overlap with their inputs (relevant parameters: minOverlapDutyCycles, synPermBelowStimulusInc)
+
+  - Get ready to boost in the next cycle those columns that aren't active enough (relevant parameter: minActiveDutyCycles)
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Calculate overlap
+  ##### 2) Inhibit columns
+  ##### 3) Perform learning: update connections
+  ##### 4) Bump up weak columns and update boost factors
+  ##### 5) Update inhibition radius
+
+]
+.right-column[
+
+Same as during initialization.
+
+]
+
+---
+
+.left-column[
+
+  ## Learning disabled
+
+]
+.right-column[
+
+  - Learning can be disabled
+
+  - In this case, we stop after Compute step 2) Inhibit columns
+
+]
+
+---
+
+class: center, middle, inverse
+
+# Temporal Pooler
+
+---
+
+.left-column[
+
+  ## Review input / output
+
+]
+.right-column[
+
+  <img src="/images/slides/cla-in-nupic/tp-io-2.png" width="550px">
+
+]
+
+---
+
+.left-column[
+
+  ## Connections
+
+]
+.right-column[
+
+  <img src="/images/slides/cla-in-nupic/tp-connections.png" width="500px">
+
+]
+
+---
+
+.left-column[
+
+  ## Connections
+
+]
+.right-column[
+
+  - Connections between cells are a little more complicated than the SP
+
+  - A little bit of terminology
+
+    - Each cell has multiple "distal dendrite segments"
+
+    - Each distal dendrite segment connects to multiple cells in the layer
+
+    - These connections indicate predictability of the cell due to the cells it's connected to
+
+]
+
+---
+
+.left-column[
+
+  ## Note on deviations from whitepaper
+
+]
+.right-column[
+
+  - The are fairly major differences between the current TP implementation and the whitepaper
+
+  - Put in to speed up learning on small datasets while Grok was exploring different commercial opportunities
+
+  - Many of the high level concepts are the same but there are many (non biological) additions
+
+  - Currently in the process of re-implementing a pure whitepaper version of the TP
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Perform inference: activate cells
+
+]
+.right-column[
+
+  - If new sequence, turn on "start cell" (the first one) for every active column
+
+  - Otherwise, turn on any predicted cells in every active column
+
+  - If no predicted cells in a column, turn on every cell in the column
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Perform inference: activate cells
+  ##### 1.5) Backtrack
+
+]
+.right-column[
+
+  - If number of predicted columns is over 50% of number of active columns
+
+  - Rather than simply "giving up" and bursting on the unexpected input columns, a better approach is to see if perhaps we are in a sequence that started a few steps ago
+
+  - Deviation from whitepaper, won't go into detail
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Perform inference: activate cells
+  ##### 1.5) Backtrack
+  ##### 2) Perform prediction
+
+]
+.right-column[
+
+  - For each cell, if it has any active segments, predict the cell
+
+  - A segment is active if it's connected to enough active cells
+
+  - Results in a set of predicted cells, which is the output of the TP (along with the active cells from step 1)
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Perform inference: activate cells
+  ##### 1.5) Backtrack
+  ##### 2) Perform prediction
+  ##### 2.5) Backtrack
+
+]
+.right-column[
+
+  - If number of predicted columns is less than 50% of average number of active columns
+
+  - Same process as before
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Perform inference: activate cells
+  ##### 1.5) Backtrack
+  ##### 2) Perform prediction
+  ##### 2.5) Backtrack
+  ##### 3) Perform learning: update connections
+
+]
+.right-column[
+
+  ## Parallel state
+
+  - This part of the implementation is a little tricky (and deviates from the whitepaper)
+
+  - The state of active and predicted cells used for learning is stored independently of the state used for inference (what we saw earlier)
+
+  - So we have to activate cells and then predict cells  (just like we did earlier) on this separate state
+
+  - But the way we activate and predict cells will be different than for inference
+
+  - Pretend we have two copy of the cells and connections, one for inference, and one for learning
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Perform inference: activate cells
+  ##### 1.5) Backtrack
+  ##### 2) Perform prediction
+  ##### 2.5) Backtrack
+  ##### 3) Perform learning: update connections
+
+]
+.right-column[
+
+  ## Segment updates
+
+  - They're queued-up updates to segments
+
+  - Have a shelf-life (relevant parameter: segUpdateValidDuration)
+
+  - Queued while cell is predictive
+
+  - Applied when cell becomes active
+
+  - Discarded when cell becomes inactive
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Perform inference: activate cells
+  ##### 1.5) Backtrack
+  ##### 2) Perform prediction
+  ##### 2.5) Backtrack
+  ##### 3) Perform learning: update connections
+
+]
+.right-column[
+
+  ##### A) Apply any existing segment updates
+
+  - Strengthen connections to active cells (relevant parameter: permanenceInc)
+
+  - Weaken connections to inactive cells (relevant parameter: permanenceDec)
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Perform inference: activate cells
+  ##### 1.5) Backtrack
+  ##### 2) Perform prediction
+  ##### 2.5) Backtrack
+  ##### 3) Perform learning: update connections
+
+]
+.right-column[
+
+  ##### B) Try to get better at predicting this sequence in the future
+
+  - For each active column, activate any predicted cells
+
+    - These are the same cells that just had their segment updates applied
+
+  - There will be at most one predicted cell per column (different from inference state)
+
+  - If there was no predicted cell, pick the best cell to learn on
+
+    - The best cell overlaps with the most active inputs, regardless of permanence (relevant parameter: minThreshold)
+
+  - If none are good, choose (using magic) a cell in the column to add a new segment to
+
+    - This segment connects to a random subset of cells active in the last timestep (relevant parameter: newSynapseCount)
+
+]
+
+---
+
+.left-column[
+
+  ## Function: Compute
+  ##### 1) Perform inference: activate cells
+  ##### 1.5) Backtrack
+  ##### 2) Perform prediction
+  ##### 2.5) Backtrack
+  ##### 3) Perform learning: update connections
+
+]
+.right-column[
+
+  ##### C) Predict the next state, and queue up segment updates reinforcing what caused the prediction
+
+  - For each column, pick the best cell and predict it
+
+    - The best cell has the most active segment, due to other currently active cells
+
+  - Queue up a segment update to reinforce that "most active" segment
+
+]
+
+---
+
+.left-column[
+
+  ## End of sequence
+
+]
+.right-column[
+
+  - Can happen in 3 ways
+
+    - Reset can be triggered manually
+
+    - Too many unpredicted activations have occurred (relevant parameter: pamCounter)
+
+    - We have reached the maximum allowed sequence length (relevant parameter: maxSeqLength)
+
+  - If reset was called, at the start of the next sequence, won't do "Try to get better at predicting this sequence in the future" (TODO)
+
+  - If reset was not called, we try to backtrack on the learn state
+
+]
+
+---
+
+.left-column[
+
+  ## Deviations from whitepaper
+  ##### - Backtracking
+
+]
+.right-column[
+
+  - Inference-backtracking
+
+  - Learn-backtracking
+
+]
+
+---
+
+.left-column[
+
+  ## Deviations from whitepaper
+  ##### - Backtracking
+  ##### - "Pay Attention Mode"
+
+]
+.right-column[
+
+  - After detecting an end of sequence, we stay in "Pay Attention Mode" for a number of timesteps (relevant parameter: pamLength)
+
+  - When we are in PAM, we do not burst unpredicted columns during learning
+
+  - The advantge of PAM mode is that it requires fewer presentations to learn a set of sequences which share elements
+
+  - The disadvantage of PAM mode is that if a learned sequence is immediately followed by a set of elements that should be learned as a 2nd sequence, the first pamLength elements of that sequence will not be learned as part of that 2nd sequence
+
+]
+
+---
+
+.left-column[
+
+  ## Deviations from whitepaper
+  ##### - Backtracking
+  ##### - "Pay Attention Mode"
+  ##### - Global, age-based decay
+
+]
+.right-column[
+
+  - Forget transitions that are too old
+
+  - Any segments which haven't seen activity in a while have all their connections weakened slightly
+
+  - Relevant parameters: globalDecay, maxAge
+
+]
+
+---
+
+.left-column[
+
+  ## Deviations from whitepaper
+  ##### - Backtracking
+  ##### - "Pay Attention Mode"
+  ##### - Global, age-based decay
+  ##### - Prevent oversampling from bursting columns
+
+]
+.right-column[
+
+  - Learning has only one cell predicted per column
+
+  - Might not be necessary with possible modification to chooseCellsToLearnFrom
+
+    - Sample at most one cell per column
+
+]
+
+---
+
+.left-column[
+
+  ## Deviations from whitepaper
+  ##### - Backtracking
+  ##### - "Pay Attention Mode"
+  ##### - Global, age-based decay
+  ##### - Prevent oversampling from bursting columns
+  ##### - Pooling / sequence segment
+
+]
+.right-column[
+
+  - Old form of pooling, not using it in anything currently
+
+  - Since we're not really doing pooling, all segments are sequence segments
+
+]
+
+---
+
+# R&D (our process)
+
+- We have two parallel implementations of the SP and the TP
+
+  - Python and C++
+
+  - They are functionally identical
+
+- Test out new ideas in the Python implementation
+
+- Then port to C++ for performance
+
+---
+
+# Resources
+
+- SP
+
+  - Play with parameters: SP Viewer (https://github.com/iandanforth/spviewer)
+
+  - See sample usage code: [/examples/sp/hello_sp.py](https://github.com/numenta/nupic/blob/master/examples/sp/hello_sp.py)
+
+  - Practice: [CLA Quiz](https://github.com/numenta/nupic/wiki/CLA-Quiz)
+
+- TP
+
+  - See sample usage code: [/examples/tp/hello_tp.py](https://github.com/numenta/nupic/blob/master/examples/tp/hello_tp.py)
+
+  - More sophisticated examples of behavior: [/examples/tp/tp_test.py](https://github.com/numenta/nupic/blob/master/examples/tp/tp_test.py)
+
+  - Practice: [TP Quiz](https://github.com/numenta/nupic/wiki/TP-Quiz)
+
+- CLA visualization
+
+  - Stay tuned for hackathon demos!
+
+---
+
+# Future Plans
+
+- True temporal pooling
+
+  - The current "temporal pooler" is really just a sequence learner
+
+  - We want to add (biologically realistic) functionality for pooling together known sequences into singular representations
+
+  - Like representing a melody with the name of a song
+
+  - We're currently working on the theory
+
+---
+
+## Available Work
+
+- Remove TP confidences calculation
+
+  - https://github.com/numenta/nupic/issues/907
+
+- Support topology in the TP
+
+  - Possibly supported with modification to chooseCellsToLearnFrom
+
+    - Choose cells spatially close to the current one
+
+  - https://github.com/numenta/nupic/issues/910
+
+- Combine inference and learn states
+
+  - Modify chooseCellsToLearnFrom to sample at most one cell per column
+
+  - https://github.com/numenta/nupic/issues/909
+
+---
+
+class: center, middle, inverse
+
+# Thank you.
+## Questions?
+
+Complete outline of this presentation: http://bit.ly/cla-nupic-outline
+
+.footnote[csurpur@numenta.com]
+
+    </textarea>
+    <script src="http://gnab.github.io/remark/downloads/remark-0.6.0.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
