@@ -5,17 +5,17 @@ html, body {
 }
 
 body {
-  color: #2A2A2A;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 17px;
-  line-height: 26px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 p {
   margin: 1em 0;
+  color: #4D4D4D;
 
   img {
-    max-width: 100%;
+    width: 100%;
   }
 }
 
@@ -25,8 +25,9 @@ a {
   border-bottom: 1px dashed #333;
 }
 
-h1 {
-  line-height: 140%;
+h1.title {
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.2;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,24 +38,17 @@ a:visited {
   color: #777;
 }
 
-section {
-  font-family: 'Lora', serif;
-}
-
 blockquote {
-  border-left: 5px solid #ddd; 
+  border-left: 5px solid #ddd;
   padding-left: 15px;
+  margin: 0;
 }
 
 hr {
-  width: 18em;
+  margin-top: 1.5em;
   margin-bottom: 1.5em;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
 
-  border-top: 2px solid #ddd;
+  border-top: 1px solid #ddd;
   border-bottom: 0;
 }
 
@@ -132,6 +126,7 @@ hr {
 
   &.small {
     text-align: left;
+    padding-left: 200px;
 
     h1 {
       display: inline;
@@ -162,6 +157,12 @@ hr {
   }
 }
 
+#post {
+  .content {
+    max-width: 600px;
+  }
+}
+
 #quote {
   .content {
     padding-top: 20px;
@@ -172,6 +173,7 @@ hr {
       display: table;
       margin: auto;
       font-size: 16px;
+      line-height: 26px;
       color: #777;
 
       .mark {
