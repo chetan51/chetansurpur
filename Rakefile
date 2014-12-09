@@ -21,9 +21,10 @@ blog_index_dir  = 'source'    # directory for your blog's index page (if you put
 deploy_dir      = "_deploy"   # deploy directory (for Github pages deployment)
 stash_dir       = "_stash"    # directory to stash posts for speedy generation
 posts_dir       = "_posts"    # directory for blog files
-themes_dir      = ".themes"   # directory for blog files
-new_post_ext    = "markdown"  # default new post file extension when using the new_post task
-new_page_ext    = "markdown"  # default new page file extension when using the new_page task
+drafts_dir      = "drafts"    # directory for drafts
+themes_dir      = ".themes"   # directory for themes
+new_post_ext    = "md"        # default new post file extension when using the new_post task
+new_page_ext    = "md"        # default new page file extension when using the new_page task
 server_port     = "4000"      # port for preview server eg. localhost:4000
 
 
@@ -86,6 +87,30 @@ task :preview do
   }
 
   [jekyllPid, compassPid, rackupPid].each { |pid| Process.wait(pid) }
+end
+
+# usage rake draft["My New Post"]
+desc "Edit or create a draft in #{source_dir}/#{drafts_dir}"
+task :draft, :title do |t, args|
+  raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
+  raise "### You must specify a post name." unless args.title
+  title = args.title
+  filename = "#{drafts_dir}/#{title.to_url}"
+  filepath = "#{source_dir}/#{filename}.#{new_post_ext}"
+  if File.exist?(filepath)
+    puts "Editing exiting draft: #{filepath}"
+  else
+    puts "Creating new draft: #{filepath}"
+    open(filepath, 'w') do |post|
+      post.puts "---"
+      post.puts "layout: draft"
+      post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+      post.puts "---"
+    end
+  end
+  `open #{filepath}`
+  sleep(1.0)
+  `open http://chetansurpur.dev/#{filename}.html`
 end
 
 # usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post")
