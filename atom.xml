@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Chetan Surpur]]></title>
-  <link href="http://chetan51.github.com/chetansurpur/atom.xml" rel="self"/>
-  <link href="http://chetan51.github.com/chetansurpur/"/>
-  <updated>2014-12-08T12:23:15-08:00</updated>
-  <id>http://chetan51.github.com/chetansurpur/</id>
+  <link href="http://chetansurpur.com/atom.xml" rel="self"/>
+  <link href="http://chetansurpur.com/"/>
+  <updated>2014-12-08T17:27:50-08:00</updated>
+  <id>http://chetansurpur.com/</id>
   <author>
     <name><![CDATA[Chetan Surpur]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[To Those Who Want To Drop Out of School]]></title>
-    <link href="http://chetan51.github.com/chetansurpur/blog/2014/03/dropout.html"/>
+    <link href="http://chetansurpur.com/blog/2014/03/dropout.html"/>
     <updated>2014-03-04T00:00:00-08:00</updated>
-    <id>http://chetan51.github.com/chetansurpur/blog/2014/03/dropout</id>
+    <id>http://chetansurpur.com/blog/2014/03/dropout</id>
     <content type="html"><![CDATA[<p>I get it, I really do. I’ve complained about school just like you have. There’s a lot to dislike about the current education system, and if you feel you have an idea and the drive to change the world all on your own, it’s very tempting to just drop out and pursue your passion exclusively.</p>
 
 <p>But unless you either a) are an intellectual genius, or b) have an undeterrable love of learning and discipline of steel, or c) are born lucky enough to win the lottery, it’s probably not a good idea. You’ll just end up stunting your long-term growth.</p>
@@ -62,9 +62,9 @@
   
   <entry>
     <title type="html"><![CDATA[An Elusive Fly]]></title>
-    <link href="http://chetan51.github.com/chetansurpur/blog/2014/02/an-elusive-fly.html"/>
+    <link href="http://chetansurpur.com/blog/2014/02/an-elusive-fly.html"/>
     <updated>2014-02-19T00:00:00-08:00</updated>
-    <id>http://chetan51.github.com/chetansurpur/blog/2014/02/an-elusive-fly</id>
+    <id>http://chetansurpur.com/blog/2014/02/an-elusive-fly</id>
     <content type="html"><![CDATA[<p>There’s a fly in my room. It’s distracting me from my work. I can’t stop watching its trajectory, the way it moves smoothly in one direction, and then abruptly jerks to the side. It sometimes moves in circles, sometimes in straight lines, sometimes up and sometimes down. I try to understand its motion, understand why it’s flying the way it is. It’s not moving towards any food source, it doesn’t seem to have any purpose. It’s just tracing arbitrary spaghetti in a small cubic area in my room.</p>
 
 <p>It amazes me that its motion is both predictable and unpredictable. I know with high certainty that it’s going to stay in this small cubic area, at least for the next few seconds. At least that’s what it has been doing for the last five minutes. But I don’t know if in the next second it’s going to keep moving in the direction it’s moving right now, or turn suddenly to the side. I wouldn’t bet either way.</p>
@@ -91,9 +91,9 @@
   
   <entry>
     <title type="html"><![CDATA[Intelligent Interfaces]]></title>
-    <link href="http://chetan51.github.com/chetansurpur/blog/2014/02/intelligent-interfaces.html"/>
+    <link href="http://chetansurpur.com/blog/2014/02/intelligent-interfaces.html"/>
     <updated>2014-02-09T00:00:00-08:00</updated>
-    <id>http://chetan51.github.com/chetansurpur/blog/2014/02/intelligent-interfaces</id>
+    <id>http://chetansurpur.com/blog/2014/02/intelligent-interfaces</id>
     <content type="html"><![CDATA[<p>Today’s computer interfaces are really, really stupid.</p>
 
 <p>Think about it. Your computer and your phone together know more about you than anyone else does. They’ve been privy to most of your conversations. You’ve conveyed to them your deepest thoughts. They’ve seen pretty much every side of you.</p>
@@ -132,9 +132,9 @@
   
   <entry>
     <title type="html"><![CDATA[Quantity and Quality]]></title>
-    <link href="http://chetan51.github.com/chetansurpur/blog/2014/01/quantity-and-quality.html"/>
+    <link href="http://chetansurpur.com/blog/2014/01/quantity-and-quality.html"/>
     <updated>2014-01-21T00:00:00-08:00</updated>
-    <id>http://chetan51.github.com/chetansurpur/blog/2014/01/quantity-and-quality</id>
+    <id>http://chetansurpur.com/blog/2014/01/quantity-and-quality</id>
     <content type="html"><![CDATA[<blockquote>
   <p>The ceramics teacher announced on opening day that he was dividing the class into two groups.</p>
 
@@ -167,9 +167,9 @@
   
   <entry>
     <title type="html"><![CDATA[Emergent Intelligence]]></title>
-    <link href="http://chetan51.github.com/chetansurpur/blog/2013/08/emergent-intelligence.html"/>
+    <link href="http://chetansurpur.com/blog/2013/08/emergent-intelligence.html"/>
     <updated>2013-08-07T00:00:00-07:00</updated>
-    <id>http://chetan51.github.com/chetansurpur/blog/2013/08/emergent-intelligence</id>
+    <id>http://chetansurpur.com/blog/2013/08/emergent-intelligence</id>
     <content type="html"><![CDATA[<p>I’m falling in love with the concept of <a href="http://en.wikipedia.org/wiki/Emergence">emergence</a> – the idea that complex behavior can emerge from a set of very simple rules. And I’m starting to think that true artificial intelligence is not going to be a mathematically complex program expressly designed towards a pre-determined product, but rather an emergent behavior of a very simple ruleset.</p>
 
 <h3 id="emergence-in-the-universe">Emergence in the universe</h3>
@@ -229,9 +229,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ditch QWERTY – Your Hands Need Colemak]]></title>
-    <link href="http://chetan51.github.com/chetansurpur/blog/2012/11/colemak.html"/>
+    <link href="http://chetansurpur.com/blog/2012/11/colemak.html"/>
     <updated>2012-11-08T00:00:00-08:00</updated>
-    <id>http://chetan51.github.com/chetansurpur/blog/2012/11/colemak</id>
+    <id>http://chetansurpur.com/blog/2012/11/colemak</id>
     <content type="html"><![CDATA[<p>If I offered you the choice of typing at half of your current typing speed for <em>two months</em> in exchange for typing even faster and more comfortably than you do now <em>for the rest of your life</em>, would you take it?</p>
 
 <p>Let me ask you another question. Look down at your keyboard. Have you ever wondered why the keys are arranged in that way?</p>
@@ -321,9 +321,9 @@
   
   <entry>
     <title type="html"><![CDATA[Time Bending Lets You Get Everything Done And More]]></title>
-    <link href="http://chetan51.github.com/chetansurpur/blog/2012/10/time-bending.html"/>
+    <link href="http://chetansurpur.com/blog/2012/10/time-bending.html"/>
     <updated>2012-10-18T00:00:00-07:00</updated>
-    <id>http://chetan51.github.com/chetansurpur/blog/2012/10/time-bending</id>
+    <id>http://chetansurpur.com/blog/2012/10/time-bending</id>
     <content type="html"><![CDATA[<p>Listen, I really want you to try this. It’s a simple technique that will get you to plan what you want to get done today, and actually get it all done, with time left to spare. For the last few months, it’s totally changed my life day by day, and whether you’re a lethargic loser who wastes most of the day or a productive workaholic who wants to get even more done in less time, it will change your life too.</p>
 
 <p>I call it Time Bending.</p>
@@ -343,7 +343,7 @@
 <p>Here’s an example day:</p>
 
 <div class="image-and-caption">
-    <img src="http://chetan51.github.com/chetansurpur/images/blog/2012/10/timebend.jpg" alt="TimeBend screenshot" />
+    <img src="http://chetansurpur.com/images/blog/2012/10/timebend.jpg" alt="TimeBend screenshot" />
     <em>If you&#8217;re wondering what app that is, read on to find out.</em>
 </div>
 
@@ -376,9 +376,9 @@
   
   <entry>
     <title type="html"><![CDATA[Life Hack: The Checkpoint Method Will Supercharge Your Day, Every Day]]></title>
-    <link href="http://chetan51.github.com/chetansurpur/blog/2011/12/checkpoint-method.html"/>
+    <link href="http://chetansurpur.com/blog/2011/12/checkpoint-method.html"/>
     <updated>2011-12-11T00:00:00-08:00</updated>
-    <id>http://chetan51.github.com/chetansurpur/blog/2011/12/checkpoint-method</id>
+    <id>http://chetansurpur.com/blog/2011/12/checkpoint-method</id>
     <content type="html"><![CDATA[<p><em>Edit: This post is deprecated in favor of the simpler <a href="http://chetansurpur.com/blog/2012/10/time-bending.html">Time Bending</a> method.</em></p>
 
 <p>I just had the most productive day I’ve had in years. I finished everything I wanted to get done today through 10 hours of solid efficiency, no sweat. And the best part – I have 4 whole hours to do whatever I want for the rest of the day, and I know I completely earned them.</p>
@@ -456,9 +456,9 @@
   
   <entry>
     <title type="html"><![CDATA[The 4+1 Tier Password System for Staying Safe and Sane]]></title>
-    <link href="http://chetan51.github.com/chetansurpur/blog/2011/08/tiered-passwords.html"/>
+    <link href="http://chetansurpur.com/blog/2011/08/tiered-passwords.html"/>
     <updated>2011-08-08T00:00:00-07:00</updated>
-    <id>http://chetan51.github.com/chetansurpur/blog/2011/08/tiered-passwords</id>
+    <id>http://chetansurpur.com/blog/2011/08/tiered-passwords</id>
     <content type="html"><![CDATA[<p>Let’s just face it. We’ve all been guilty of reusing passwords. (If you don’t, then I’m not talking to you. Asshole.) And for good reason — it’s just too damn inconvenient to manage unique passwords across the hundreds of services we use. But we can at least be a bit intelligent about it, and achieve a certain level of security with a smart system without having to blow our brains out.</p>
 
 <p><a href="http://xkcd.com/936/">Yesterday’s xkcd</a> about password security sparked a bit of thought and debate across the interblags. I’ve long been using a simple system to manage my passwords, and today I incorporated The Venerable Mr. Munroe’s comic advice. I now give to you…</p>
@@ -540,9 +540,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Perfect Landing: Crowdsourcing A Great Product Description]]></title>
-    <link href="http://chetan51.github.com/chetansurpur/blog/2011/04/the-perfect-landing.html"/>
+    <link href="http://chetansurpur.com/blog/2011/04/the-perfect-landing.html"/>
     <updated>2011-04-28T00:00:00-07:00</updated>
-    <id>http://chetan51.github.com/chetansurpur/blog/2011/04/the-perfect-landing</id>
+    <id>http://chetansurpur.com/blog/2011/04/the-perfect-landing</id>
     <content type="html"><![CDATA[<p>So you’ve about finished your shiny new app, and you’re ready to unveil it to a salivating world (or so you hope). Only one thing left to do: create that glimmering landing page that your potential users will see and instantly be enlightened about what your app does and why they should use it.</p>
 
 <p>There’s just one problem: you’re just a humble developer / designer, and you don’t have thousands of dollars to shell out to a professional marketing firm.</p>
@@ -586,9 +586,9 @@
   
   <entry>
     <title type="html"><![CDATA[Life Hack: The 30/30 Minute Work Cycle Feels Like Magic]]></title>
-    <link href="http://chetan51.github.com/chetansurpur/blog/2010/11/magic-work-cycle.html"/>
+    <link href="http://chetansurpur.com/blog/2010/11/magic-work-cycle.html"/>
     <updated>2010-11-09T00:00:00-08:00</updated>
-    <id>http://chetan51.github.com/chetansurpur/blog/2010/11/magic-work-cycle</id>
+    <id>http://chetansurpur.com/blog/2010/11/magic-work-cycle</id>
     <content type="html"><![CDATA[<p>A year ago, I switched to the <a href="http://colemak.com/">Colemak keyboard layout</a>. I’ve since had zero pain in my hands when typing for many hours straight, I’ve been able to type faster, and I make fewer mistakes while typing.</p>
 
 <p>A few months ago, I decided to try the <a href="http://www.stevepavlina.com/forums/health-fitness/1638-switching-biphasic-sleeping-start-here.html">biphasic sleep cycle</a>. It worked as advertised, allowing me to get better sleep and need less of it. I used to sleep for 9 - 10 hours each day, and now I need just 6 - 7.5 to stay just as sprightly, if not more.</p>
@@ -685,9 +685,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Curious Breach Of Privacy]]></title>
-    <link href="http://chetan51.github.com/chetansurpur/blog/2010/10/breach-of-privacy.html"/>
+    <link href="http://chetansurpur.com/blog/2010/10/breach-of-privacy.html"/>
     <updated>2010-10-14T00:00:00-07:00</updated>
-    <id>http://chetan51.github.com/chetansurpur/blog/2010/10/breach-of-privacy</id>
+    <id>http://chetansurpur.com/blog/2010/10/breach-of-privacy</id>
     <content type="html"><![CDATA[<p>I got this email from a friend today.</p>
 
 <blockquote>
@@ -712,7 +712,7 @@
 <p>The paranoid and security-aware among you already know this, but let me tell all of you others plainly and clearly - there is no such thing as perfect practical security. The services we take for granted and trust our secrets to are too complex to not have any holes, and brilliant hackers will always find ways to break the system.</p>
 
 <div class="image-and-caption">
-    <img src="http://chetan51.github.com/chetansurpur/images/blog/2010/10/lisbeth-salander.jpg" title="From http://www.altfg.com/blog/movie/carey-mulligan-the-girl-with-the-dragon-tattoo/" alt="Lisbeth Salander" />
+    <img src="http://chetansurpur.com/images/blog/2010/10/lisbeth-salander.jpg" title="From http://www.altfg.com/blog/movie/carey-mulligan-the-girl-with-the-dragon-tattoo/" alt="Lisbeth Salander" />
     <em>As long as people like this exist, your life is an open book.</em>
 </div>
 
@@ -742,7 +742,7 @@
 <p>The reason you don’t care too much about trading your privacy for free Internet search or an awesome email service is because you don’t care if some faceless Google employee knows tidbits about you. However, if a Safeway cashier came and told your parents exactly how much vodka you drink every day, you probably wouldn’t be too happy.</p>
 
 <div class="image-and-caption">
-    <img src="http://chetan51.github.com/chetansurpur/images/blog/2010/10/safeway-asshole.gif" title="From http://shop.safeway.com/corporate/safeway/feedback/default1_ef.asp" alt="Safeway asshole" width="147px" height="174px" />
+    <img src="http://chetansurpur.com/images/blog/2010/10/safeway-asshole.gif" title="From http://shop.safeway.com/corporate/safeway/feedback/default1_ef.asp" alt="Safeway asshole" width="147px" height="174px" />
     <em>Just give me one more reason to punch your face in.</em>
 </div>
 
@@ -756,11 +756,11 @@
   
   <entry>
     <title type="html"><![CDATA[Why Node.js Is Totally Awesome]]></title>
-    <link href="http://chetan51.github.com/chetansurpur/blog/2010/10/why-node-js-is-totally-awesome.html"/>
+    <link href="http://chetansurpur.com/blog/2010/10/why-node-js-is-totally-awesome.html"/>
     <updated>2010-10-11T00:00:00-07:00</updated>
-    <id>http://chetan51.github.com/chetansurpur/blog/2010/10/why-node-js-is-totally-awesome</id>
+    <id>http://chetansurpur.com/blog/2010/10/why-node-js-is-totally-awesome</id>
     <content type="html"><![CDATA[<div class="image-and-caption">
-    <img src="http://chetan51.github.com/chetansurpur/images/blog/2010/10/node-logo.png" title="From http://nodejs.org/" alt="Node.js logo" />
+    <img src="http://chetansurpur.com/images/blog/2010/10/node-logo.png" title="From http://nodejs.org/" alt="Node.js logo" />
 </div>
 
 <p>Three reasons: speed, easability, and reusability. And that’s what will drive the next generation of web apps and services.</p>
@@ -795,7 +795,7 @@ mongrel   4
 <p>Seeing as nginx is the current heart-throb of the web developer’s server platforms (if you haven’t heard of it, just know that it blows Apache out of the water), Node claims high score by beating it.</p>
 
 <div class="image-and-caption">
-    <img src="http://chetan51.github.com/chetansurpur/images/blog/2010/10/roadrunner.jpg" title="From http://victoriasealsbaseball.blogspot.com/2010/08/st-george-roadrunners-series-preview.html" alt="Roadrunner cartoon" />
+    <img src="http://chetansurpur.com/images/blog/2010/10/roadrunner.jpg" title="From http://victoriasealsbaseball.blogspot.com/2010/08/st-george-roadrunners-series-preview.html" alt="Roadrunner cartoon" />
     <em>Beep, beep, motherfucker.</em>
 </div>
 
@@ -810,7 +810,7 @@ mongrel   4
 <p>But the real awesome thing about JavaScript on the server is that you can use the same code that you use in the browser (for example, form validation) in your server too. And, with a standard language like JavaScript being used in every level on the web, more libraries and plugins are being made every day so you don’t have to make your own session management system, or static file server, or user access system. You can get a solid web app ready to be deployed in half the time, and have more time for your kids, or friends, or WoW addiction, or whatever.</p>
 
 <div class="image-and-caption">
-    <img src="http://chetan51.github.com/chetansurpur/images/blog/2010/10/WoW.jpg" title="From http://boards.babyzone.com/video-games-hot-for-me-t13365648.html" alt="Hot World of Warcraft girl" />
+    <img src="http://chetansurpur.com/images/blog/2010/10/WoW.jpg" title="From http://boards.babyzone.com/video-games-hot-for-me-t13365648.html" alt="Hot World of Warcraft girl" />
     <em>She wants you to come back and play with her.</em>
 </div>
 
@@ -846,7 +846,7 @@ doSomethingUnrelated();
 <p>Want to create a clone of <a href="http://www.fmylife.com/">FML</a>, complete with user-authentication, comments, and the power to destroy any semblance of concentration among innocent college kids during midterm season? Just throw together a few Node.js modules from any of the <a href="http://github.com/ry/node/wiki/modules">hundreds</a> on its Github wiki page, and you got yourself a nice time-killer.</p>
 
 <div class="image-and-caption">
-    <img src="http://chetan51.github.com/chetansurpur/images/blog/2010/10/legos.jpg" title="From http://www.geekologie.com/2007/06/lego_sculptures.php" alt="Lego sculpture" />
+    <img src="http://chetansurpur.com/images/blog/2010/10/legos.jpg" title="From http://www.geekologie.com/2007/06/lego_sculptures.php" alt="Lego sculpture" />
     <em>It&#8217;s like Legos for web apps. What could be better?</em>
 </div>
 

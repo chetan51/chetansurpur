@@ -1,99 +1,95 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>
-            http://chetan51.github.com/chetansurpur/blog/2010/10/why-node-js-is-totally-awesome.html
-        </loc>
+        <loc>http://chetansurpur.com/blog/2010/10/why-node-js-is-totally-awesome.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/blog/2010/10/breach-of-privacy.html</loc>
+        <loc>http://chetansurpur.com/blog/2010/10/breach-of-privacy.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/blog/2010/11/magic-work-cycle.html</loc>
+        <loc>http://chetansurpur.com/blog/2010/11/magic-work-cycle.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/blog/2011/04/the-perfect-landing.html</loc>
+        <loc>http://chetansurpur.com/blog/2011/04/the-perfect-landing.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/blog/2011/08/tiered-passwords.html</loc>
+        <loc>http://chetansurpur.com/blog/2011/08/tiered-passwords.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/blog/2011/12/checkpoint-method.html</loc>
+        <loc>http://chetansurpur.com/blog/2011/12/checkpoint-method.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/blog/2012/10/time-bending.html</loc>
+        <loc>http://chetansurpur.com/blog/2012/10/time-bending.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/blog/2012/11/colemak.html</loc>
+        <loc>http://chetansurpur.com/blog/2012/11/colemak.html</loc>
         <lastmod>2014-12-08T12:20:45-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/blog/2013/08/emergent-intelligence.html</loc>
+        <loc>http://chetansurpur.com/blog/2013/08/emergent-intelligence.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/blog/2014/01/quantity-and-quality.html</loc>
+        <loc>http://chetansurpur.com/blog/2014/01/quantity-and-quality.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://chetan51.github.com/chetansurpur/blog/2014/02/intelligent-interfaces.html
-        </loc>
+        <loc>http://chetansurpur.com/blog/2014/02/intelligent-interfaces.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/blog/2014/02/an-elusive-fly.html</loc>
+        <loc>http://chetansurpur.com/blog/2014/02/an-elusive-fly.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/blog/2014/03/dropout.html</loc>
+        <loc>http://chetansurpur.com/blog/2014/03/dropout.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/archived.html</loc>
+        <loc>http://chetansurpur.com/archived.html</loc>
         <lastmod>2014-12-08T12:13:22-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/drafts/a-new-approach.html</loc>
+        <loc>http://chetansurpur.com/drafts/a-new-approach.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/drafts/an-ideal-snapchat.html</loc>
+        <loc>http://chetansurpur.com/drafts/an-ideal-snapchat.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/drafts/grok-embed-test.html</loc>
+        <loc>http://chetansurpur.com/drafts/grok-embed-test.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/drafts/insights-from-geb-1.html</loc>
+        <loc>http://chetansurpur.com/drafts/insights-from-geb-1.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/drafts/intuitive-ai-0-intro.html</loc>
+        <loc>http://chetansurpur.com/drafts/intuitive-ai-0-intro.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/drafts/intuitive-ai-1-overview.html</loc>
+        <loc>http://chetansurpur.com/drafts/intuitive-ai-1-overview.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/drafts/relativity-a-conversation.html</loc>
+        <loc>http://chetansurpur.com/drafts/relativity-a-conversation.html</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/</loc>
+        <loc>http://chetansurpur.com/</loc>
         <lastmod>2014-12-08T12:22:43-08:00</lastmod>
     </url>
     <url>
-        <loc>http://chetan51.github.com/chetansurpur/projects/sidestep/</loc>
+        <loc>http://chetansurpur.com/projects/sidestep/</loc>
         <lastmod>2014-12-08T12:13:14-08:00</lastmod>
     </url>
 </urlset>
