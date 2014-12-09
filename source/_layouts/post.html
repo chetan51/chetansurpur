@@ -5,6 +5,18 @@ comments: true
 
 <div id="post" class="light">
 	<div class="content">
+		{% if page.draft %}
+			<div class="preview">
+				<h1>Post Preview</h1>
+				<span>
+					This is a preview at a private URL for your eyes only.
+					If you would like to offer feedback, you can copy the text
+					to your favorite word processor (I recommend Google Docs),
+					add comments or make edits, and email me. Thanks!
+				</span>
+			</div>
+		{% endif %}
+
 		<h1 class="title">{{ page.title }}</h1>
 		{% if page.subtitle %}
 		<h3 class="subtitle">{{ page.subtitle }}</h3>

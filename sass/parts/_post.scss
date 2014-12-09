@@ -29,6 +29,22 @@
     }
 }
 
+.preview {
+    text-align: center;
+    color: #6B0103;
+
+    h1 {
+        font-family: 'Roboto Condensed' sans-serif;
+        text-transform: uppercase;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    font-size: 14px;
+    padding-bottom: 2em;
+    border-bottom: 2px solid #eee;
+}
+
 .full-pane {
 	text-align: center;
 }
