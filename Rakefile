@@ -107,10 +107,11 @@ task :draft, :title do |t, args|
       post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
       post.puts "---"
     end
+    Rake::Task["generate"].execute
   end
   `open #{filepath}`
-  sleep(1.0)
   `open http://chetansurpur.dev/#{filename}.html`
+  Rake::Task["watch"].execute
 end
 
 # usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post")
