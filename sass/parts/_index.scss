@@ -1,5 +1,5 @@
 #home {
-  #posts, #projects {
+  #posts, #presentations {
     ul {
       list-style-type: none;
       margin: 0;
@@ -16,7 +16,7 @@
     }
   }
 
-  #posts, #projects {
+  #posts, #presentations {
     h1 {
       font: 48px 'QuicksandLight', Arial, sans-serif;
       line-height: 40px;
@@ -60,7 +60,7 @@
     }
   }
 
-  #projects {
+  #presentations {
     ul {
       li {
         width: 360px;
@@ -135,7 +135,7 @@
 
 @media all and (max-width: 800px) {
 
-  #posts, #projects {
+  #posts, #presentations {
     h1 {
       font-size: 38px !important;
       line-height: 38px !important;
