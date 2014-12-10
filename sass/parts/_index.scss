@@ -66,8 +66,12 @@
         width: 360px;
         display: inline-block;
         margin: 10px 22px 10px 0;
-        text-align: left;
         position: relative;
+
+        iframe {
+          width: 360px;
+          height: 202px;
+        }
 
         a {
           color: #EEE;
@@ -139,6 +143,20 @@
     h1 {
       font-size: 38px !important;
       line-height: 38px !important;
+    }
+  }
+
+  #presentations {
+    ul {
+      li {
+        width: 320px;
+        margin: 10px 22px;
+
+        iframe {
+          width: 320px;
+          height: 180px;
+        }
+      }
     }
   }
 
