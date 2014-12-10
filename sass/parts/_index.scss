@@ -149,12 +149,12 @@
   #presentations {
     ul {
       li {
-        width: 320px;
-        margin: 10px 22px;
+        width: 320px !important;
+        margin: 10px 22px !important;
 
         iframe {
-          width: 320px;
-          height: 180px;
+          width: 320px !important;
+          height: 180px !important;
         }
       }
     }
