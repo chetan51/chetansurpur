@@ -2,9 +2,13 @@
 layout: draft
 title: "Mindfulness and Meditation"
 subtitle: "A Beginner's Guide"
+quote_text: "Death isn't sad. The sad thing is: most people don't live at all."
+quote_author: "Dan Millman"
 ---
 
-*This is a guide to introduce the theory, benefits, and practice of mindfulness meditation to beginners. I myself have just begun practicing, so this guide is composed mostly of what I have read and researched about the subject, and a little from my limited set of experiences so far. It's become clear that meditation has the potential to be a powerful, transformative tool, and more people should at least be aware of its existence. Therefore, the purpose of the guide is to convey the theory and effects of mindfulness, and hopefully motivate you to try meditation to see for yourself.*
+> **There are no ordinary moments.** – Dan Millman
+
+*This is a guide to introduce the theory, benefits, and practice of mindfulness meditation to beginners. I myself have recently started practicing, so this guide is composed mostly of what I have read and researched about the subject, and a little from my experiences so far. It's become clear to me that meditation has the potential to be a powerful, transformative tool that more people should at least know about. Therefore, I hope this guide will bring awareness and maybe motivate you to try mindfulness meditation to see for yourself.*
 
 # What is mindfulness and why should I care?
 
@@ -104,7 +108,8 @@ Start practicing now, but be sure to research and learn more over time about wha
 - [Waking Up](http://smile.amazon.com/Waking-Up-Spirituality-Without-Religion/dp/1451636016) by Sam Harris is a secular guide to meditation and spirituality. It is a concise, informed book that encourages exploring the nature of self and consciousness through various means, the most prominent being meditation.
 - In [The surprising science of happiness](https://www.youtube.com/watch?v=4q1dgn_C0AU), Dan Gilbert shows that happiness comes from our perception of our lives, rather than what actually happens in them. Mindfulness is about becoming aware of this basic truth, and being fulfilled no matter what happens.
 - [All it takes is 10 mindful minutes](http://www.ted.com/talks/andy_puddicombe_all_it_takes_is_10_mindful_minutes) is a TED talk by Andy Puddicombe, the creator of the [Headspace](http://headspace.com) app. It's a nice, short, shareable talk motivating the use of meditation in daily life.
-- A fun tidbit: [Louis C.K. talks about living in the moment](https://www.youtube.com/watch?v=5HbYScltf1c). With complete accessibility and spot-on humor, Louis conveys the message of mindfulness to a broad audience.
+- [The Peaceful Warrior](http://www.imdb.com/title/tt0438315/) is a beautiful movie about living fully. While it never mentions mindfulness by name, it is what the movie is essentially about; how to live, without fear or attachment, in the present. As the main character realizes, "The journey is what brings us happiness, not the destination."
+- A fun tidbit: [Louis C.K. on cell phones](https://www.youtube.com/watch?v=5HbYScltf1c). With his characteristic relatable humor, Louis poetically conveys the message of mindfulness to a broad audience.
 
 # Deeper theory
 
