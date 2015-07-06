@@ -1,7 +1,8 @@
 ---
-layout: draft
+layout: post
 title: "Mindfulness and Meditation"
 subtitle: "A Beginner's Guide"
+snippet: "A Beginner's Guide"
 quote_text: "Death isn't sad. The sad thing is: most people don't live at all."
 quote_author: "Dan Millman"
 ---
