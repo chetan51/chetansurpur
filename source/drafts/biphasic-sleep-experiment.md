@@ -43,5 +43,9 @@ I'll start this experiment tonight, and go for as long as I can. Sweet dreams!
 
 ## Daily Log
 
-### Day 0 (Sep. 19, 2015 - Saturday)
+### Day 0 (Sep. 18, 2015 - Friday)
 
+* Alertness: **High**
+* Energy: **Medium**
+
+I had a little over 7 hours of sleep last night, which isn't ideal because I'm a tiny bit tired. Also, I just drank Soylent for dinner. This is only the second time I've tried it. So I hope it doesn't interfere with my sleep tonight. But I'll just start the experiment tonight and we'll see what happens.
