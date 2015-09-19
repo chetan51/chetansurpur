@@ -33,11 +33,13 @@ If it works out, the main benefits I'm looking forward to are:
 
 I'll keep a daily log below, measuring the following variables:
 
-- Times asleep
+- Times asleep, snoozed, quality
+- Physical activity
 - Mental alertness level
 - Physical energy level
+- Eye moisture levels
 
-I want to make sure that I'm sleeping and waking regularly, and that my alertness and energy levels aren't suffering (after all, what's the use of more time in the day if I can't spend it effectively?).
+I want to make sure that I'm sleeping and waking regularly, and that my alertness and energy levels aren't suffering (after all, what's the use of more time in the day if I can't spend it effectively?). I also have dry eyes that seem to get worse with sleep deprivation, so I'll measure that too.
 
 I'll start this experiment tonight, and go for as long as I can. Sweet dreams!
 
@@ -47,5 +49,13 @@ I'll start this experiment tonight, and go for as long as I can. Sweet dreams!
 
 * Alertness: **High**
 * Energy: **Medium**
+* Eye moisture: **High**
 
 I had a little over 7 hours of sleep last night, which isn't ideal because I'm a tiny bit tired. Also, I just drank Soylent for dinner. This is only the second time I've tried it. So I hope it doesn't interfere with my sleep tonight. But I'll just start the experiment tonight and we'll see what happens.
+
+### Day 1 (Sep. 19, 2015 - Saturday)
+
+* Sleep (core): **1 AM - 7 AM (6 hours) (+0 snooze)**
+  * Quality: **Medium**
+
+I woke up several times at night, but fell back asleep immediately. It was hard to wake up in the morning but I did it without snoozing. I just stayed in bed for 1.25 hours on my phone because I couldn't bring myself out of bed. I decided not to work out this morning, partly because of laziness and partly because I didn't want to tax my body too much at once. It definitely feels great to be up early and have the rest of the day available. I'm not feeling 100% energized though; I hope I wake up more over the course of the day.
