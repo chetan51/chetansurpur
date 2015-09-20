@@ -57,5 +57,14 @@ I had a little over 7 hours of sleep last night, which isn't ideal because I'm a
 
 * Sleep (core): **1 AM - 7 AM (6 hours) (+0 snooze)**
   * Quality: **Medium**
+* Sleep (nap): **5:50 PM - 6:10 PM (20 mins) (+0 snooze)**
+  * Quality: **High**
+* Alertness: **High**
+* Energy: **Medium**
+* Eye moisture: **Medium**
 
 I woke up several times at night, but fell back asleep immediately. It was hard to wake up in the morning but I did it without snoozing. I just stayed in bed for 1.25 hours on my phone because I couldn't bring myself out of bed. I decided not to work out this morning, partly because of laziness and partly because I didn't want to tax my body too much at once. It definitely feels great to be up early and have the rest of the day available. I'm not feeling 100% energized though; I hope I wake up more over the course of the day.
+
+The nap felt great. It went by quickly, and I felt fully energized about 30 minutes after waking up from it.
+
+Unfortunately I lost track of time and am sleeping 30 minutes late tonight. Can't let that keep happening.
