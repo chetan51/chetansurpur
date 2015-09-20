@@ -68,3 +68,15 @@ I woke up several times at night, but fell back asleep immediately. It was hard 
 The nap felt great. It went by quickly, and I felt fully energized about 30 minutes after waking up from it.
 
 Unfortunately I lost track of time and am sleeping 30 minutes late tonight. Can't let that keep happening.
+
+### Day 2 (Sep. 20, 2015 - Sunday)
+
+* Sleep (core): **1:30 AM - 7:30 AM (6 hours) (+15 min snooze)**
+  * Quality: **Medium**
+* Sleep (nap): 
+  * Quality: 
+* Alertness: 
+* Energy: 
+* Eye moisture: 
+
+It was exceedingly difficult to wake up this morning. I could barely keep my eyes open. I stayed in bed for 1.5 hours on my phone, partly because it was hard to get out of bed, and partly because it's Sunday. Even after 2 hours, I'm still feeling sleepy. I also didn't get great sleep last night, because I kept waking up for some reason. Maybe it was too hot in my room.
