@@ -73,10 +73,21 @@ Unfortunately I lost track of time and am sleeping 30 minutes late tonight. Can'
 
 * Sleep (core): **1:30 AM - 7:30 AM (6 hours) (+15 min snooze)**
   * Quality: **Medium**
-* Sleep (nap): 
-  * Quality: 
-* Alertness: 
-* Energy: 
-* Eye moisture: 
+* Sleep (nap): **5:55 PM - 6:15 PM (20 mins) (+0 snooze)**
+  * Quality: **High**
+* Alertness: **Medium-Low**
+* Energy: **Medium**
+* Eye moisture: **Medium**
 
 It was exceedingly difficult to wake up this morning. I could barely keep my eyes open. I stayed in bed for 1.5 hours on my phone, partly because it was hard to get out of bed, and partly because it's Sunday. Even after 2 hours, I'm still feeling sleepy. I also didn't get great sleep last night, because I kept waking up for some reason. Maybe it was too hot in my room.
+
+After I had lunch, I was more refreshed. The nap was great, and waking up from it was easy. I've still been feeling sleepy all day, I can feel the sleep deprivation feeling hitting me. Let's see if my body adjusts though.
+
+I'm sleeping late tonight because of hanging out with friends. Even sleeping as late as 1 isn't easy to be disciplined about when you live with friends. I have to try harder though if I want this to work.
+
+### Day 3 (Sep. 21, 2015 - Monday)
+
+* Sleep (core): **2:10 AM - 8:10 AM (6 hours) (+0 snooze)**
+  * Quality: **High**
+
+I woke up only once tonight, and it was because I was feeling too hot. I opened the window and then I didn't wake up again. In the morning when I woke up, I felt sleepy, but within half an hour I was very awake and alert. It's been a couple hours and I'm still feeling great. I wonder if my body is getting used to the schedule now. I still haven't tried working out to see how that will affect my sleep; I'll do it after I'm fully used to this.
