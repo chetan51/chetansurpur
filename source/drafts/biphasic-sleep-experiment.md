@@ -59,6 +59,7 @@ I had a little over 7 hours of sleep last night, which isn't ideal because I'm a
   * Quality: **Medium**
 * Sleep (nap): **5:50 PM - 6:10 PM (20 mins) (+0 snooze)**
   * Quality: **High**
+* Physical activity: **None**
 * Alertness: **High**
 * Energy: **Medium**
 * Eye moisture: **Medium**
@@ -75,6 +76,7 @@ Unfortunately I lost track of time and am sleeping 30 minutes late tonight. Can'
   * Quality: **Medium**
 * Sleep (nap): **5:55 PM - 6:15 PM (20 mins) (+0 snooze)**
   * Quality: **High**
+* Physical activity: **None**
 * Alertness: **Medium-Low**
 * Energy: **Medium**
 * Eye moisture: **Medium**
@@ -91,6 +93,7 @@ I'm sleeping late tonight because of hanging out with friends. Even sleeping as 
   * Quality: **High**
 * Sleep (nap): **6:10 PM - 6:30 PM (20 mins) (+0 snooze)**
   * Quality: **High**
+* Physical activity: **Low**
 * Alertness: **Medium-High**
 * Energy: **Medium**
 * Eye moisture: **Medium-High**
@@ -112,7 +115,7 @@ I probably haven't let the current experiment run for long enough to get used to
 
 It's not as groundbreaking, but should be more sustainable and still allow me to sleep late at night and wake early. Time-wise, it's still 30 minutes less than 8 hours monophasic, and I'll try to build a habit of getting out of bed immediately, which should save some more time. If I miss my 1.5 hour nap in a day, I'll be monophasic that night. That way I can be biphasic when possible, and switch back and forth as convenient.
 
-I'll start this today by taking a 1.5 hour nap when I get back home from work.
+I'll start this today by taking a 1.5 hour nap when I get back home from work. I'll also be able to exercise starting tomorrow since I won't be as sleep-deprived.
 
 ## Daily Log (continued)
 
