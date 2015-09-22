@@ -3,7 +3,7 @@ layout: draft
 title: "Biphasic Sleep Experiment"
 ---
 
-Most of us sleep once daily, for 6-9 hours every night. For someone who has too much to do and not enough time, these are a great many precious hours wasted. But there is a potential solution. Instead of sleeping once daily, [polyphasic sleep patterns](https://www.wikiwand.com/en/Polyphasic_sleep) promise equal to more effective sleep in less time. These claims aren't necessarily substantiated, but I want to try for myself.
+Most of us sleep once daily, for 8-9 hours every night. For someone who has too much to do and not enough time, these are a great many precious hours wasted. But there is a potential solution. Instead of sleeping once daily, [polyphasic sleep patterns](https://www.wikiwand.com/en/Polyphasic_sleep) promise equal to more effective sleep in less time. These claims aren't necessarily substantiated, but I want to try for myself.
 
 There are a few options for different sleep cycles. I've settled on the biphasic sleep pattern (siesta style), where you sleep once for 6 hours (core sleep), and then later for 20 minutes (power nap). This is the pattern that is the closest to the monophasic pattern I'm used to, and fits well into my schedule and lifestyle.
 
@@ -98,3 +98,24 @@ I'm sleeping late tonight because of hanging out with friends. Even sleeping as 
 I woke up only once tonight, and it was because I was feeling too hot. I opened the window and then I didn't wake up again. In the morning when I woke up, I felt sleepy, but within half an hour I was very awake and alert. It's been a couple hours and I'm still feeling great. I wonder if my body is getting used to the schedule now. I still haven't tried working out to see how that will affect my sleep; I'll do it after I'm fully used to this. I went on a long walk in the morning, which felt good but I felt a little tired afterwards.
 
 I started feeling more tired closer to nap time. I napped a little later than usual today. Felt refreshed after I woke up from it. But as the day progressed, I felt tired again, and by bedtime at night I was very sleepy. I'm also starting to sneeze and my nose is starting to run a bit, so I might be falling sick. That would throw a wrench in these biphasic plans, so I hope I don't completely fall sick. If I feel sick tomorrow morning, I might just sleep in.
+
+### Day 4 (Sep. 22, 2015 - Tuesday)
+
+* Sleep (core): **1:10 AM - 8:35 AM (6 hours) (+1.42 hours snooze)**
+  * Quality: **High**
+
+I wasn't feeling sick, but I slept in anyway. I was just way too sleepy to wake up at 7 AM. It's almost noon and I'm still quite sleepy. I thought about it a lot, and I've decided to change the target schedule to get more sleep (but still be biphasic).
+
+## Experiment Update
+
+I probably haven't let the current experiment run for long enough to get used to it, but I can't run on 6 hours 20 minutes of sleep anymore. Therefore, **I'm switching to 6 hours core and 1.5 hours nap.**
+
+It's not as groundbreaking, but should be more sustainable and still allow me to sleep late at night and wake early. Time-wise, it's still 30 minutes less than 8 hours monophasic, and I'll try to build a habit of getting out of bed immediately, which should save some more time. If I miss my 1.5 hour nap in a day, I'll be monophasic that night. That way I can be biphasic when possible, and switch back and forth as convenient.
+
+I'll start this today by taking a 1.5 hour nap when I get back home from work.
+
+## Daily Log (continued)
+
+### Day 4 (Sep. 22, 2015 - Tuesday) (continued)
+
+* Sleep (nap): 
