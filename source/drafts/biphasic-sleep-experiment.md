@@ -89,5 +89,12 @@ I'm sleeping late tonight because of hanging out with friends. Even sleeping as 
 
 * Sleep (core): **2:10 AM - 8:10 AM (6 hours) (+0 snooze)**
   * Quality: **High**
+* Sleep (nap): **6:10 PM - 6:30 PM (20 mins) (+0 snooze)**
+  * Quality: **High**
+* Alertness: **Medium-High**
+* Energy: **Medium**
+* Eye moisture: **Medium-High**
 
-I woke up only once tonight, and it was because I was feeling too hot. I opened the window and then I didn't wake up again. In the morning when I woke up, I felt sleepy, but within half an hour I was very awake and alert. It's been a couple hours and I'm still feeling great. I wonder if my body is getting used to the schedule now. I still haven't tried working out to see how that will affect my sleep; I'll do it after I'm fully used to this.
+I woke up only once tonight, and it was because I was feeling too hot. I opened the window and then I didn't wake up again. In the morning when I woke up, I felt sleepy, but within half an hour I was very awake and alert. It's been a couple hours and I'm still feeling great. I wonder if my body is getting used to the schedule now. I still haven't tried working out to see how that will affect my sleep; I'll do it after I'm fully used to this. I went on a long walk in the morning, which felt good but I felt a little tired afterwards.
+
+I started feeling more tired closer to nap time. I napped a little later than usual today. Felt refreshed after I woke up from it. But as the day progressed, I felt tired again, and by bedtime at night I was very sleepy. I'm also starting to sneeze and my nose is starting to run a bit, so I might be falling sick. That would throw a wrench in these biphasic plans, so I hope I don't completely fall sick. If I feel sick tomorrow morning, I might just sleep in.
