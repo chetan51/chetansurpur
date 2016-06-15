@@ -32,6 +32,7 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 
 	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	
 
   <script type="text/javascript">
@@ -94,12 +95,12 @@ MathJax.Hub.Config({
 	</div>
 
 	<div id="post" class="light">
-	<div class="content">
+	<div>
 		
 
-		<h1 class="title">An Elusive Fly</h1>
+		<h1 class="title content">An Elusive Fly</h1>
 		
-		<section>
+		<section class="p-content">
 			<p>There’s a fly in my room. It’s distracting me from my work. I can’t stop watching its trajectory, the way it moves smoothly in one direction, and then abruptly jerks to the side. It sometimes moves in circles, sometimes in straight lines, sometimes up and sometimes down. I try to understand its motion, understand why it’s flying the way it is. It’s not moving towards any food source, it doesn’t seem to have any purpose. It’s just tracing arbitrary spaghetti in a small cubic area in my room.</p>
 
 <p>It amazes me that its motion is both predictable and unpredictable. I know with high certainty that it’s going to stay in this small cubic area, at least for the next few seconds. At least that’s what it has been doing for the last five minutes. But I don’t know if in the next second it’s going to keep moving in the direction it’s moving right now, or turn suddenly to the side. I wouldn’t bet either way.</p>
@@ -140,6 +141,11 @@ MathJax.Hub.Config({
 	<div id="disqus_thread" class="content"></div>
 </div>
 
+
+<script type="text/javascript">
+	$(".full").closest("p").addClass("full");
+	$("a > img").parent().addClass("image");
+</script>
 
 
 	

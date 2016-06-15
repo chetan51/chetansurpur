@@ -32,6 +32,7 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 
 	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	
 
   <script type="text/javascript">
@@ -94,12 +95,12 @@ MathJax.Hub.Config({
 	</div>
 
 	<div id="post" class="light">
-	<div class="content">
+	<div>
 		
 
-		<h1 class="title">Life Hack: The 30/30 Minute Work Cycle Feels Like Magic</h1>
+		<h1 class="title content">Life Hack: The 30/30 Minute Work Cycle Feels Like Magic</h1>
 		
-		<section>
+		<section class="p-content">
 			<p>A year ago, I switched to the <a href="http://colemak.com/">Colemak keyboard layout</a>. I’ve since had zero pain in my hands when typing for many hours straight, I’ve been able to type faster, and I make fewer mistakes while typing.</p>
 
 <p>A few months ago, I decided to try the <a href="http://www.stevepavlina.com/forums/health-fitness/1638-switching-biphasic-sleeping-start-here.html">biphasic sleep cycle</a>. It worked as advertised, allowing me to get better sleep and need less of it. I used to sleep for 9 - 10 hours each day, and now I need just 6 - 7.5 to stay just as sprightly, if not more.</p>
@@ -210,6 +211,11 @@ MathJax.Hub.Config({
 	<div id="disqus_thread" class="content"></div>
 </div>
 
+
+<script type="text/javascript">
+	$(".full").closest("p").addClass("full");
+	$("a > img").parent().addClass("image");
+</script>
 
 
 	

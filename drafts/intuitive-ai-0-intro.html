@@ -32,6 +32,7 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 
 	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	
 
   <script type="text/javascript">
@@ -94,9 +95,9 @@ MathJax.Hub.Config({
 	</div>
 
 	<div id="post" class="light">
-	<div class="content">
+	<div>
 		
-			<div class="preview">
+			<div class="preview content">
 				<h1>Post Preview</h1>
 				<span>
 					This is a preview at a private URL for your eyes only.
@@ -108,9 +109,9 @@ MathJax.Hub.Config({
 			</div>
 		
 
-		<h1 class="title">Intuitive AI: A Primer</h1>
+		<h1 class="title content">Intuitive AI: A Primer</h1>
 		
-		<section>
+		<section class="p-content">
 			<p><em>“Any sufficiently advanced technology is indistinguishable from magic.” - Arthur C. Clarke</em></p>
 
 <p>Artificial Intelligence is a field devoted to creating something truly magical. The autonomous agents we can build with a little bit of math and computer science learn from past experiences, plan for future ones, and achieve goals without being ever explicitly preprogrammed on what decisions to make.</p>
@@ -149,6 +150,11 @@ MathJax.Hub.Config({
 </div>
 
 
+
+<script type="text/javascript">
+	$(".full").closest("p").addClass("full");
+	$("a > img").parent().addClass("image");
+</script>
 
 
 	

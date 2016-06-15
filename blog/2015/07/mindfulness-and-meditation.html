@@ -32,6 +32,7 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 
 	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	
 
   <script type="text/javascript">
@@ -94,14 +95,14 @@ MathJax.Hub.Config({
 	</div>
 
 	<div id="post" class="light">
-	<div class="content">
+	<div>
 		
 
-		<h1 class="title">Mindfulness and Meditation</h1>
+		<h1 class="title content">Mindfulness and Meditation</h1>
 		
-		<h3 class="subtitle">A Beginner's Guide</h3>
+		<h3 class="subtitle content">A Beginner's Guide</h3>
 		
-		<section>
+		<section class="p-content">
 			<p><strong>“There are no ordinary moments.”</strong> – Dan Millman</p>
 
 <p><em>This is a guide to introduce the theory, benefits, and practice of mindfulness meditation to beginners like myself. This guide is composed mostly of what I have read about the subject, learned from talking to knowledgeable people, and a little from my (limited) experiences so far. It’s become clear to me that meditation has the potential to be a powerful and transformative mental tool. Therefore, I hope this guide will bring awareness and maybe motivate you to try mindfulness meditation and see for yourself.</em></p>
@@ -231,6 +232,11 @@ MathJax.Hub.Config({
 	<div id="disqus_thread" class="content"></div>
 </div>
 
+
+<script type="text/javascript">
+	$(".full").closest("p").addClass("full");
+	$("a > img").parent().addClass("image");
+</script>
 
 
 	

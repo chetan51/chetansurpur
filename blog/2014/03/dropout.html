@@ -32,6 +32,7 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 
 	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	
 
   <script type="text/javascript">
@@ -94,12 +95,12 @@ MathJax.Hub.Config({
 	</div>
 
 	<div id="post" class="light">
-	<div class="content">
+	<div>
 		
 
-		<h1 class="title">To Those Who Want To Drop Out of School</h1>
+		<h1 class="title content">To Those Who Want To Drop Out of School</h1>
 		
-		<section>
+		<section class="p-content">
 			<p>I get it, I really do. I’ve complained about school just like you have. There’s a lot to dislike about the current education system, and if you feel you have an idea and the drive to change the world all on your own, it’s very tempting to just drop out and pursue your passion exclusively.</p>
 
 <p>But unless you either a) are an intellectual genius, or b) have an undeterrable love of learning and discipline of steel, or c) are born lucky enough to win the lottery, it’s probably not a good idea. You’ll just end up stunting your long-term growth.</p>
@@ -158,6 +159,11 @@ MathJax.Hub.Config({
 	<div id="disqus_thread" class="content"></div>
 </div>
 
+
+<script type="text/javascript">
+	$(".full").closest("p").addClass("full");
+	$("a > img").parent().addClass("image");
+</script>
 
 
 	

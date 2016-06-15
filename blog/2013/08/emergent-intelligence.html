@@ -32,6 +32,7 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 
 	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	
 
   <script type="text/javascript">
@@ -94,12 +95,12 @@ MathJax.Hub.Config({
 	</div>
 
 	<div id="post" class="light">
-	<div class="content">
+	<div>
 		
 
-		<h1 class="title">Emergent Intelligence</h1>
+		<h1 class="title content">Emergent Intelligence</h1>
 		
-		<section>
+		<section class="p-content">
 			<p>I’m falling in love with the concept of <a href="http://en.wikipedia.org/wiki/Emergence">emergence</a> – the idea that complex behavior can emerge from a set of very simple rules. And I’m starting to think that true artificial intelligence is not going to be a mathematically complex program expressly designed towards a pre-determined product, but rather an emergent behavior of a very simple ruleset.</p>
 
 <h3 id="emergence-in-the-universe">Emergence in the universe</h3>
@@ -173,6 +174,11 @@ MathJax.Hub.Config({
 	<div id="disqus_thread" class="content"></div>
 </div>
 
+
+<script type="text/javascript">
+	$(".full").closest("p").addClass("full");
+	$("a > img").parent().addClass("image");
+</script>
 
 
 	

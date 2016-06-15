@@ -32,6 +32,7 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 
 	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	
 
   <script type="text/javascript">
@@ -94,9 +95,9 @@ MathJax.Hub.Config({
 	</div>
 
 	<div id="post" class="light">
-	<div class="content">
+	<div>
 		
-			<div class="preview">
+			<div class="preview content">
 				<h1>Post Preview</h1>
 				<span>
 					This is a preview at a private URL for your eyes only.
@@ -108,9 +109,9 @@ MathJax.Hub.Config({
 			</div>
 		
 
-		<h1 class="title">The Stress of Time</h1>
+		<h1 class="title content">The Stress of Time</h1>
 		
-		<section>
+		<section class="p-content">
 			<p>There is a powerful and persistent stress that plagues me. It arises spontaneously in my day, and I have little control over when it flares up. It’s always nagging at the back of my mind, like a vague ache that you learn to ignore but one that never really goes away. It is the stress of the finiteness of our lives, and Willy Wonka characterized it best: <em>So much to do, and so little time.</em></p>
 
 <p>The world is a beautiful place, and our lives have so much potential for enjoyment and happiness. There are an infinite number of experiences for us to partake in, to immerse ourselves in, to learn and grow from. Ironically, this wonderful thought lends itself to the stress that stems from the simple, undeniable fact that there are only 24 hours in the day.</p>
@@ -142,6 +143,11 @@ MathJax.Hub.Config({
 </div>
 
 
+
+<script type="text/javascript">
+	$(".full").closest("p").addClass("full");
+	$("a > img").parent().addClass("image");
+</script>
 
 
 	

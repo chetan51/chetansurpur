@@ -32,6 +32,7 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 
 	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	
 
   <script type="text/javascript">
@@ -94,9 +95,9 @@ MathJax.Hub.Config({
 	</div>
 
 	<div id="post" class="light">
-	<div class="content">
+	<div>
 		
-			<div class="preview">
+			<div class="preview content">
 				<h1>Post Preview</h1>
 				<span>
 					This is a preview at a private URL for your eyes only.
@@ -108,11 +109,11 @@ MathJax.Hub.Config({
 			</div>
 		
 
-		<h1 class="title">Welcome to Artificial Intelligence</h1>
+		<h1 class="title content">Welcome to Artificial Intelligence</h1>
 		
-		<h3 class="subtitle">Part 1 of <a href='http://chetansurpur.com/drafts/intuitive-ai-0-intro.html'>Intuitive AI: A Primer</a></h3>
+		<h3 class="subtitle content">Part 1 of <a href='http://chetansurpur.com/drafts/intuitive-ai-0-intro.html'>Intuitive AI: A Primer</a></h3>
 		
-		<section>
+		<section class="p-content">
 			<h2 id="first-off-what-is-intelligence">First off, what is “Intelligence”?</h2>
 
 <p>Let’s start with a simple exercise. What is this?</p>
@@ -179,6 +180,11 @@ MathJax.Hub.Config({
 </div>
 
 
+
+<script type="text/javascript">
+	$(".full").closest("p").addClass("full");
+	$("a > img").parent().addClass("image");
+</script>
 
 
 	

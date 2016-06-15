@@ -32,6 +32,7 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 
 	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	
 
   <script type="text/javascript">
@@ -94,9 +95,9 @@ MathJax.Hub.Config({
 	</div>
 
 	<div id="post" class="light">
-	<div class="content">
+	<div>
 		
-			<div class="preview">
+			<div class="preview content">
 				<h1>Post Preview</h1>
 				<span>
 					This is a preview at a private URL for your eyes only.
@@ -108,9 +109,9 @@ MathJax.Hub.Config({
 			</div>
 		
 
-		<h1 class="title">Insights from Gödel, Escher, Bach (Part 1)</h1>
+		<h1 class="title content">Insights from Gödel, Escher, Bach (Part 1)</h1>
 		
-		<section>
+		<section class="p-content">
 			<p>I’m currently reading the acclaimed book <a href="http://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach"><em>Gödel, Escher, Bach: An Eternal Golden Braid</em></a>, and it’s blowing my mind.</p>
 
 <p>Like a glass of exquisite wine, this work of art deserves to be patiently and deliberately enjoyed. So as I read, I will accumulate my explorations and any insights and questions I have in this blog series.</p>
@@ -256,6 +257,11 @@ $$</p>
 </div>
 
 
+
+<script type="text/javascript">
+	$(".full").closest("p").addClass("full");
+	$("a > img").parent().addClass("image");
+</script>
 
 
 	

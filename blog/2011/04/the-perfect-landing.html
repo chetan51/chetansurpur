@@ -32,6 +32,7 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 
 	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	
 
   <script type="text/javascript">
@@ -94,12 +95,12 @@ MathJax.Hub.Config({
 	</div>
 
 	<div id="post" class="light">
-	<div class="content">
+	<div>
 		
 
-		<h1 class="title">The Perfect Landing: Crowdsourcing A Great Product Description</h1>
+		<h1 class="title content">The Perfect Landing: Crowdsourcing A Great Product Description</h1>
 		
-		<section>
+		<section class="p-content">
 			<p>So you’ve about finished your shiny new app, and you’re ready to unveil it to a salivating world (or so you hope). Only one thing left to do: create that glimmering landing page that your potential users will see and instantly be enlightened about what your app does and why they should use it.</p>
 
 <p>There’s just one problem: you’re just a humble developer / designer, and you don’t have thousands of dollars to shell out to a professional marketing firm.</p>
@@ -157,6 +158,11 @@ MathJax.Hub.Config({
 	<div id="disqus_thread" class="content"></div>
 </div>
 
+
+<script type="text/javascript">
+	$(".full").closest("p").addClass("full");
+	$("a > img").parent().addClass("image");
+</script>
 
 
 	

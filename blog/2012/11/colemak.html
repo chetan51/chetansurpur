@@ -32,6 +32,7 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 
 	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	
 
   <script type="text/javascript">
@@ -94,12 +95,12 @@ MathJax.Hub.Config({
 	</div>
 
 	<div id="post" class="light">
-	<div class="content">
+	<div>
 		
 
-		<h1 class="title">Ditch QWERTY – Your Hands Need Colemak</h1>
+		<h1 class="title content">Ditch QWERTY – Your Hands Need Colemak</h1>
 		
-		<section>
+		<section class="p-content">
 			<p>If I offered you the choice of typing at half of your current typing speed for <em>two months</em> in exchange for typing even faster and more comfortably than you do now <em>for the rest of your life</em>, would you take it?</p>
 
 <p>Let me ask you another question. Look down at your keyboard. Have you ever wondered why the keys are arranged in that way?</p>
@@ -203,6 +204,11 @@ MathJax.Hub.Config({
 	<div id="disqus_thread" class="content"></div>
 </div>
 
+
+<script type="text/javascript">
+	$(".full").closest("p").addClass("full");
+	$("a > img").parent().addClass("image");
+</script>
 
 
 	

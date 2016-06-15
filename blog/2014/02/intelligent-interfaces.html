@@ -32,6 +32,7 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 
 	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	
 
   <script type="text/javascript">
@@ -94,12 +95,12 @@ MathJax.Hub.Config({
 	</div>
 
 	<div id="post" class="light">
-	<div class="content">
+	<div>
 		
 
-		<h1 class="title">Intelligent Interfaces</h1>
+		<h1 class="title content">Intelligent Interfaces</h1>
 		
-		<section>
+		<section class="p-content">
 			<p>Today’s computer interfaces are really, really stupid.</p>
 
 <p>Think about it. Your computer and your phone together know more about you than anyone else does. They’ve been privy to most of your conversations. You’ve conveyed to them your deepest thoughts. They’ve seen pretty much every side of you.</p>
@@ -152,6 +153,11 @@ MathJax.Hub.Config({
 	<div id="disqus_thread" class="content"></div>
 </div>
 
+
+<script type="text/javascript">
+	$(".full").closest("p").addClass("full");
+	$("a > img").parent().addClass("image");
+</script>
 
 
 	
