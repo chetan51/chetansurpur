@@ -15,7 +15,7 @@ Here’s one, just to whet your appetite. It’s one of my favorites from the tr
 
 [<img class="full" src="https://photos.smugmug.com/Japan2016/i-sPhsBXJ/0/O/2016-04-28%2007.19.17-1.jpg">](http://photography.chetansurpur.com/Japan2016/i-sPhsBXJ/A)
 
-The theme today is “takeaways”. So I’ll try to keep that context in mind while I describe the trip. The first takeaway actually happened before we even got on the plane.
+The theme here is “takeaways”. So I’ll try to keep that context in mind while I describe the trip. The first takeaway actually happened before we even got on the plane.
 
 # The cost of growth
 
