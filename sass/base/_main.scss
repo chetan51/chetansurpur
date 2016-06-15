@@ -22,7 +22,7 @@ p, ul, ol {
   color: #4D4D4D;
 }
 
-a {
+a:not(.image) {
   color: #333;
   text-decoration: none;
   border-bottom: 1px dashed #333;
@@ -53,11 +53,11 @@ hr {
 
   border-top: 4px solid #eee;
   border-bottom: 0;
-  width: 75%;
+  width: 50%;
 }
 
 .light, .dark {
-  .content {
+  .content, .p-content > p:not(.full) {
     max-width: 800px;
     margin: 0 auto;
     padding: 15px;
@@ -76,6 +76,7 @@ hr {
 
   .content {
     padding: 10px;
+    margin: 0 auto;
 
     h1 {
       font-family: 'Bitter', serif;
@@ -162,7 +163,7 @@ hr {
 }
 
 #post {
-  .content {
+  .content, .p-content > p:not(.full) {
     max-width: 600px;
   }
 }

@@ -4,9 +4,9 @@ comments: true
 ---
 
 <div id="post" class="light">
-	<div class="content">
+	<div>
 		{% if page.draft %}
-			<div class="preview">
+			<div class="preview content">
 				<h1>Post Preview</h1>
 				<span>
 					This is a preview at a private URL for your eyes only.
@@ -18,11 +18,11 @@ comments: true
 			</div>
 		{% endif %}
 
-		<h1 class="title">{{ page.title }}</h1>
+		<h1 class="title content">{{ page.title }}</h1>
 		{% if page.subtitle %}
-		<h3 class="subtitle">{{ page.subtitle }}</h3>
+		<h3 class="subtitle content">{{ page.subtitle }}</h3>
 		{% endif %}
-		<section>
+		<section class="p-content">
 			{{ content }}
 		</section>
 		{% if page.draft != true %}
@@ -42,3 +42,8 @@ comments: true
 	<div id="disqus_thread" class="content"></div>
 </div>
 {% endif %}
+
+<script type="text/javascript">
+	$(".full").closest("p").addClass("full");
+	$("a > img").parent().addClass("image");
+</script>
