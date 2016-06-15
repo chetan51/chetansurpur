@@ -47,9 +47,7 @@ Later during the travels, I learned another lesson about my relationship with ma
 
 Before leaving though, we impulsively decided to get our hair colored. After all, when’s the next time we’ll be young and in Japan with colored hair?
 
-[picture of me and Eric getting our hair colored]
-
-***
+<img src="{{root_url}}/images/blog/2016/06/hair-coloring.jpg">
 
 One of things I wanted to find on this trip is flexibility. I’ve always been someone who needs comfort, predictability, things to go his way. I’ve been working on this for the last year, trying to be okay in any situation, trying to be serene no matter the circumstances. But what better way to practice this than while traveling? You don’t know where you’ll be sleeping or what you’ll be sleeping on, what you’ll be eating, how long you’ll be walking. So I focused on being happy through the whole trip, avoiding complaint or stress. One thing in particular tested this attitude a lot: the food.
 
@@ -59,9 +57,9 @@ At restaurants, I would let Eric and Tim order, because they’re more open-mind
 
 As someone who’s used to eating basic chicken, pork, and beef, I ate so much crazy stuff. From beef tongue to raw pork. Octopus legs and squid ink. Horse meat. Even jellyfish. I didn’t even know jellyfish were edible. But I ate it. (It surprisingly doesn’t taste like anything at all, and the texture is simultaneously slippery and crunchy.)
 
-There was only one thing I absolutely could not even consider eating. At a conveyor belt hot pot place, we saw pig brain. Yes, raw brain that you’re supposed to cook yourself in your hot pot. I wouldn’t eat it, but I would like to say that if I absolutely had to, I would now probably be able to do it without throwing up. For me, that’s saying something.
+There was only one thing I absolutely could not even consider eating. At a conveyor belt hot pot place, we saw... wait for it... _pig brain_. Yes, raw brain that you’re supposed to cook yourself in your hot pot. I wouldn’t eat it, but I would like to say that if I absolutely had to, I would now probably be able to do it without throwing up. For me, that’s saying something.
 
-[pig brain]
+<img src="{{root_url}}/images/blog/2016/06/pig-brain.jpg">
 
 ***
 
