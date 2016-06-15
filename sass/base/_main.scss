@@ -57,10 +57,14 @@ hr {
 }
 
 .light, .dark {
-  .content, .p-content > p:not(.full) {
+  .content, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, .p-content > p:not(.full) {
     max-width: 800px;
     margin: 0 auto;
     padding: 15px;
+  }
+
+  blockquote {
+    padding: 0 20px;
   }
 }
 
@@ -163,7 +167,7 @@ hr {
 }
 
 #post {
-  .content, .p-content > p:not(.full) {
+  .content, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, .p-content > p:not(.full) {
     max-width: 600px;
   }
 }
