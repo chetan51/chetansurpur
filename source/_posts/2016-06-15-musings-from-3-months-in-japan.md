@@ -1,6 +1,9 @@
 ---
-layout: draft
+layout: post
 title: "Musings from 3 Months in Japan"
+snippet: "When in doubt, travel."
+quote_text: "No one realizes how beautiful it is to travel until he comes home and rests his head on his old, familiar pillow."
+quote_author: "Lin Yutang"
 ---
 
 [<img src="https://photos.smugmug.com/Japan2016/i-PfvNHdp/1/O/2016-04-04%2017.59.43%20HDR.jpg">](http://photography.chetansurpur.com/Japan2016/i-PfvNHdp/A)
@@ -194,3 +197,5 @@ _”It’s a funny thing coming home. Nothing changes. Everything looks the same
 [<img class="full" src="https://photos.smugmug.com/Japan2016/i-7dRLr3p/0/O/2016-04-15%2017.45.49%20HDR.jpg">](http://photography.chetansurpur.com/Japan2016/i-7dRLr3p/A)
 
 [<img class="full" src="https://photos.smugmug.com/Japan2016/i-QLr7h5N/0/O/2016-04-29%2006.12.27-3.jpg">](http://photography.chetansurpur.com/Japan2016/i-QLr7h5N/A)
+
+***
