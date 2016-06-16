@@ -181,7 +181,7 @@ This is a lesson I could have only got by traveling. Having to move from place t
 
 # Coming home
 
-This ended up being much longer than I expected, and yet I know I’ve forgotten a lot that I could describe. But I’ll stop now, and leave you with a few more pictures, and a quote I like by F. Scott Fitzgerald:
+This ended up being much longer than I expected, and yet I know I’ve forgotten a lot that I could describe. But I’ll leave you with a few more pictures and a quote I like by F. Scott Fitzgerald:
 
 _”It’s a funny thing coming home. Nothing changes. Everything looks the same, feels the same, even smells the same. You realize what’s changed is you.”_
 
