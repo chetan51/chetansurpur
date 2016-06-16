@@ -60,7 +60,7 @@ Frankly, if you’re a vegetarian, the food in Japan is just not going to work. 
 
 At restaurants, I would let Eric and Tim order, because they’re more open-minded with food and would order all kinds of things I would never have ordered myself. Sometimes, when there was no English menu, we would have no choice but to say to the waiter, “_Omakase_”, which literally means, “I leave it to you.” And they would bring dish after dish of random and inventive foods, which we would happily devour.
 
-As someone who’s used to eating just basic chicken, pork, and beef, I ate so much crazy stuff. From beef tongue to raw pork, octopus legs and squid ink. Horse meat. Even jellyfish. I didn’t even know jellyfish were edible. But I put it in my mouth and chewed. (It was surprisingly tasteless, and the texture was simultaneously slippery and crunchy.)
+As someone who’s used to eating just basic meat, I ate so much crazy stuff. From raw pork to octopus legs and squid ink. Horse meat. Even jellyfish. I didn’t even know jellyfish were edible. But I put it in my mouth and chewed. (It was surprisingly tasteless, and the texture was simultaneously slippery and crunchy.)
 
 In spite of it all, there was only one thing I could not even consider eating. At a conveyor belt hot pot place, we saw... wait for it... _pig brain_. Yes, raw brain that you’re supposed to cook yourself in your hot pot. I wouldn’t eat it, but I would like to say that if I absolutely had to, I would now probably be able to do it without throwing up. For me, that’s saying something.
 
