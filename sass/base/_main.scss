@@ -171,6 +171,17 @@ hr {
     max-width: 600px;
   }
 
+  .full {
+    text-align: center;
+
+    img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100vh;
+    }
+  }
+
   ol, ul {
     max-width: 500px;
   }
