@@ -120,7 +120,7 @@ Don’t make something minimal for the sake of being minimal. Instead, take a co
 
 Take Journey, for example. Is it a simple game? You might say, yes, it’s so minimal. But look deeper. It’s a game whose purpose is to get someone to come to terms with death. That’s a very complex thing, perhaps the most complex thing a human can face. But they spent years working on it, past the point of bankruptcy, to turn that complex idea into something simple that any player can accept. That’s a good piece of art.”
 
-Without this time to ruminate, I’m sure I would have been able to work hard and make a decent game. Even with this time there’s no guarantee that it’s actually going to be a great game. But there’s no denying that this time spent walking around Japan and just thinking is going to be invaluable in the game’s growth and my own growth as a game developer, and will make it more likely to be a thought-out game with some depth and substance. I consider myself fortunate to have had the time to think than just blindly execute, all thanks to the people close to me.
+Without this time to ruminate, I’m sure I would have been able to work hard and make a decent game. Even with this time there’s no guarantee that it’s actually going to be a great game. But there’s no denying that this time spent walking around Japan and just thinking is going to be invaluable in the game’s growth and my own growth as a game developer. I consider myself fortunate to have had the time to think than just blindly execute, all thanks to the people close to me.
 
 ***
 
