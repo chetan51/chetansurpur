@@ -1,6 +1,9 @@
 ---
-layout: draft
+layout: post
 title: "My First Day with Pokémon Go"
+snippet: "And the potential of video games."
+quote_text: "We do not stop playing because we grow old, we grow old because we stop playing."
+quote_author: "Benjamin Franklin"
 ---
 
 The new [Pokémon augmented-reality game](http://pokemongo.nianticlabs.com/en/) came out last week, and since then I’m sure everyone who’s been playing it has interesting stories to tell about their experiences with it. I think this game is a great example of the increasing power video games have to affect our world and ourselves. As a game developer, I find this sort of thing exciting, so I’d like to add my own stories from my first day of playing Pokémon Go.
