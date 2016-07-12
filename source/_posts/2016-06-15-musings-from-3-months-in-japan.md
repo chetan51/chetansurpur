@@ -82,7 +82,7 @@ This experience really made me think about what life must be like for an immigra
 
 # Natural beauty
 
-Of course, we saw beautiful thing after beautiful thing. We optimized our trip to coincide with cherry blossom season. Cherry blossoms are my favorite flower, and I was fulfilled to see the most cherry blossoms I’ve seen up to that point in my life combined. The density of blossoms in an area was spectacular.
+We saw beautiful thing after beautiful thing. We optimized our trip to coincide with cherry blossom season. Cherry blossoms are my favorite flower, and I was fulfilled to see the most cherry blossoms I’ve seen up to that point in my life combined. The density of blossoms in an area was spectacular.
 
 [<img class="full" src="https://photos.smugmug.com/Japan2016/i-CJQC46V/0/O/2016-04-03%2018.16.47-1.jpg">](http://photography.chetansurpur.com/Japan2016/i-CJQC46V/A)
 
