@@ -114,7 +114,3 @@ Welcome to the future of web development.
 _Edit 1: Updated post with more accurate information on speed of V8 compared to Python and PHP._
 
 _Edit 2: Thanks to all the excellent feedback that has brought to light my bad habit of making too-bold claims, I've corrected Node's claim to speed to something more verifiable. Sorry about that everyone!_
-
-_Edit 3: Jovana Milutinovich has [translated this page to Croation](http://science.webhostinggeeks.com/node-js). Thanks Jovana!_
-
-_Edit 4: Kate Bondareva has [translated this page to French](http://www.autoteiledirekt.de/science/pourquoi-node-js-est-totalement-genial). Thank you Kate!_

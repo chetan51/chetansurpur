@@ -59,5 +59,3 @@ When I was thinking about quitting my job six months ago, I read a book by Jane 
 However, as with all new technology, there is equally great potential for misuse. Already armed robbers have lured people to secluded locations using the game. As users of this technology, we have to remain ever-vigilant, and as a society we will learn over time how to use it more effectively and safely.
 
 We’ll see how the hype lives up to reality, but even with all the growing pains and limitations of the game, I can already say that Pokémon Go has proved to be one of the most unique game experiences in my life so far. It's not the first augmented-reality game, and it won't be the last — it's not even the most well-designed game out there — but with its critical mass of players it will hopefully mark a new path in video games. I’m excited to see what lies ahead.
-
-_Thanks Barbora for a [Czech translation](http://www.bildelarexpert.se/blogg/2016/08/01/muj-prvni-den-s-pokemon-go/)._
