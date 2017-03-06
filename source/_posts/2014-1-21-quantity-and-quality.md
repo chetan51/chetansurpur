@@ -4,6 +4,7 @@ title: "Quantity and Quality"
 snippet: "Learn by doing."
 quote_text: "It's not what we do once in a while that shapes our lives. It's what we do consistently."
 quote_author: "Anthony Robbins"
+archived: true
 ---
 
 > The ceramics teacher announced on opening day that he was dividing the class into two groups.
