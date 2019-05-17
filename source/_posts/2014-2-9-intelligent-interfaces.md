@@ -4,6 +4,7 @@ title: "Intelligent Interfaces"
 snippet: "UI and AI."
 quote_text: "The most profound technologies are those that disappear. They weave themselves into the fabric of everyday life until they are indistinguishable from it."
 quote_author: "Mark Weiser"
+archived: true
 ---
 
 Today's computer interfaces are really, really stupid.
