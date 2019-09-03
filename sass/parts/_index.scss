@@ -1,5 +1,7 @@
 #home {
-  #posts, #presentations {
+  .section {
+    padding-bottom: 10px;
+
     ul {
       list-style-type: none;
       margin: 0;
@@ -16,7 +18,7 @@
     }
   }
 
-  #posts, #presentations {
+  .section {
     h1 {
       font: 48px 'QuicksandLight', Arial, sans-serif;
       line-height: 40px;
@@ -60,7 +62,7 @@
     }
   }
 
-  #presentations {
+  .thumbnails {
     ul {
       li {
         width: 360px;
@@ -139,14 +141,14 @@
 
 @media all and (max-width: 800px) {
 
-  #posts, #presentations {
+  .section {
     h1 {
       font-size: 38px !important;
       line-height: 38px !important;
     }
   }
 
-  #presentations {
+  .thumbnails {
     ul {
       li {
         width: 300px !important;
