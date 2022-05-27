@@ -34,7 +34,7 @@ GEM
     posix-spawn (0.3.13)
     pygments.rb (0.2.13)
       rubypython (~> 0.5.3)
-    rack (1.4.7)
+    rack (1.6.13)
     rack-protection (1.5.5)
       rack
     rake (10.1.1)
@@ -63,7 +63,7 @@ DEPENDENCIES
   jekyll (~> 0.11.2)
   liquid (~> 2.3.0)
   pygments.rb (~> 0.2.12)
-  rack (~> 1.4.1)
+  rack (~> 1.6.13)
   rake (~> 10.1.1)
   rb-fsevent (~> 0.9)
   rdiscount (~> 1.6.8)
